@@ -1,0 +1,28 @@
+25/200 cases, 1339s
+50/200 cases, 2117s
+75/200 cases, 2628s
+100/200 cases, 3453s
+125/200 cases, 4756s
+150/200 cases, 6016s
+175/200 cases, 6967s
+200/200 cases, 8042s
+{"run_id": "dev2_goss_text_poison", "cases": 200, "seconds": 8042}
+25/200 474s
+50/200 1115s
+75/200 1461s
+100/200 1962s
+125/200 2723s
+150/200 3389s
+175/200 3617s
+200/200 4284s
+{"run_id": "dev2_goss_native_poison", "cases": 200, "seconds": 4284}
+25/100 cases, 1113s
+50/100 cases, 2022s
+75/100 cases, 2881s
+100/100 cases, 3710s
+{"run_id": "dev2_goss_text_clean", "cases": 100, "seconds": 3710}
+25/100 936s
+50/100 1645s
+75/100 2914s
+100/100 3993s
+{"run_id": "dev2_goss_native_clean", "cases": 100, "seconds": 3993}

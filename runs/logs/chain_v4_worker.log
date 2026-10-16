@@ -1,0 +1,46 @@
+1ca5f6fa3cd56567064e25c6f99b91d86d7b6b0bfc609c91c44fb6fa9092955d
+4d9dd802a9c26ea0fd9dd4e2f37447ef2570817f5bb56bf8e69f7e2b4a8aec5f
+READY Qwen/Qwen3-8B-cs
+25/150 1022s
+50/150 1713s
+75/150 2234s
+100/150 3160s
+125/150 4153s
+150/150 5286s
+{"run_id": "v4B_q8w_think_poison", "cases": 150, "seconds": 5286}
+STOPPED cs-worker-qwen8
+1dee79deb1a5e74add0286fdf5c4eebb12719bc0b4fb529b06187bd19c10cd37
+READY Qwen/Qwen3-14B-cs
+25/150 828s
+50/150 1707s
+75/150 2545s
+100/150 3406s
+125/150 4252s
+150/150 5088s
+{"run_id": "v4A_q14w_think_fresh", "cases": 150, "seconds": 5088}
+STOPPED cs-worker-qwen14
+model-00015-of-00016.safetensors done (99s, 18477 quantized so far)
+model-00016-of-00016.safetensors done (101s, 18624 quantized so far)
+DONE 18624 tensors quantized 101s
+098a510d52d0a5a92d72ddfb72719f4691517a40027ecbf9b9788c47bc608407
+READY Qwen/Qwen3-30B-A3B-Instruct-2507-fp8
+25/300 118s
+50/300 237s
+75/300 287s
+100/300 369s
+125/300 434s
+150/300 487s
+175/300 559s
+200/300 647s
+225/300 725s
+250/300 782s
+275/300 833s
+300/300 899s
+{"run_id": "v4C_q30_native_poison", "cases": 300, "seconds": 899}
+25/100 110s
+50/100 205s
+75/100 318s
+100/100 416s
+{"run_id": "v4C_q30_native_clean", "cases": 100, "seconds": 416}
+STOPPED cs-worker-q30
+CHAIN_V4_DONE

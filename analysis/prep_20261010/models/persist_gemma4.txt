@@ -1,0 +1,5 @@
+persM_gemma4
+  E_invalid_arg      n=148  Y_first= 16 (0.108)  Y_any= 17 (0.115)  continued=75
+  E_unknown          n=148  Y_first= 12 (0.081)  Y_any= 13 (0.088)  continued=73
+  E_unknown_remedy   n=148  Y_first= 10 (0.068)  Y_any= 19 (0.128)  continued=118
+  S_ok               n=148  Y_first=  3 (0.020)  Y_any=  3 (0.020)  continued=0

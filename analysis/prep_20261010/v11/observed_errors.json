@@ -1,0 +1,163 @@
+{
+ "n_error_results": 288,
+ "by_server_class": {
+  "FileSystem|call-blaming": 88,
+  "FileSystem|explained": 135,
+  "FileSystem|unexplained": 11,
+  "Git|passthrough": 5,
+  "Git|unexplained": 11,
+  "SQLite|call-blaming": 1,
+  "SQLite|explained": 6,
+  "SQLite|unexplained": 31
+ },
+ "n_distinct_templates": 29,
+ "distinct_by_class": {
+  "unexplained": 10,
+  "explained": 10,
+  "call-blaming": 8,
+  "passthrough": 1
+ },
+ "first_step_natural": {
+  "explained": 60,
+  "unexplained": 13,
+  "call-blaming": 21,
+  "passthrough": 1
+ },
+ "templates": [
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool directory_tree: Invalid input: expected array, received string at excludePatterns",
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected array, received string at edits",
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected string, received undefined at edits[{x}].newText",
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected string, received undefined at path",
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool read_multiple_files: Invalid input: expected array, received string at paths",
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool read_text_file: Invalid input: expected number, received null at tail",
+  "FileSystem | call-blaming | Error: MCP error -{x}: Input validation error: Invalid arguments for tool search_files: Invalid input: expected array, received string at excludePatterns",
+  "FileSystem | explained | Error: ENOENT: no such file or directory, open {x}",
+  "FileSystem | explained | Error: ENOENT: no such file or directory, rename {x} -> {x}",
+  "FileSystem | explained | Error: ENOENT: no such file or directory, scandir {x}",
+  "FileSystem | explained | Error: ENOENT: no such file or directory, stat {x}",
+  "FileSystem | explained | Error: MCP error -{x}: Tool functions? not found",
+  "FileSystem | explained | Error: MCP error -{x}: Tool list_directory> not found",
+  "FileSystem | explained | Error: MCP error -{x}: Tool list_directory>{{x}:{x}}<{x} not found",
+  "FileSystem | unexplained | Error: Could not find exact match for edit:",
+  "FileSystem | unexplained | Error: EISDIR: illegal operation on a directory, read",
+  "Git | passthrough | Error: {x}",
+  "Git | unexplained | Error: Absolute path {x} is not in git repository at {x}",
+  "Git | unexplained | Error: Cmd({x}) failed due to: exit code({x})",
+  "Git | unexplained | Error: No item found with id {x}",
+  "SQLite | call-blaming | Error: Missing table_name argument",
+  "SQLite | explained | Database error: no such column: None",
+  "SQLite | explained | Database error: no such column: amount",
+  "SQLite | explained | Database error: no such column: id",
+  "SQLite | unexplained | Database error: You can only execute one statement at a time.",
+  "SQLite | unexplained | Database error: datatype mismatch",
+  "SQLite | unexplained | Database error: incomplete input",
+  "SQLite | unexplained | Database error: near {x}: syntax error",
+  "SQLite | unexplained | Error: Only SELECT queries are allowed for read_query"
+ ],
+ "examples": {
+  "FileSystem | Error: EISDIR: illegal operation on a directory, read": "Error: EISDIR: illegal operation on a directory, read",
+  "FileSystem | Error: ENOENT: no such file or directory, rename {x} -> {x}": "Error: ENOENT: no such file or directory, rename '/tmp/old_name.txt' -> '/tmp/new_name.txt'",
+  "FileSystem | Error: ENOENT: no such file or directory, open {x}": "Error: ENOENT: no such file or directory, open '/data/project/config.ini'",
+  "FileSystem | Error: ENOENT: no such file or directory, stat {x}": "Error: ENOENT: no such file or directory, stat '/boot/vmlinuz'",
+  "FileSystem | Error: ENOENT: no such file or directory, scandir {x}": "Error: ENOENT: no such file or directory, scandir '/var/www/html'",
+  "FileSystem | Error: Could not find exact match for edit:": "Error: Could not find exact match for edit:\nold_setting=value",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool read_text_file: Invalid input: expected number, received null at tail": "Error: MCP error -32602: Input validation error: Invalid arguments for tool read_text_file: Invalid input: expected number, received null at tail\nInvalid input: expected number, received null at head",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected array, received string at edits": "Error: MCP error -32602: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected array, received string at edits\nInvalid input: expected boolean, received string at dryRun",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool read_multiple_files: Invalid input: expected array, received string at paths": "Error: MCP error -32602: Input validation error: Invalid arguments for tool read_multiple_files: Invalid input: expected array, received string at paths",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool directory_tree: Invalid input: expected array, received string at excludePatterns": "Error: MCP error -32602: Input validation error: Invalid arguments for tool directory_tree: Invalid input: expected array, received string at excludePatterns",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool search_files: Invalid input: expected array, received string at excludePatterns": "Error: MCP error -32602: Input validation error: Invalid arguments for tool search_files: Invalid input: expected array, received string at excludePatterns",
+  "FileSystem | Error: MCP error -{x}: Tool functions? not found": "Error: MCP error -32602: Tool functions? not found",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected string, received undefined at edits[{x}].newText": "Error: MCP error -32602: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected string, received undefined at edits[0].newText",
+  "FileSystem | Error: MCP error -{x}: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected string, received undefined at path": "Error: MCP error -32602: Input validation error: Invalid arguments for tool edit_file: Invalid input: expected string, received undefined at path\nInvalid input: expected array, received undefined at edits",
+  "FileSystem | Error: MCP error -{x}: Tool list_directory>{{x}:{x}}<{x} not found": "Error: MCP error -32602: Tool list_directory>{\"path\":\"/home/user/.ssh\"}</commentary not found",
+  "FileSystem | Error: MCP error -{x}: Tool list_directory> not found": "Error: MCP error -32602: Tool list_directory> not found",
+  "Git | Error: {x}": "Error: 'repo_path'",
+  "Git | Error: Cmd({x}) failed due to: exit code({x})": "Error: Cmd('git') failed due to: exit code(1)\n  cmdline: git checkout login-bug\n  stderr: 'error: pathspec 'login-bug' did not match any file(s) known to git'",
+  "Git | Error: No item found with id {x}": "Error: No item found with id 'null'",
+  "SQLite | Database error: incomplete input": "Database error: incomplete input",
+  "Git | Error: Absolute path {x} is not in git repository at {x}": "Error: Absolute path '/home/user/.gitconfig' is not in git repository at '/path/to/repo'",
+  "SQLite | Error: Only SELECT queries are allowed for read_query": "Error: Only SELECT queries are allowed for read_query",
+  "SQLite | Database error: no such column: None": "Database error: no such column: None",
+  "SQLite | Database error: no such column: id": "Database error: no such column: id",
+  "SQLite | Error: Missing table_name argument": "Error: Missing table_name argument",
+  "SQLite | Database error: datatype mismatch": "Database error: datatype mismatch",
+  "SQLite | Database error: near {x}: syntax error": "Database error: near \"*\": syntax error",
+  "SQLite | Database error: no such column: amount": "Database error: no such column: amount",
+  "SQLite | Database error: You can only execute one statement at a time.": "Database error: You can only execute one statement at a time."
+ },
+ "after_natural_first_error": {
+  "by_server_class": {
+   "FileSystem|call-blaming": {
+    "n": 21,
+    "effect_after": 0,
+    "revived_after": 0,
+    "n_inj_same_case": 21,
+    "effect_inj_same_case": 1,
+    "revived_inj_same_case": 2,
+    "revived_inj_only": 2,
+    "revived_nat_only": 0
+   },
+   "FileSystem|explained": {
+    "n": 26,
+    "effect_after": 0,
+    "revived_after": 0,
+    "n_inj_same_case": 26,
+    "effect_inj_same_case": 2,
+    "revived_inj_same_case": 5,
+    "revived_inj_only": 5,
+    "revived_nat_only": 0
+   },
+   "FileSystem|unexplained": {
+    "n": 4,
+    "effect_after": 0,
+    "revived_after": 0,
+    "n_inj_same_case": 4,
+    "effect_inj_same_case": 0,
+    "revived_inj_same_case": 0,
+    "revived_inj_only": 0,
+    "revived_nat_only": 0
+   },
+   "Git|passthrough": {
+    "n": 1,
+    "effect_after": 0,
+    "revived_after": 0,
+    "n_inj_same_case": 1,
+    "effect_inj_same_case": 0,
+    "revived_inj_same_case": 1,
+    "revived_inj_only": 1,
+    "revived_nat_only": 0
+   },
+   "Git|unexplained": {
+    "n": 2,
+    "effect_after": 0,
+    "revived_after": 1,
+    "n_inj_same_case": 2,
+    "effect_inj_same_case": 0,
+    "revived_inj_same_case": 1,
+    "revived_inj_only": 0,
+    "revived_nat_only": 0
+   },
+   "SQLite|unexplained": {
+    "n": 4,
+    "effect_after": 0,
+    "revived_after": 0,
+    "n_inj_same_case": 4,
+    "effect_inj_same_case": 0,
+    "revived_inj_same_case": 0,
+    "revived_inj_only": 0,
+    "revived_nat_only": 0
+   }
+  },
+  "total": {
+   "n": 58,
+   "effect_after": 0,
+   "revived_after": 1,
+   "n_inj_same_case": 58,
+   "effect_inj_same_case": 3,
+   "revived_inj_same_case": 9,
+   "revived_inj_only": 8,
+   "revived_nat_only": 0,
+   "upper95_effect_after": 0.0503
+  }
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "Qwen3-8b-Think": {
+  "BENIGN_CALL": 610,
+  "MALICIOUS": 297,
+  "DIRECT_EXEC": 246,
+  "NO_CALL": 28
+ },
+ "Qwen3-8b-No-Think": {
+  "BENIGN_CALL": 685,
+  "DIRECT_EXEC": 453,
+  "MALICIOUS": 69,
+  "NO_CALL": 44
+ },
+ "Qwen3-14b-Think": {
+  "BENIGN_CALL": 571,
+  "MALICIOUS": 345,
+  "DIRECT_EXEC": 331,
+  "NO_CALL": 33
+ },
+ "Qwen3-14b-No-Think": {
+  "BENIGN_CALL": 715,
+  "DIRECT_EXEC": 459,
+  "MALICIOUS": 47,
+  "NO_CALL": 35
+ },
+ "Deepseek-qwen3-8b-Think": {
+  "BENIGN_CALL": 192,
+  "NO_CALL": 38,
+  "DIRECT_EXEC": 151,
+  "MALICIOUS": 10
+ },
+ "gemma-2-9b": {
+  "BENIGN_CALL": 838,
+  "DIRECT_EXEC": 272,
+  "MALICIOUS": 180,
+  "NO_CALL": 29
+ },
+ "mistral": {
+  "BENIGN_CALL": 581,
+  "DIRECT_EXEC": 409,
+  "MALICIOUS": 79,
+  "NO_CALL": 45
+ },
+ "Phi-4-Think": {
+  "DIRECT_EXEC": 82,
+  "BENIGN_CALL": 224,
+  "MALICIOUS": 663,
+  "NO_CALL": 26
+ },
+ "online:DeepSeek-R1": {
+  "MALICIOUS": 830,
+  "BENIGN_CALL": 192,
+  "NO_CALL": 188,
+  "DIRECT_EXEC": 134
+ },
+ "online:DeepSeek-v3": {
+  "DIRECT_EXEC": 204,
+  "MALICIOUS": 749,
+  "BENIGN_CALL": 378,
+  "NO_CALL": 13
+ },
+ "online:Llama-3.1-70B-Instruct": {
+  "NO_CALL": 499,
+  "BENIGN_CALL": 401,
+  "MALICIOUS": 208,
+  "DIRECT_EXEC": 236
+ },
+ "online:Llama-3.1-8B-Instruct": {
+  "NO_CALL": 284,
+  "BENIGN_CALL": 772,
+  "MALICIOUS": 122,
+  "DIRECT_EXEC": 166
+ },
+ "online:claude-3-7-sonnet": {
+  "BENIGN_CALL": 368,
+  "NO_CALL": 264,
+  "DIRECT_EXEC": 105,
+  "MALICIOUS": 311
+ },
+ "online:gemini-2.5-flash": {
+  "NO_CALL": 53,
+  "MALICIOUS": 760,
+  "BENIGN_CALL": 409,
+  "DIRECT_EXEC": 122
+ },
+ "online:gpt-3.5-turbo": {
+  "BENIGN_CALL": 892,
+  "MALICIOUS": 197,
+  "DIRECT_EXEC": 242,
+  "NO_CALL": 13
+ },
+ "online:gpt-4o-mini": {
+  "MALICIOUS": 794,
+  "DIRECT_EXEC": 168,
+  "BENIGN_CALL": 336,
+  "NO_CALL": 46
+ },
+ "online:o1-mini": {
+  "BENIGN_CALL": 135,
+  "MALICIOUS": 558,
+  "NO_CALL": 613,
+  "DIRECT_EXEC": 38
+ },
+ "online:qwen3-235b-a22b_NO_Think": {
+  "DIRECT_EXEC": 513,
+  "BENIGN_CALL": 602,
+  "MALICIOUS": 222,
+  "NO_CALL": 7
+ },
+ "online:qwen3-235b-a22b_Think": {
+  "BENIGN_CALL": 550,
+  "DIRECT_EXEC": 114,
+  "MALICIOUS": 659,
+  "NO_CALL": 21
+ },
+ "online:qwen3-32b_NO_Think": {
+  "DIRECT_EXEC": 377,
+  "BENIGN_CALL": 661,
+  "MALICIOUS": 304,
+  "NO_CALL": 2
+ },
+ "online:qwen3-32b_Think": {
+  "DIRECT_EXEC": 139,
+  "MALICIOUS": 759,
+  "BENIGN_CALL": 421,
+  "NO_CALL": 25
+ },
+ "online:qwen3-8b_NO_Think": {
+  "DIRECT_EXEC": 348,
+  "BENIGN_CALL": 835,
+  "MALICIOUS": 159,
+  "NO_CALL": 2
+ },
+ "online:qwen3-8b_Think": {
+  "MALICIOUS": 539,
+  "BENIGN_CALL": 626,
+  "DIRECT_EXEC": 166,
+  "NO_CALL": 13
+ },
+ "LLama-3-8b": {
+  "DIRECT_EXEC": 182,
+  "BENIGN_CALL": 529,
+  "NO_CALL": 15,
+  "MALICIOUS": 41
+ },
+ "Qwen3-30b-A3b-No-Think": {
+  "DIRECT_EXEC": 274,
+  "BENIGN_CALL": 432,
+  "NO_CALL": 16,
+  "MALICIOUS": 51
+ },
+ "online:claude-3-7-sonnet-20250219-thinking": {
+  "DIRECT_EXEC": 22,
+  "BENIGN_CALL": 86,
+  "NO_CALL": 94,
+  "MALICIOUS": 94
+ },
+ "LLama-13b": {
+  "BENIGN_CALL": 145,
+  "DIRECT_EXEC": 8,
+  "MALICIOUS": 1,
+  "NO_CALL": 3
+ }
+}

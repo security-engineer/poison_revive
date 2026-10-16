@@ -1,0 +1,3 @@
+S_ok|revived=0         n=  61 trace=  61  flag=   1 (1.6%)  flag_strict=   1 (1.6%)
+error|revived=0        n= 292 trace= 292  flag= 100 (34.2%)  flag_strict=  81 (27.7%)
+error|revived=1        n= 135 trace= 135  flag=  56 (41.5%)  flag_strict=  53 (39.3%)

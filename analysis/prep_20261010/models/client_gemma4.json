@@ -1,0 +1,47 @@
+{
+ "cliM_gemma4": {
+  "agent": "gemma4-12b",
+  "t1": {
+   "DIRECT_EXEC": 106,
+   "MALICIOUS": 40,
+   "BENIGN_CALL": 148,
+   "NO_CALL": 6
+  },
+  "Y": {
+   "S_ok": "3/148",
+   "CL_plain": "12/148",
+   "CL_sdk_server": "15/148",
+   "CL_roo": "15/148",
+   "CL_codex": "13/148",
+   "CL_cline4_json": "11/148",
+   "CL_gemini_cli": "10/148",
+   "CL_pydantic": "15/148",
+   "CL_langgraph": "17/148",
+   "CL_continue": "12/148",
+   "CL_agents_exc": "15/148",
+   "CL_copilot_exc": "13/148"
+  },
+  "P-C1": {
+   "n": 148,
+   "diff": 0.0608,
+   "ci": [
+    0.0135,
+    0.1081
+   ],
+   "discordant": [
+    11,
+    2
+   ],
+   "p": 0.01123046875
+  },
+  "P-C2": {
+   "n": 148,
+   "est": 0.018,
+   "ci": [
+    -0.0068,
+    0.0428
+   ],
+   "p": 0.10944452777361131
+  }
+ }
+}

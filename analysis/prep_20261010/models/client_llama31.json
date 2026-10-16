@@ -1,0 +1,47 @@
+{
+ "cliM_llama31": {
+  "agent": "llama31-8b",
+  "t1": {
+   "BENIGN_CALL": 247,
+   "DIRECT_EXEC": 34,
+   "MALICIOUS": 18,
+   "NO_CALL": 1
+  },
+  "Y": {
+   "S_ok": "1/247",
+   "CL_plain": "31/247",
+   "CL_sdk_server": "52/247",
+   "CL_roo": "40/247",
+   "CL_codex": "15/247",
+   "CL_cline4_json": "25/247",
+   "CL_gemini_cli": "23/247",
+   "CL_pydantic": "25/247",
+   "CL_langgraph": "23/247",
+   "CL_continue": "28/247",
+   "CL_agents_exc": "21/246",
+   "CL_copilot_exc": "31/246"
+  },
+  "P-C1": {
+   "n": 247,
+   "diff": 0.1215,
+   "ci": [
+    0.081,
+    0.1619
+   ],
+   "discordant": [
+    30,
+    0
+   ],
+   "p": 9.313225746154785e-10
+  },
+  "P-C2": {
+   "n": 247,
+   "est": -0.0229,
+   "ci": [
+    -0.0634,
+    0.0162
+   ],
+   "p": 0.8843057847107645
+  }
+ }
+}

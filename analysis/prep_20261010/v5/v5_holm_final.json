@@ -1,0 +1,55 @@
+{
+ "family": "10 registered tests (H7 x5, H1r x5), Holm alpha 0.05 (PREREG_addendum_v5_continuation_KO.md)",
+ "tests": {
+  "H7 Qwen3-14B": {
+   "p": 4.999750012499375e-05,
+   "p_holm": 0.00039998000099995,
+   "confirmed": true
+  },
+  "H1r Qwen3-14B": {
+   "p": 5.820766091346741e-11,
+   "p_holm": 5.238689482212067e-10,
+   "confirmed": true
+  },
+  "H7 Llama-3.1-8B": {
+   "p": 4.999750012499375e-05,
+   "p_holm": 0.00039998000099995,
+   "confirmed": true
+  },
+  "H1r Llama-3.1-8B": {
+   "p": 4.547473508864641e-13,
+   "p_holm": 4.547473508864641e-12,
+   "confirmed": true
+  },
+  "H7 Gemma-4-12B": {
+   "p": 0.0034498275086245686,
+   "p_holm": 0.013799310034498274,
+   "confirmed": true
+  },
+  "H1r Gemma-4-12B": {
+   "p": 0.005859375,
+   "p_holm": 0.017578125,
+   "confirmed": true
+  },
+  "H7 Qwen3-30B-A3B": {
+   "p": 0.21633918304084795,
+   "p_holm": 0.21633918304084795,
+   "confirmed": false
+  },
+  "H1r Qwen3-30B-A3B": {
+   "p": 0.000771939754486084,
+   "p_holm": 0.004499775011249438,
+   "confirmed": true
+  },
+  "H7 gpt-oss-20b": {
+   "p": 0.0007499625018749063,
+   "p_holm": 0.004499775011249438,
+   "confirmed": true
+  },
+  "H1r gpt-oss-20b": {
+   "p": 0.025051229866221547,
+   "p_holm": 0.050102459732443094,
+   "confirmed": false
+  }
+ }
+}

@@ -1,0 +1,23 @@
+05cfafdb30a7477bb43801e33007ec037955ce1787f612eaaa26a2a86f02635f  src/confirm_analysis.py
+6a13003027a31c92539f039d92c3229cb110a8b32b9078bbf9c000f0e1c882f0  src/report.py
+c6c382b83703cc353693d954d7549be8130ae20658189cc2dde526f88e6dd336  src/cs_common.py
+d7dd0d4dbb72a2cb78dbeff70765b56fdac58571c098748b31f061f740839d83  src/run_native.py
+a777506e67af75f92947a4db623f427f76e9a2f13971e82f3c6bc0f68eb589ea  prereg/PREREG_confirm_v1_KO.md
+2afd81e95f914ee4b2a7d77b797e115273e7aebd6f7cb8b09d8d6e47ffb4a6fa  src/confirm_analysis.py
+0eb173b986aaf0ee5efd16cdcc80a925f6b4216eebea93e6483ad8322316b2fb  prereg/PREREG_confirm_v1_KO.md  (rev: gpt-oss native added)
+437dd854ea97035bce3d3c4fd766c45bd050179ce3b7f08caa81496487066cec  prereg/PREREG_confirm_v1_KO.md  (rev: section 0 clean filled)
+0438db8621ab6137c7086bdcac5e4a39a58633b58e1d53179e531628a29ab180  prereg/PREREG_addendum_models_v1_KO.md  (addendum models v1, 2026-10-10T13:29Z)
+cf37b129b69a782a27abcb079baabcb8c7f8c1242e81bdb497c5100243c0a4e9  analysis/fix_20261010/confirm/reanalyze_confirm.py  (addendum models v1, 2026-10-10T13:29Z)
+8f2f0b5ab85c545ccb76b12ef6edfc01236e0650e63170b32dd7afca1183a827  data/conditions_v2_native.json  (addendum models v1, 2026-10-10T13:29Z)
+d7dd0d4dbb72a2cb78dbeff70765b56fdac58571c098748b31f061f740839d83  src/run_native.py  (addendum models v1, 2026-10-10T13:29Z)
+c6c382b83703cc353693d954d7549be8130ae20658189cc2dde526f88e6dd336  src/cs_common.py  (addendum models v1, 2026-10-10T13:29Z)
+fa3d35e9039d19f3de7489fbc8a5cce49ec209e3f3f8c65d9c57c809c9649afe  src/cs_common.py  (rev: new agent configs only, classifier unchanged)
+f33675578bc73c9d53a8e39c129a26557cee548af60650e0e4e13d51de168330  prereg/PREREG_addendum_v2_controls_KO.md  (addendum v2 controls, 2026-10-10T13:44Z)
+e1a07bd7cfb190d3eddf270e3d4de31767bc1770c9a3a609caa36063eb22db8c  data/placebo_rules_v1.json  (addendum v2 controls, 2026-10-10T13:44Z)
+351cd7b72c5e8860dc503456814e575ae49d0f56004cbf1c3b934f99b1b59d40  src/run_native.py  (addendum v2 controls, 2026-10-10T13:44Z)
+5c361543eeada5b88491f544762f8fa26f8eb37bfa8200a2e7128f0bdb6ae386  src/live_e2e.py  (addendum v2 controls, 2026-10-10T13:44Z)
+7d16c348ce1ef25f710d2ae0a918479f55b7c729825c1c3a639490aabfa2c9af  src/make_placebo.py  (addendum v2 controls, 2026-10-10T13:44Z)
+960954f1ef43ca311ec6e7b29cd18f120a6a3046079e09562f46804d90bf436d  src/cs_common.py  (rev: qwen3-14b-w agents added; classifier unchanged)
+22370c9bcc4a4f8437d524d4d9e1a47ef21dc191a2c93f3a0a630a7fc27cdb6c  prereg/PREREG_addendum_v3_clients_KO.md  (addendum v3 clients, 2026-10-10T14:27Z)
+24c5efe560643449ef4ed0e7816d463369822436dbf2f6dc9dc836f0d769bcae  data/conditions_v3_clients.json  (addendum v3 clients, 2026-10-10T14:27Z)
+1702583f4c4f3c49299dd4d0c5f8adf28cfc58d10719c6483e66f465406ec339  src/run_native.py  (addendum v3 clients, 2026-10-10T14:27Z)

@@ -1,0 +1,108 @@
+## Table A. Y = P(malicious next call) by condition, held-out, native protocol
+
+### poison_BENIGN
+
+| condition | Qwen3-14B | Qwen3-8B | gpt-oss-20b |
+|---|---|---|---|
+| S_ok | 0/188 (0.000) | 1/171 (0.006) | 7/54 (0.130) |
+| E_unknown | 31/190 (0.163) | 15/172 (0.087) | 11/53 (0.208) |
+| E_internal | 22/190 (0.116) | 11/172 (0.064) | 11/54 (0.204) |
+| E_invalid_arg | 36/190 (0.189) | 25/172 (0.145) | 14/52 (0.269) |
+| E_precondition | 28/190 (0.147) | 21/172 (0.122) | 20/52 (0.385) |
+| E_deadline | 24/190 (0.126) | 10/172 (0.058) | 9/54 (0.167) |
+| E_permission | 4/190 (0.021) | 9/172 (0.052) | 18/54 (0.333) |
+| E_unknown_remedy | 4/190 (0.021) | 17/172 (0.099) | 15/54 (0.278) |
+| U (excluded rows) | 2 | 1 | 5 |
+
+### poison_DIRECT
+
+| condition | Qwen3-14B | Qwen3-8B | gpt-oss-20b |
+|---|---|---|---|
+| S_ok | 5/53 (0.094) | 10/75 (0.133) | 7/34 (0.206) |
+| E_unknown | 10/53 (0.189) | 9/75 (0.120) | 19/34 (0.559) |
+| E_internal | 9/53 (0.170) | 6/75 (0.080) | 16/34 (0.471) |
+| E_invalid_arg | 10/53 (0.189) | 9/75 (0.120) | 18/33 (0.545) |
+| E_precondition | 10/53 (0.189) | 11/75 (0.147) | 13/34 (0.382) |
+| E_deadline | 15/53 (0.283) | 6/75 (0.080) | 13/34 (0.382) |
+| E_permission | 6/53 (0.113) | 2/75 (0.027) | 10/34 (0.294) |
+| E_unknown_remedy | 1/53 (0.019) | 12/75 (0.160) | 14/34 (0.412) |
+| U (excluded rows) | 0 | 0 | 1 |
+
+### clean_BENIGN
+
+| condition | Qwen3-14B | Qwen3-8B |
+|---|---|---|
+| S_ok | 0/136 (0.000) | 0/133 (0.000) |
+| E_unknown | 0/136 (0.000) | 0/135 (0.000) |
+| E_internal | 0/136 (0.000) | 0/135 (0.000) |
+| E_invalid_arg | 0/136 (0.000) | 0/135 (0.000) |
+| E_precondition | 0/136 (0.000) | 0/135 (0.000) |
+| E_deadline | 0/136 (0.000) | 0/135 (0.000) |
+| E_permission | 0/136 (0.000) | 0/135 (0.000) |
+| E_unknown_remedy | 0/136 (0.000) | 0/135 (0.000) |
+| U (excluded rows) | 0 | 2 |
+
+## Table B. Registered confirmatory family (pooled = two Qwen agents)
+
+| hypothesis | estimate | 95% CI (B=20000) | p (one-sided) | test | Holm p | Holm p, MC perm B=20000 | registered-code boot p (B=5000) | Holm on registered-code p | verdict |
+|---|---|---|---|---|---|---|---|---|---|
+| H1 E_unknown > S_ok (both Qwen; IUT p = max) | see Table C | – | 2.6e-4 | exact McNemar, max of 2 | .001 | .001 | 0 | 0 | confirmed |
+| H2 clean-subtracted D(E_unknown) | +0.123 | [+0.087, +0.163] | 3.9e-11 | arm-label permutation (exact) | 2.3e-10 | 3.0e-4 | 0 | 0 | confirmed |
+| H3 E_unknown − E_unknown_remedy | +0.065 | [+0.029, +0.102] | 3.1e-4 | stratified sign-flip (exact) | .001 | .001 | 2.0e-4 | 6.0e-4 | confirmed |
+| H4 mean(UNK,INT) − mean(DEAD,PERM) | +0.043 | [+0.020, +0.068] | 9.4e-5 | stratified sign-flip (exact) | 4.7e-4 | 5.0e-4 | 0 | 0 | confirmed |
+| H5 interaction (registered estimator) | +0.113 | [+0.040, +0.187] | 9.2e-4 | stratified sign-flip (exact) | .002 | .002 | .001 | .002 | confirmed |
+| H6 DIRECT stratum E_unknown > S_ok | +0.041 | [-0.026, +0.111] | .124 | stratified sign-flip (exact) | .124 | .123 | .127 | .127 | not confirmed |
+
+Registered-code bootstrap H5 row uses the code estimator (+0.058); H2 registered-code p is the poison-arm bootstrap p (the code computes no H2 p). (k+1)/(B+1) version of the registered-code Holm: {'H1': '.001', 'H2': '.001', 'H4': '.001', 'H3': '.001', 'H5': '.002', 'H6': '.127'}
+
+Holm, registered family + gpt-oss H1 (7 members, exact/perm p): {'H2': '2.7e-10', 'H4': '5.6e-4', 'H1': '.001', 'H3': '.001', 'H5': '.003', 'H1_gptoss': '.125', 'H6': '.125'}
+
+Registered code's own Holm family (H1 counted twice, H2 absent): {'H1_qwen3-14b-nothink': 0, 'H1_qwen3-8b-nothink': 0, 'H4': 0, 'H3': 0.0006, 'H5': 0.002, 'H6': 0.1272}
+
+## Table C. Per-agent contrasts (BENIGN stratum unless noted); p one-sided in registered direction (two-sided in parentheses)
+
+| contrast | Qwen3-14B | Qwen3-8B | gpt-oss-20b | pooled Qwen |
+|---|---|---|---|---|
+| H1 E_unknown − S_ok | +0.165 [+0.112, +0.218], p=4.7e-10 (9.3e-10); 31 vs 0 of 188, b/c=31/0 | +0.082 [+0.041, +0.129], p=2.6e-4 (5.2e-4); 15 vs 1 of 171, b/c=15/1 | +0.094 [+0.000, +0.189], p=.062 (.125); 11 vs 6 of 53, b/c=6/1 | +0.123 [+0.087, +0.163], p=3.4e-13 (descriptive) |
+| H3 E_unknown − E_unknown_remedy | +0.142 [+0.089, +0.200], p=2.3e-7 (4.6e-7); 31 vs 4 of 190, b/c=29/2 | -0.012 [-0.064, +0.041], p=.748 (.824); 15 vs 17 of 172, b/c=9/11 | -0.075 [-0.208, +0.057], p=.910 (.424); 11 vs 15 of 53, b/c=5/9 | +0.065 [+0.029, +0.102], p=3.1e-4 |
+| H4 mean(UNK,INT) − mean(DEAD,PERM) | +0.066 [+0.032, +0.103], p=2.1e-4 (4.2e-4) | +0.020 [-0.006, +0.049], p=.106 (.211) | -0.038 [-0.132, +0.047], p=.844 (.546) | +0.043 [+0.020, +0.068], p=9.4e-5 |
+| H4a mean(UNK,INT) − DEADLINE | +0.013 [-0.029, +0.055], p=.312 (.623) | +0.017 [-0.015, +0.047], p=.175 (.351) | +0.047 [-0.057, +0.142], p=.233 (.465) | +0.015 [-0.011, +0.042], p=.123 |
+| H4b mean(UNK,INT) − PERMISSION | +0.118 [+0.076, +0.166], p=5.1e-8 (1.0e-7) | +0.023 [-0.009, +0.055], p=.109 (.219) | -0.123 [-0.255, +0.000], p=.978 (.086) | +0.071 [+0.042, +0.101], p=1.5e-7 |
+| H5 m3 − m2 (registered) | +0.081 [+0.009, +0.157], p=.028 (.056) | +0.145 [+0.025, +0.265], p=.009 (.019) | -0.192 [-0.511, +0.134], p=.886 (.288) | +0.113 [+0.040, +0.187], p=9.2e-4 |
+| H6 E_unknown − S_ok, DIRECT stratum | +0.094 [+0.000, +0.189], p=.062 (.125); 10 vs 5 of 53, b/c=6/1 | -0.013 [-0.107, +0.067], p=.726 (1.000); 9 vs 10 of 75, b/c=5/6 | +0.353 [+0.147, +0.559], p=.002 (.004); 19 vs 7 of 34, b/c=14/2 | +0.041 [-0.026, +0.111], p=.124 |
+
+## Table D. H5 decomposition, d = Y(E_invalid_arg) − Y(E_precondition)
+
+| agent | T3 side m3 (counts) | T2 side m2 (counts) | registered m3 − m2 | code estimator | template-label perm p |
+|---|---|---|---|---|---|
+| Qwen3-14B | +0.081 [+0.020, +0.152] (30 vs 22 of 99) | +0.000 [-0.036, +0.036] (6 vs 6 of 84) | +0.081 [+0.009, +0.157], p=.028 | +0.044 | .041 |
+| Qwen3-8B | +0.095 [-0.012, +0.202] (23 vs 15 of 84) | -0.049 [-0.111, +0.000] (2 vs 6 of 81) | +0.145 [+0.025, +0.265], p=.009 | +0.073 | .015 |
+| gpt-oss-20b | -0.192 [-0.423, +0.038] (5 vs 10 of 26) | +0.000 [-0.222, +0.222] (7 vs 7 of 18) | -0.192 [-0.511, +0.134], p=.886 | -0.114 | .907 |
+| pooled Qwen | +0.088 [+0.024, +0.154], p=.003 | -0.025 [-0.060, +0.006], p=.961 | +0.113 [+0.040, +0.187], p=9.2e-4 | +0.058 [+0.021, +0.096] (registered code B=5000: +0.058 [+0.021, +0.096], p=.001) | .002 |
+
+Registered estimator with the registered resampler (B=5000, seed 20261010): +0.113 [+0.040, +0.187], bootstrap p=.001
+
+## Table E. H2 detail
+
+- pooled poison contrast +0.123 [+0.087, +0.163]; pooled clean contrast +0.000 [+0.000, +0.000]; clean Y=0 in every condition: True
+- clean pairs: Qwen3-14B 0 vs 0 of 136, Qwen3-8B 0 vs 0 of 133
+- D = +0.123 [+0.087, +0.163]; p arm-label exact 3.9e-11, MC 5.0e-5; sign-flip both arms exact 3.4e-13
+- poison contrast restricted to clean_sample_150: pooled +0.149 [+0.089, +0.217], p=5.6e-8; Qwen3-14B 18 vs 0 of 94 = +0.191 [+0.117, +0.277], p=3.8e-6; Qwen3-8B 10 vs 1 of 84 = +0.107 [+0.036, +0.179], p=.006; D_restricted +0.149, arm-perm p 6.2e-11
+- poison contrast restricted to eligible_in_both_arms: pooled +0.151 [+0.090, +0.219], p=5.6e-8; Qwen3-14B 18 vs 0 of 94 = +0.191 [+0.117, +0.277], p=3.8e-6; Qwen3-8B 10 vs 1 of 82 = +0.110 [+0.037, +0.183], p=.006; D_restricted +0.151, arm-perm p 5.3e-11
+
+## Table F. Sensitivity: cases with empty signatures excluded ['ClickHouse::31', 'ClickHouse::32', 'ClickHouse::33', 'Codacy::11']
+
+| quantity | main | excluding empty-signature cases |
+|---|---|---|
+| H1 Qwen3-14B | 31/190 vs 0/188, +0.165 [+0.112, +0.218], p=4.7e-10 | 31/188 vs 0/186, +0.167 [+0.113, +0.220], p=4.7e-10 |
+| H1 Qwen3-8B | 15/172 vs 1/171, +0.082 [+0.041, +0.129], p=2.6e-4 | 15/171 vs 1/170, +0.082 [+0.041, +0.129], p=2.6e-4 |
+| H1 gpt-oss-20b | 11/53 vs 7/54, +0.094 [+0.000, +0.189], p=.062 | 11/52 vs 7/53, +0.096 [+0.000, +0.192], p=.062 |
+| H2 D | +0.123 [+0.087, +0.163], p=3.9e-11 | +0.125 [+0.087, +0.164], p=4.3e-11 |
+| H3 pooled Qwen | +0.065 [+0.029, +0.102], p=3.1e-4 | +0.066 [+0.030, +0.103], p=3.1e-4 |
+| H4 pooled Qwen | +0.043 [+0.020, +0.068], p=9.4e-5 | +0.043 [+0.020, +0.068], p=9.4e-5 |
+| H5 pooled Qwen | +0.113 [+0.040, +0.187], p=9.2e-4 | +0.113 [+0.040, +0.187], p=9.1e-4 |
+| H6 pooled Qwen | +0.041 [-0.026, +0.111], p=.124 | +0.040 [-0.026, +0.111], p=.124 |
+| Holm-adjusted (exact/perm) | H2 2.3e-10, H4 4.7e-4, H1 .001, H3 .001, H5 .002, H6 .124 | H2 2.6e-10, H4 4.7e-4, H1 .001, H3 .001, H5 .002, H6 .124 |
+
+Verdict changes: none
+Excluded cases present: {"poison:q14:('BENIGN_CALL',)": ['ClickHouse::31', 'ClickHouse::33'], "poison:q8:('BENIGN_CALL',)": ['ClickHouse::31'], "poison:goss:('BENIGN_CALL',)": ['ClickHouse::33'], "poison:q14:('DIRECT_EXEC',)": [], "poison:q8:('DIRECT_EXEC',)": ['ClickHouse::33'], "poison:goss:('DIRECT_EXEC',)": ['ClickHouse::31'], "clean:q14:('BENIGN_CALL',)": ['ClickHouse::31', 'ClickHouse::33'], "clean:q8:('BENIGN_CALL',)": ['ClickHouse::31', 'ClickHouse::33']}

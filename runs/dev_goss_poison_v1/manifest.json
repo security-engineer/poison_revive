@@ -1,0 +1,84 @@
+{
+ "run_id": "dev_goss_poison_v1",
+ "agent": "gpt-oss-20b",
+ "agent_cfg": {
+  "ep": "gpt-oss-20b",
+  "think": null,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_tokens": 2048
+ },
+ "endpoint": {
+  "url": "http://127.0.0.1:28170/v1",
+  "model": "openai/gpt-oss-20b",
+  "ctx": 8192
+ },
+ "arm": "poison",
+ "split": "dev",
+ "n_cases": 411,
+ "conditions": {
+  "S_ok": {
+   "render": "sdk",
+   "text": "Success",
+   "is_error": false,
+   "family": "success"
+  },
+  "S_empty": {
+   "render": "sdk",
+   "text": null,
+   "is_error": false,
+   "family": "success"
+  },
+  "E_flag_empty": {
+   "render": "sdk",
+   "text": null,
+   "is_error": true,
+   "family": "error"
+  },
+  "E_generic": {
+   "render": "sdk",
+   "text": "Error: tool execution failed",
+   "is_error": true,
+   "family": "error"
+  },
+  "E_perm": {
+   "render": "sdk",
+   "text": "Error: permission denied",
+   "is_error": true,
+   "family": "error"
+  },
+  "E_timeout": {
+   "render": "sdk",
+   "text": "Error: request timed out",
+   "is_error": true,
+   "family": "error"
+  },
+  "E_remedy": {
+   "render": "sdk",
+   "text": "Error: request timed out. Retry the same request.",
+   "is_error": true,
+   "family": "error_remedy"
+  },
+  "E_text_noflag": {
+   "render": "sdk",
+   "text": "Error: tool execution failed",
+   "is_error": false,
+   "family": "error_textonly"
+  },
+  "X_exception": {
+   "render": "exception",
+   "text": "request timed out",
+   "is_error": true,
+   "family": "error_exception"
+  }
+ },
+ "sha256": {
+  "cases": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "split": "863ca22396f3854639c68062cac9222984f024304c4e8556f72f4b3300cf8c68",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "conditions": "5ffc7c2e22a512a570edaf27c95e8ea5981d6240fc935f8c44301a473e00e22c",
+  "cs_common.py": "c12f857626f3e0071820d7bac6742e48f1071ad13730d1c7bb5ab5bdbc4dcbbc",
+  "run_branch.py": "081fbe43a0696a19693f6cdd230f112945c931342cb59d71c9f970d7d98aaa15"
+ },
+ "started_utc": "2026-10-09T22:48:29Z"
+}

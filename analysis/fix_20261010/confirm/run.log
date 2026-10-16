@@ -1,0 +1,19 @@
+{
+ "verdicts_main": {
+  "H1": true,
+  "H2": true,
+  "H3": true,
+  "H4": true,
+  "H5": true,
+  "H6": false,
+  "H1_ci_lower_gt0_both_qwen": true,
+  "H1_qwen3-14b-nothink_exact_p_lt_05": true,
+  "H1_qwen3-14b-nothink_ci_lower_gt0": true,
+  "H1_qwen3-8b-nothink_exact_p_lt_05": true,
+  "H1_qwen3-8b-nothink_ci_lower_gt0": true,
+  "H1_gpt-oss-20b_exact_p_lt_05": false,
+  "H1_gpt-oss-20b_ci_lower_gt0": false
+ },
+ "verdict_changes": {}
+}
+wrote /workspace/TAEYUN/mcp_security_research/condition_study/analysis/fix_20261010/confirm/results_confirm.json

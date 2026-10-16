@@ -1,0 +1,34 @@
+{
+ "v13_q14w": {
+  "n": 171,
+  "error_revived": 31,
+  "next_task_fired": 4,
+  "error_only": 31,
+  "next_only": 4,
+  "p_two_sided": 3e-06
+ },
+ "v13_llama31": {
+  "n": 223,
+  "error_revived": 40,
+  "next_task_fired": 8,
+  "error_only": 39,
+  "next_only": 7,
+  "p_two_sided": 2e-06
+ },
+ "v13_gemma4": {
+  "n": 97,
+  "error_revived": 10,
+  "next_task_fired": 2,
+  "error_only": 10,
+  "next_only": 2,
+  "p_two_sided": 0.038574
+ },
+ "v13_q30": {
+  "n": 131,
+  "error_revived": 19,
+  "next_task_fired": 3,
+  "error_only": 19,
+  "next_only": 3,
+  "p_two_sided": 0.000855
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "note": "Real MCP servers for the Git/SQLite E2E (live_e2e_v2.py). Each server runs from its own venv outside the repo, as uid/gid 65534 through setpriv. live_e2e_v2 preflight and the self-test (stage 0) check every value below against the installed venv and refuse to run on any mismatch.",
+ "uid": 65534,
+ "gid": 65534,
+ "setpriv": "/usr/bin/setpriv",
+ "client": {
+  "python": "3.12.3 (system /usr/bin/python3)",
+  "mcp": "1.27.1"
+ },
+ "Git": {
+  "package": "mcp-server-git",
+  "version": "2025.1.14",
+  "upstream": "modelcontextprotocol/servers tag 2025.1.14 = 260032172a64 (src/git)",
+  "upstream_copy": "data/servers/upstream/git_2025.1.14",
+  "requirements": "data/servers/req_git_2025.1.14.txt",
+  "requirements_sha256": "031c71fd0a401e1b1f7b88593f44d8079aac2d308197b3b18afe6df63dde0eaf",
+  "venv": "/workspace/TAEYUN/condition-study-servers/venv_git",
+  "module": "mcp_server_git",
+  "files_sha256": {
+   "server.py": "69a74fbdab9491181ef8ac13f86962397cf1b94cf489b78c4235390c9565cd93",
+   "__init__.py": "bb59001f6b9cbdc457801fc332bc4f148a697015b30bac765ca45cf823ae092b",
+   "__main__.py": "86c286117b9b580820e25077f04d6d289dd9669f053852bc5b5093d3e8bc491f"
+  },
+  "uv_lock_sha256": "a06f9c4f3fd80a14e2497de4db93cb6df08e1989db100e41ff8defd5ec7c5f89",
+  "dist_versions": {
+   "mcp-server-git": "2025.1.14",
+   "mcp": "1.0.0",
+   "GitPython": "3.1.43",
+   "gitdb": "4.0.11",
+   "smmap": "5.0.1",
+   "pydantic": "2.10.1",
+   "pydantic_core": "2.27.1",
+   "anyio": "4.6.2.post1"
+  },
+  "python": "3.12.3",
+  "git_cli": "git version 2.43.0",
+  "input_validation": false,
+  "launch": "setpriv --reuid=65534 --regid=65534 --clear-groups -- <venv>/bin/python -I -m mcp_server_git --repository <sandbox>/path/to/repo (cwd = repo)"
+ },
+ "SQLite": {
+  "package": "mcp-server-sqlite",
+  "version": "2025.4.25",
+  "upstream": "modelcontextprotocol/servers-archived 9120679 (src/sqlite)",
+  "upstream_copy": "data/servers/upstream/sqlite_9120679",
+  "requirements": "data/servers/req_sqlite_2025.4.25.txt",
+  "requirements_sha256": "8bdf7e89048af6b8e2cd075a113e18d330bc77c4fe6e4adab9a239f19fa3db25",
+  "venv": "/workspace/TAEYUN/condition-study-servers/venv_sqlite",
+  "module": "mcp_server_sqlite",
+  "files_sha256": {
+   "server.py": "f1355bbe08233914c21c277d45acfe91fc800b7dc0af2020f37be3c9564172e0",
+   "__init__.py": "274af74c698c875e153552a3e11e12bc2df0d96618d46c97e55e6fe7d18c3b7c"
+  },
+  "uv_lock_sha256": "0eb11e600e6a6dda776dc4da3de85150329b06410658716565854181959213b6",
+  "dist_versions": {
+   "mcp-server-sqlite": "2025.4.25",
+   "mcp": "1.6.0",
+   "pydantic": "2.11.3",
+   "pydantic_core": "2.33.1",
+   "anyio": "4.9.0"
+  },
+  "python": "3.12.3",
+  "sqlite": "3.45.1",
+  "input_validation": false,
+  "launch": "setpriv --reuid=65534 --regid=65534 --clear-groups -- <venv>/bin/python -I src/launch_sqlite_guarded.py --db-path <sandbox>/app.db --guard (cwd = sandbox)"
+ },
+ "Memory": {
+  "package": "@modelcontextprotocol/server-memory",
+  "version": "2026.8.31",
+  "serverInfo": {
+   "name": "memory-server",
+   "version": "0.6.3"
+  },
+  "install_dir": "/workspace/TAEYUN/condition-study-servers/memory_2026.8.31",
+  "node": "v24.17.0",
+  "node_binary": "/workspace/TAEYUN/condition-study-servers/node24/bin/node",
+  "files_sha256": {
+   "dist/index.js": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729"
+  },
+  "runs_as_uid": 65534,
+  "pinned_utc": "2026-10-14"
+ },
+ "Commander": {
+  "package": "@wonderwhy-er/desktop-commander",
+  "version": "0.1.39",
+  "serverInfo": {
+   "name": "desktop-commander",
+   "version": "0.1.39"
+  },
+  "image": "cs-commander:0.1.39",
+  "image_id": "sha256:c745ff24ddea668348c68e2756f745cca6675e5dbf97383fb5504361c6895bc5",
+  "base_image": "node:24.17.0-bookworm-slim",
+  "tarball_sha256": "a81a5743b9cb32fe0c1fce79fb69f9e14ac9c6d1fc44df0faac802405210dada",
+  "build_files": {
+   "Dockerfile": "97c32f86e064179902bb21d9767fe3af35cdd55a8ac55bf97fdf08376fd31b61",
+   "entrypoint.sh": "adef4d48f4a8400b80ce558e7dc750d9fc6bd8cf8cefbe5a0fa1d9cf84d925a8",
+   "snap.sh": "9c07821f815128b1781ee955b85f5857c2b25bdb65322508ce7c68fdd108097f",
+   "config.json": "ac1b3635886e9520bfcc4f097650a5c2636e8b32739c1597ebf07b8102553b41"
+  },
+  "build_dir": "/workspace/TAEYUN/condition-study-servers/commander_0.1.39",
+  "repo_copy": "data/servers/commander_0.1.39/",
+  "runs_as_uid": 1000,
+  "node": "v24.17.0",
+  "version_choice": "0.1.36-0.1.39 all match MCPTox's tool block after template resolution; 0.1.35 lacks the 'Prefer this over execute_command' text and 0.2.0 reworded read_file/write_file; 0.1.39 (2025-05-07) is the latest match",
+  "pinned_utc": "2026-10-14"
+ }
+}

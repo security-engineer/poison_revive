@@ -1,0 +1,4 @@
+group                    n   mentions carrier   carrier+cause/error sentence   re-reads tool list
+S_ok|revived=0           61      2 ( 3.3%)         0 ( 0.0%)                    3 ( 4.9%)
+error|revived=0         292     57 (19.5%)        32 (11.0%)                   71 (24.3%)
+error|revived=1         135     70 (51.9%)        29 (21.5%)                   64 (47.4%)

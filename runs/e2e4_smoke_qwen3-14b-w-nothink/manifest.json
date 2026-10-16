@@ -1,0 +1,193 @@
+{
+ "run_id": "e2e4_smoke_qwen3-14b-w-nothink",
+ "agent": "qwen3-14b-w-nothink",
+ "agent_cfg": {
+  "ep": "qwen3-14b-w",
+  "think": false,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "max_tokens": 768
+ },
+ "servers": "Memory,Commander",
+ "split": "all",
+ "cases_filter": "Memory::43,Commander::45",
+ "n_cases": 2,
+ "case_ids": [
+  "Commander::45",
+  "Memory::43"
+ ],
+ "conditions": "natural,inj_error",
+ "err_text": "Error: tool execution failed",
+ "max_steps": 4,
+ "fixture": {
+  "Git": "git-f1",
+  "SQLite": "sqlite-f1",
+  "FileSystem": "v2 (live_e2e)",
+  "Memory": "memory-f1",
+  "Commander": "commander-f1"
+ },
+ "first_call": "shared (generated once per case)",
+ "harness_version": "live_e2e_v3/1 (2026-10-14)",
+ "sha256": {
+  "src/live_e2e_v3.py": "06533c5843ed94825ef000e7503291be64e4912b73316ca80f5b87f2e4ebb7c3",
+  "src/e2e_memory.py": "1e1fadc4fd9507e56d3fe6a6a302400b5e794d8b632601e9fc30dc356116ab42",
+  "src/e2e_commander.py": "8b46c59a8d9a273c4019a5920d23a4be459fa02b1f1ba79a7e87063cd73bce31",
+  "src/selftest_live_e2e_v3.py": "b1168c9d6375c1dc5168b835d01b4a59aaac750f7c6d070268f0d79b1411e724",
+  "src/live_e2e_v2.py": "08d6e8dd035e64c9f7c15eb630c8cb348691fe151b6a81f7505b39ac8f53ea0f",
+  "src/e2e_git.py": "efb8aed1815787175e7b225ad3101f33e9a5c495b5c8df111806446d70d77419",
+  "src/e2e_sqlite.py": "358637692763c7220d2135e8f8c17a06c5f1dad596847c79c4d48c0983dfb221",
+  "src/launch_sqlite_guarded.py": "43712bd6e6fe013b53fcaf40c20d5a5b61e4cc13c80327d10c4fec05e3f8a52b",
+  "src/selftest_live_e2e_v2.py": "e98d03c2e3aafe84930a8266d1a2ced6407745a01ca64ec4f7b9d628ff3a91c5",
+  "src/live_e2e.py": "5c361543eeada5b88491f544762f8fa26f8eb37bfa8200a2e7128f0bdb6ae386",
+  "src/cs_common.py": "671e86f68138ba2edd9fb764fba2267b4f5c0b8958bb1343da18031cc12edfd2",
+  "src/run_native.py": "a28311de3037a80a5fb44eda3642b4a076d0e5dcc8f9f3778f6b72d1167fd180",
+  "data/cases.jsonl": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "data/signatures.jsonl": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "data/split.json": "863ca22396f3854639c68062cac9222984f024304c4e8556f72f4b3300cf8c68",
+  "data/servers/SERVER_PINS.json": "f2359e9fe13b2ff78fdd6e7fc294ec55d4568d6f2155e6bb27d44f27063a0073",
+  "live_e2e.py": "5c361543eeada5b88491f544762f8fa26f8eb37bfa8200a2e7128f0bdb6ae386",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "cases": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "req_git": "031c71fd0a401e1b1f7b88593f44d8079aac2d308197b3b18afe6df63dde0eaf",
+  "req_sqlite": "8bdf7e89048af6b8e2cd075a113e18d330bc77c4fe6e4adab9a239f19fa3db25"
+ },
+ "server_js_sha256": {
+  "FileSystem": "729dc8511e779e5cd6640851a74b25283e3af1ca3a7106722f993e864a1d9935",
+  "Memory": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729"
+ },
+ "servers_real": {
+  "Memory": {
+   "venv": "/workspace/TAEYUN/condition-study-servers/memory_2026.8.31/node_modules/@modelcontextprotocol/server-memory",
+   "venv_check": {
+    "ok": true,
+    "problems": [],
+    "dist/index.js": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729",
+    "package_version": "2026.8.31",
+    "node_version": "v24.17.0"
+   },
+   "kind": "node",
+   "protocolVersion": "2025-11-25",
+   "serverInfo": {
+    "name": "memory-server",
+    "version": "0.6.3"
+   },
+   "tools_sha256": "f50f0e3db4c93b1df0ecc5ec8f445a200dad81cc61482787c1d459572ac359ab",
+   "tools_match_mcptox": true,
+   "tools_mismatch_cases": [],
+   "mcptox_clean_block_sha256": [
+    "7ef4f79ec68a0e475f82fa6edd641503f2a46123d9c0c4b8640611fee70d9494"
+   ],
+   "input_validation": false,
+   "probe_leftover_pids": [],
+   "launch": {
+    "command": "/usr/bin/setpriv",
+    "args": [
+     "--reuid=65534",
+     "--regid=65534",
+     "--clear-groups",
+     "--",
+     "/workspace/TAEYUN/condition-study-servers/node24/bin/node",
+     "/workspace/TAEYUN/condition-study-servers/memory_2026.8.31/node_modules/@modelcontextprotocol/server-memory/dist/index.js"
+    ],
+    "cwd": "/SANDBOX",
+    "env": {
+     "MEMORY_FILE_PATH": "/SANDBOX/memory.json",
+     "HOME": "/SANDBOX/home/user",
+     "PATH": "/usr/bin:/bin",
+     "USER": "nobody",
+     "LOGNAME": "nobody",
+     "LC_ALL": "C",
+     "TZ": "UTC"
+    }
+   }
+  },
+  "Commander": {
+   "venv": "/workspace/TAEYUN/condition-study-servers/commander_0.1.39",
+   "venv_check": {
+    "ok": true,
+    "problems": [],
+    "image_id": "sha256:c745ff24ddea668348c68e2756f745cca6675e5dbf97383fb5504361c6895bc5",
+    "tarball_sha256": "a81a5743b9cb32fe0c1fce79fb69f9e14ac9c6d1fc44df0faac802405210dada",
+    "Dockerfile": "97c32f86e064179902bb21d9767fe3af35cdd55a8ac55bf97fdf08376fd31b61",
+    "entrypoint.sh": "adef4d48f4a8400b80ce558e7dc750d9fc6bd8cf8cefbe5a0fa1d9cf84d925a8",
+    "snap.sh": "9c07821f815128b1781ee955b85f5857c2b25bdb65322508ce7c68fdd108097f",
+    "config.json": "ac1b3635886e9520bfcc4f097650a5c2636e8b32739c1597ebf07b8102553b41"
+   },
+   "kind": "docker",
+   "protocolVersion": "2025-11-25",
+   "serverInfo": {
+    "name": "desktop-commander",
+    "version": "0.1.39"
+   },
+   "tools_sha256": "560e758d723b594791b7a1a435a88993001c7ec11672f0af0e0079ced5fee1c9",
+   "tools_match_mcptox": true,
+   "tools_mismatch_cases": [],
+   "mcptox_clean_block_sha256": [
+    "48ee59e1d0106b7625a74beb0ca7195312cee49788ba8c354b67bac4dd0c180b"
+   ],
+   "input_validation": false,
+   "probe_leftover_pids": [],
+   "launch": {
+    "command": "/usr/bin/docker",
+    "args": [
+     "run",
+     "-i",
+     "--rm",
+     "--name",
+     "cs-cmd-probe",
+     "--network",
+     "none",
+     "--cap-drop",
+     "ALL",
+     "--cap-add",
+     "SETUID",
+     "--cap-add",
+     "SETGID",
+     "--cap-add",
+     "CHOWN",
+     "--cap-add",
+     "FOWNER",
+     "--cap-add",
+     "DAC_OVERRIDE",
+     "--security-opt",
+     "no-new-privileges",
+     "--pids-limit",
+     "256",
+     "--memory",
+     "512m",
+     "--cpus",
+     "1",
+     "--label",
+     "research=condition_study",
+     "-e",
+     "TAG=notag",
+     "--entrypoint",
+     "/bin/sh",
+     "cs-commander:0.1.39",
+     "-c",
+     "ln -s /usr/bin/python3 /usr/bin/python && exec /opt/cs/entrypoint.sh"
+    ],
+    "cwd": "/SANDBOX",
+    "env": {
+     "PATH": "/usr/bin:/bin",
+     "LC_ALL": "C",
+     "TZ": "UTC"
+    }
+   }
+  }
+ },
+ "input_validation": false,
+ "selftest_report": {
+  "path": "runs/e2e4_selftest_v1/report.json",
+  "sha256": "c958f557d33d6daacf81b0efb654a75f18de55df8c37431284eddae7d66f03d1",
+  "all_pass": true,
+  "code_mismatch": []
+ },
+ "preflight_ok": true,
+ "sandbox_root": "/tmp/cs_e2e_v3/e2e4_smoke_qwen3-14b-w-nothink",
+ "server_uid": 65534,
+ "call_timeout": 20.0,
+ "keep_sandboxes": false,
+ "workers": 1,
+ "started_utc": "2026-10-14T11:47:42Z"
+}

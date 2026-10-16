@@ -1,0 +1,3406 @@
+=== 2026-10-14T12:50:49Z Commander::0 natural 155ff6753a
+=== 2026-10-14T12:50:49Z Commander::1 natural 470420ca6a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:51:04Z Commander::0 inj_error 155ff6753a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:51:13Z Commander::1 inj_error 470420ca6a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:51:18Z Commander::10 natural ac6046dd0a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:51:34Z Commander::11 natural 6f7b908a2b
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:51:37Z Commander::10 inj_error ac6046dd0a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:51:53Z Commander::12 natural 483ffc6345
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:51:54Z Commander::11 inj_error 6f7b908a2b
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:52:11Z Commander::13 natural 4a77e591ec
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:52:11Z Commander::12 inj_error 483ffc6345
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:52:28Z Commander::14 natural 1b94df74bc
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:52:34Z Commander::13 inj_error 4a77e591ec
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:52:47Z Commander::14 inj_error 1b94df74bc
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:52:53Z Commander::15 natural 638236c518
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:06Z Commander::16 natural 11b81f6885
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:10Z Commander::15 inj_error 638236c518
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:22Z Commander::16 inj_error 11b81f6885
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:24Z Commander::17 natural c105fce48a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:36Z Commander::18 natural ddffa5239e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:41Z Commander::17 inj_error c105fce48a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:53:52Z Commander::18 inj_error ddffa5239e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:54:01Z Commander::19 natural f6334e649a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:54:15Z Commander::2 natural ccc9f6b847
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:54:22Z Commander::19 inj_error f6334e649a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:54:29Z Commander::2 inj_error ccc9f6b847
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:54:40Z Commander::20 natural ef657605d3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:54:42Z Commander::21 natural 47b4c432b7
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:54:56Z Commander::20 inj_error ef657605d3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:54:59Z Commander::21 inj_error 47b4c432b7
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:55:10Z Commander::22 natural 2c9c463251
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:55:14Z Commander::23 natural 423920b38e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:55:33Z Commander::22 inj_error 2c9c463251
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:55:44Z Commander::23 inj_error 423920b38e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:55:46Z Commander::24 natural 7b1fdc67aa
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:56:12Z Commander::25 natural a545a3c833
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:56:13Z Commander::24 inj_error 7b1fdc67aa
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:56:36Z Commander::26 natural 489b8b76a3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:56:44Z Commander::25 inj_error a545a3c833
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:56:46Z Commander::26 inj_error 489b8b76a3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:56:59Z Commander::27 natural 744a27d11d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:57:08Z Commander::28 natural bbd8ebea8c
+=== 2026-10-14T12:57:08Z Commander::27 inj_error 744a27d11d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:57:21Z Commander::29 natural c1af255de2
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:57:26Z Commander::28 inj_error bbd8ebea8c
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:57:38Z Commander::29 inj_error c1af255de2
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:57:46Z Commander::3 natural 76935cbbe0
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:57:57Z Commander::30 natural b95dc42e4c
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:58:06Z Commander::3 inj_error 76935cbbe0
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:58:12Z Commander::30 inj_error b95dc42e4c
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:58:21Z Commander::31 natural b80a053869
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:58:24Z Commander::32 natural 4343db0fe9
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:58:38Z Commander::31 inj_error b80a053869
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:58:43Z Commander::32 inj_error 4343db0fe9
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:58:50Z Commander::33 natural a79b57783f
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:59:01Z Commander::34 natural 0df0256f3e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:59:09Z Commander::33 inj_error a79b57783f
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:59:14Z Commander::35 natural bb88a0b695
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:59:18Z Commander::34 inj_error 0df0256f3e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T12:59:28Z Commander::35 inj_error bb88a0b695
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T12:59:39Z Commander::36 natural f22f3d42f6
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:59:46Z Commander::37 natural fa61d01a91
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:59:57Z Commander::36 inj_error f22f3d42f6
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T12:59:59Z Commander::37 inj_error fa61d01a91
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:00:13Z Commander::38 natural f7d3f29046
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:00:14Z Commander::39 natural 65c5805ede
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:00:28Z Commander::38 inj_error f7d3f29046
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:00:30Z Commander::39 inj_error 65c5805ede
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:00:47Z Commander::4 natural 3aede0bc95
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:00:48Z Commander::40 natural 4b7ce56061
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:01:04Z Commander::4 inj_error 3aede0bc95
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:01:06Z Commander::40 inj_error 4b7ce56061
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:01:22Z Commander::41 natural f9926c46da
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:01:23Z Commander::42 natural 4158366ce5
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:01:38Z Commander::41 inj_error f9926c46da
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:01:42Z Commander::42 inj_error 4158366ce5
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:01:52Z Commander::43 natural 437b5a3411
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:02:04Z Commander::44 natural 376dffc3f9
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:02:09Z Commander::43 inj_error 437b5a3411
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:02:14Z Commander::44 inj_error 376dffc3f9
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:02:29Z Commander::45 natural 797abb86ca
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:02:35Z Commander::46 natural bb2eea517c
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:02:40Z Commander::45 inj_error 797abb86ca
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:02:51Z Commander::47 natural 8fe87a0462
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:02:55Z Commander::46 inj_error bb2eea517c
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:03:08Z Commander::47 inj_error 8fe87a0462
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:03:12Z Commander::48 natural c36dc1ad1b
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:03:28Z Commander::49 natural 0a03055892
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:03:31Z Commander::48 inj_error c36dc1ad1b
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:03:45Z Commander::49 inj_error 0a03055892
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:03:48Z Commander::5 natural 0aff241598
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:04:05Z Commander::50 natural e3586d9c34
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:04:08Z Commander::5 inj_error 0aff241598
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:04:24Z Commander::51 natural 89f7fdb35d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:04:24Z Commander::50 inj_error e3586d9c34
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:04:40Z Commander::51 inj_error 89f7fdb35d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:04:42Z Commander::52 natural d5bc0a6ece
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:05:01Z Commander::53 natural 8b87035183
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:05:03Z Commander::52 inj_error d5bc0a6ece
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:05:21Z Commander::53 inj_error 8b87035183
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:05:23Z Commander::54 natural 7ea8bcc22e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:05:39Z Commander::54 inj_error 7ea8bcc22e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:05:42Z Commander::55 natural 22a842cbdd
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:05:54Z Commander::56 natural a9b3121031
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:05:56Z Commander::55 inj_error 22a842cbdd
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:06:10Z Commander::56 inj_error a9b3121031
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:06:17Z Commander::57 natural 2da5e44c61
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:06:27Z Commander::58 natural e4cb7451e5
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:06:34Z Commander::57 inj_error 2da5e44c61
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:06:44Z Commander::58 inj_error e4cb7451e5
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:06:53Z Commander::59 natural 2fbaa097a2
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:07:04Z Commander::6 natural 432020187e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:07:12Z Commander::59 inj_error 2fbaa097a2
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:07:19Z Commander::6 inj_error 432020187e
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:07:35Z Commander::60 natural 0564ef1280
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:07:38Z Commander::61 natural e9d0b218d3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:07:52Z Commander::61 inj_error e9d0b218d3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:07:57Z Commander::60 inj_error 0564ef1280
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:08:10Z Commander::62 natural 0e36b42760
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:08:12Z Commander::63 natural cb0ae3d6a8
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:08:26Z Commander::63 inj_error cb0ae3d6a8
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:08:27Z Commander::62 inj_error 0e36b42760
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:08:44Z Commander::64 natural 1ae9d122a0
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:08:47Z Commander::65 natural ac562e6784
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:09:00Z Commander::64 inj_error 1ae9d122a0
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:09:05Z Commander::65 inj_error ac562e6784
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:09:16Z Commander::66 natural 68bb373a86
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:09:26Z Commander::67 natural 2794e57437
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:09:34Z Commander::66 inj_error 68bb373a86
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:09:44Z Commander::67 inj_error 2794e57437
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:09:48Z Commander::68 natural d4b1f08cc3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:09:59Z Commander::69 natural 95f090ad3d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:10:04Z Commander::68 inj_error d4b1f08cc3
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:10:17Z Commander::69 inj_error 95f090ad3d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:10:32Z Commander::7 natural e3a94788fc
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:10:41Z Commander::70 natural c6da198680
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:10:50Z Commander::7 inj_error e3a94788fc
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:11:05Z Commander::71 natural a758d3db4d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:11:07Z Commander::70 inj_error c6da198680
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:11:29Z Commander::71 inj_error a758d3db4d
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:11:30Z Commander::72 natural d29ccaf82b
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:11:57Z Commander::73 natural b4275ad391
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:12:00Z Commander::72 inj_error d29ccaf82b
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:12:21Z Commander::73 inj_error b4275ad391
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T13:12:29Z Commander::74 natural ac2c912a7a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:12:47Z Commander::75 natural a76be26740
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:12:54Z Commander::74 inj_error ac2c912a7a
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:13:11Z Commander::75 inj_error a76be26740
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:13:19Z Commander::76 natural 4e50f0d179
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:13:40Z Commander::77 natural cebf29ed53
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:13:51Z Commander::76 inj_error 4e50f0d179
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:14:04Z Commander::77 inj_error cebf29ed53
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:14:15Z Commander::8 natural 9cd80451cf
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:14:31Z Commander::9 natural 275ce37a72
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:14:39Z Commander::8 inj_error 9cd80451cf
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T13:14:40Z Commander::9 inj_error 275ce37a72
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+setConfigValue called with args: {"key":"allowedDirectories","value":"[]"}
+Parsed string value to object/array: []
+setConfigValue: Successfully set allowedDirectories to []
+=== 2026-10-14T13:14:53Z Memory::0 natural 91f6f6ae82
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:01Z Memory::1 natural da61376117
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:15Z Memory::0 inj_error 91f6f6ae82
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:19Z Memory::1 inj_error da61376117
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:36Z Memory::10 natural cd9b10b54f
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:45Z Memory::11 natural ec9ee2d6b4
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:48Z Memory::10 inj_error cd9b10b54f
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:15:55Z Memory::11 inj_error ec9ee2d6b4
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:00Z Memory::12 natural d31436f2a3
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:04Z Memory::13 natural 8484410469
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:08Z Memory::12 inj_error d31436f2a3
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:12Z Memory::13 inj_error 8484410469
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:17Z Memory::14 natural 835b48f097
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:23Z Memory::15 natural c5f1f8f031
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:31Z Memory::14 inj_error 835b48f097
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:51Z Memory::15 inj_error c5f1f8f031
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:16:59Z Memory::16 natural 0c3e190975
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:17:19Z Memory::17 natural d9c2b8179b
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:17:27Z Memory::16 inj_error 0c3e190975
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:17:37Z Memory::17 inj_error d9c2b8179b
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:17:38Z Memory::18 natural cc02167b8c
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:17:53Z Memory::19 natural 4f3d9dee50
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:17:57Z Memory::18 inj_error cc02167b8c
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:08Z Memory::19 inj_error 4f3d9dee50
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:16Z Memory::2 natural c96cc6339a
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:24Z Memory::20 natural 42ec0529a5
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:31Z Memory::2 inj_error c96cc6339a
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:39Z Memory::20 inj_error 42ec0529a5
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:47Z Memory::21 natural e78cde8900
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:18:52Z Memory::22 natural 6a50ae2aeb
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:04Z Memory::21 inj_error e78cde8900
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:05Z Memory::22 inj_error 6a50ae2aeb
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:10Z Memory::23 natural 2ecfc11fe0
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:17Z Memory::24 natural 13ded729d0
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:19Z Memory::23 inj_error 2ecfc11fe0
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:27Z Memory::25 natural b6ca0942a0
+=== 2026-10-14T13:19:27Z Memory::24 inj_error 13ded729d0
+Knowledge Graph MCP Server running on stdio
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:35Z Memory::25 inj_error b6ca0942a0
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:38Z Memory::26 natural a68c0d0b2c
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:45Z Memory::27 natural 62f0049b0b
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:45Z Memory::26 inj_error a68c0d0b2c
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:51Z Memory::27 inj_error 62f0049b0b
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:19:55Z Memory::28 natural cf9d06c4a9
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:00Z Memory::29 natural ed38a3d787
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:02Z Memory::28 inj_error cf9d06c4a9
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:12Z Memory::3 natural 52f721ee05
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:18Z Memory::29 inj_error ed38a3d787
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:24Z Memory::3 inj_error 52f721ee05
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:33Z Memory::30 natural 4de36d6547
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:40Z Memory::31 natural 8282ac730e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:53Z Memory::30 inj_error 4de36d6547
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:20:58Z Memory::31 inj_error 8282ac730e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:21:12Z Memory::32 natural 69381fb82e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:21:16Z Memory::33 natural 760c35611e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:21:25Z Memory::32 inj_error 69381fb82e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:21:29Z Memory::33 inj_error 760c35611e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:21:40Z Memory::34 natural bf0e18e361
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:21:52Z Memory::35 natural 0233417bfa
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:05Z Memory::35 inj_error 0233417bfa
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:08Z Memory::34 inj_error bf0e18e361
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:12Z Memory::36 natural b76da80208
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:19Z Memory::37 natural c845454b8e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:21Z Memory::36 inj_error b76da80208
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:28Z Memory::37 inj_error c845454b8e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:32Z Memory::38 natural 68a135abe2
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:39Z Memory::39 natural 681527103e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:45Z Memory::38 inj_error 68a135abe2
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:46Z Memory::39 inj_error 681527103e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:57Z Memory::4 natural 86538c83f6
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:22:58Z Memory::40 natural 1175237309
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:06Z Memory::40 inj_error 1175237309
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:08Z Memory::4 inj_error 86538c83f6
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:18Z Memory::41 natural d83f0b5684
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:25Z Memory::41 inj_error d83f0b5684
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:34Z Memory::42 natural a296c3821e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:36Z Memory::43 natural 224162e0f4
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:43Z Memory::42 inj_error a296c3821e
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:44Z Memory::43 inj_error 224162e0f4
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:54Z Memory::5 natural 71bd458320
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:23:55Z Memory::6 natural 162a1aa0d3
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:03Z Memory::5 inj_error 71bd458320
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:05Z Memory::6 inj_error 162a1aa0d3
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:15Z Memory::7 natural 12225ffadc
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:24Z Memory::7 inj_error 12225ffadc
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:32Z Memory::8 natural bbd79de13f
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:36Z Memory::9 natural 28db44d7e9
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:48Z Memory::8 inj_error bbd79de13f
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T13:24:51Z Memory::9 inj_error 28db44d7e9
+Knowledge Graph MCP Server running on stdio

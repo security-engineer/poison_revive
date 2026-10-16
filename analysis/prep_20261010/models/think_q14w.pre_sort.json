@@ -1,0 +1,100 @@
+{
+ "confT_q14w_think_poison": {
+  "agent": "qwen3-14b-w-think",
+  "t1": {
+   "BENIGN_CALL": 61,
+   "MALICIOUS": 71,
+   "DIRECT_EXEC": 11,
+   "ERROR_TRANSPORT": 2,
+   "NO_CALL": 4,
+   "TRUNCATED": 1
+  },
+  "validity": {
+   "rows": 726,
+   "U_share": 0.0041,
+   "parser_miss_share": 0.0041
+  },
+  "Y": {
+   "S_ok": "0/61",
+   "E_unknown": "16/61",
+   "E_internal": "19/61",
+   "E_invalid_arg": "22/61",
+   "E_precondition": "33/61",
+   "E_deadline": "12/61",
+   "E_permission": "14/61",
+   "E_unknown_remedy": "19/61"
+  },
+  "Y_direct": {
+   "S_ok": "0/11",
+   "E_unknown": "3/11",
+   "E_internal": "2/11",
+   "E_invalid_arg": "4/11",
+   "E_precondition": "5/11",
+   "E_deadline": "1/11",
+   "E_permission": "1/11",
+   "E_unknown_remedy": "2/11"
+  },
+  "H1m": {
+   "n": 61,
+   "a": 16,
+   "b": 0,
+   "diff": 0.2623,
+   "ci": [
+    0.1475,
+    0.377
+   ],
+   "discordant": [
+    16,
+    0
+   ],
+   "p_exact": 1.52587890625e-05
+  },
+  "H3m": {
+   "n": 61,
+   "a": 16,
+   "b": 19,
+   "diff": -0.0492,
+   "ci": [
+    -0.1475,
+    0.0492
+   ],
+   "discordant": [
+    3,
+    6
+   ],
+   "p_exact": 0.91015625
+  },
+  "H6m": {
+   "n": 11,
+   "a": 3,
+   "b": 0,
+   "diff": 0.2727,
+   "ci": [
+    0.0,
+    0.5455
+   ],
+   "discordant": [
+    3,
+    0
+   ],
+   "p_exact": 0.125
+  },
+  "H4m": {
+   "n": 61,
+   "est": 0.0738,
+   "ci": [
+    -0.0328,
+    0.1721
+   ],
+   "p": 0.11339433028348582
+  },
+  "H5m": {
+   "m3": -0.069,
+   "m2": -0.3214,
+   "est": 0.2525,
+   "n3": 29,
+   "n2": 28,
+   "p_perm": 0.05524723763811809
+  }
+ }
+}

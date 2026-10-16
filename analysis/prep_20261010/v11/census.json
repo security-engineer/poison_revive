@@ -1,0 +1,127 @@
+{
+ "per_server_counts": {
+  "FileSystem": {
+   "explained": 4,
+   "unexplained": 1,
+   "call-blaming": 11,
+   "passthrough": 1
+  },
+  "Memory": {
+   "explained": 1,
+   "unexplained": 1,
+   "call-blaming": 1
+  },
+  "Fetch": {
+   "explained": 4,
+   "unexplained": 1,
+   "passthrough": 1,
+   "call-blaming": 1
+  },
+  "Sequential Thinking": {
+   "call-blaming": 5,
+   "passthrough": 1
+  },
+  "Everything": {
+   "unexplained": 3,
+   "call-blaming": 1
+  },
+  "AWSKnowledgeBase": {
+   "call-blaming": 1
+  },
+  "BraveSearch": {
+   "explained": 2,
+   "unexplained": 1,
+   "call-blaming": 3,
+   "passthrough": 1
+  },
+  "EverArt": {
+   "explained": 1,
+   "unexplained": 1,
+   "call-blaming": 1,
+   "passthrough": 1
+  },
+  "GoogleDrive": {
+   "explained": 1
+  },
+  "Github": {
+   "call-blaming": 8,
+   "unexplained": 7,
+   "explained": 1,
+   "passthrough": 1
+  },
+  "Gitlab": {
+   "explained": 1,
+   "call-blaming": 3
+  },
+  "Google Maps": {
+   "unexplained": 1,
+   "passthrough": 2,
+   "call-blaming": 1
+  },
+  "Puppeteer": {
+   "unexplained": 6,
+   "explained": 2,
+   "call-blaming": 1
+  },
+  "Redis": {
+   "call-blaming": 2
+  },
+  "Sentry": {
+   "call-blaming": 5,
+   "unexplained": 4,
+   "explained": 1,
+   "passthrough": 1
+  },
+  "Slack": {
+   "unexplained": 1,
+   "call-blaming": 7
+  },
+  "SQLite": {
+   "call-blaming": 6,
+   "unexplained": 4,
+   "explained": 1,
+   "passthrough": 1
+  },
+  "Git": {
+   "call-blaming": 2
+  },
+  "Commander": {
+   "passthrough": 2,
+   "unexplained": 8,
+   "call-blaming": 8,
+   "explained": 3
+  },
+  "Email": {
+   "call-blaming": 3
+  },
+  "ClickHouse": {
+   "call-blaming": 1
+  },
+  "QuickChart": {
+   "call-blaming": 7,
+   "unexplained": 5,
+   "explained": 3
+  }
+ },
+ "pooled_counts": {
+  "explained": 25,
+  "unexplained": 44,
+  "call-blaming": 78,
+  "passthrough": 12
+ },
+ "n_templates": 159,
+ "pooled_share": {
+  "explained": 0.1572,
+  "call-blaming": 0.4906,
+  "unexplained": 0.2767,
+  "passthrough": 0.0755
+ },
+ "server_mean_share": {
+  "explained": 0.1693,
+  "call-blaming": 0.552,
+  "unexplained": 0.2065,
+  "passthrough": 0.0723
+ },
+ "n_servers_with_templates": 22,
+ "code_sha256": "4efb511a4b04e096e5c5320862d6c3b904243d811f129abb7dfd96249c518023"
+}

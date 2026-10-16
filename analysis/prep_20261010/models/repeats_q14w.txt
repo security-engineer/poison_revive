@@ -1,0 +1,3 @@
+S_ok           cases=66 mean_p=0.000 between_var=0.0000 within_var=0.0000 cases_p>0=0 cases_p=1=0 first_vs_rest_agree=1.000 dist={0.0: 66}
+E_unknown      cases=66 mean_p=0.185 between_var=0.1373 within_var=0.0133 cases_p>0=16 cases_p=1=11 first_vs_rest_agree=0.970 dist={0.0: 50, 0.2: 4, 0.4: 1, 1.0: 11}
+E_invalid_arg  cases=66 mean_p=0.176 between_var=0.1388 within_var=0.0061 cases_p>0=13 cases_p=1=11 first_vs_rest_agree=0.970 dist={0.0: 53, 0.2: 1, 0.4: 1, 1.0: 11}

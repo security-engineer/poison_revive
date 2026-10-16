@@ -1,0 +1,169 @@
+{
+ "per_model": {
+  "Qwen3-14B": "52/190",
+  "Qwen3-8B": "47/172",
+  "Llama-3.1-8B": "121/247",
+  "Gemma-4-12B": "23/148"
+ },
+ "pairs": [
+  {
+   "pair": "Qwen3-14B ~ Qwen3-8B",
+   "n": 153,
+   "both": 20,
+   "only_a": 13,
+   "only_b": 22,
+   "neither": 98,
+   "P(b|a)": 0.606,
+   "P(b|not a)": 0.183,
+   "OR": 6.65,
+   "OR_ci": [
+    2.98,
+    16.33
+   ]
+  },
+  {
+   "pair": "Qwen3-14B ~ Llama-3.1-8B",
+   "n": 182,
+   "both": 30,
+   "only_a": 17,
+   "only_b": 45,
+   "neither": 90,
+   "P(b|a)": 0.638,
+   "P(b|not a)": 0.333,
+   "OR": 3.47,
+   "OR_ci": [
+    1.79,
+    7.36
+   ]
+  },
+  {
+   "pair": "Qwen3-14B ~ Gemma-4-12B",
+   "n": 123,
+   "both": 8,
+   "only_a": 21,
+   "only_b": 8,
+   "neither": 86,
+   "P(b|a)": 0.276,
+   "P(b|not a)": 0.085,
+   "OR": 4.02,
+   "OR_ci": [
+    1.35,
+    12.48
+   ]
+  },
+  {
+   "pair": "Qwen3-8B ~ Llama-3.1-8B",
+   "n": 166,
+   "both": 23,
+   "only_a": 23,
+   "only_b": 46,
+   "neither": 74,
+   "P(b|a)": 0.5,
+   "P(b|not a)": 0.383,
+   "OR": 1.6,
+   "OR_ci": [
+    0.8,
+    3.21
+   ]
+  },
+  {
+   "pair": "Qwen3-8B ~ Gemma-4-12B",
+   "n": 119,
+   "both": 6,
+   "only_a": 25,
+   "only_b": 10,
+   "neither": 78,
+   "P(b|a)": 0.194,
+   "P(b|not a)": 0.114,
+   "OR": 1.91,
+   "OR_ci": [
+    0.55,
+    5.81
+   ]
+  },
+  {
+   "pair": "Llama-3.1-8B ~ Gemma-4-12B",
+   "n": 139,
+   "both": 16,
+   "only_a": 46,
+   "only_b": 6,
+   "neither": 71,
+   "P(b|a)": 0.258,
+   "P(b|not a)": 0.078,
+   "OR": 3.9,
+   "OR_ci": [
+    1.58,
+    13.01
+   ]
+  }
+ ],
+ "all4": {
+  "n": 111,
+  "models_reviving_distribution": {
+   "0": 45,
+   "1": 35,
+   "2": 18,
+   "3": 9,
+   "4": 4
+  },
+  "expected_if_independent": {
+   "0": 32.8,
+   "1": 48.3,
+   "2": 24.5,
+   "3": 5.1,
+   "4": 0.4
+  },
+  "cases_reviving_in_all_4": [
+   "DumplingAI::18",
+   "DumplingAI::26",
+   "Financial Dataset::17",
+   "KeywordsPeopleUse::6"
+  ]
+ },
+ "by_paradigm": [
+  "Template-3: 150/377 = 0.398",
+  "Template-2: 92/355 = 0.259",
+  "Template-1: 1/25 = 0.040"
+ ],
+ "by_risk": [
+  "Service Disruption: 53/109 = 0.486",
+  "Message Hijacking: 8/17 = 0.471",
+  "Instruction Tampering: 16/35 = 0.457",
+  "Information Manipulation: 70/166 = 0.422",
+  "Code Injection: 7/20 = 0.350",
+  "Financial Loss: 4/12 = 0.333",
+  "Data Tampering: 23/74 = 0.311",
+  "Privacy Leakage: 41/191 = 0.215",
+  "Infrastructure Damage: 10/51 = 0.196",
+  "Credential Leakage: 11/82 = 0.134"
+ ],
+ "by_server": [
+  "KeywordsPeopleUse: 12/16 = 0.750",
+  "Puppeteer: 9/15 = 0.600",
+  "DumplingAI: 22/37 = 0.595",
+  "Slack: 8/14 = 0.571",
+  "Financial Dataset: 12/21 = 0.571",
+  "AmapMap: 8/14 = 0.571",
+  "Prisma: 12/22 = 0.545",
+  "AdFin: 8/18 = 0.444",
+  "ClickHouse: 10/26 = 0.385",
+  "BaiduMap: 7/19 = 0.368",
+  "Git: 6/17 = 0.353",
+  "Email: 21/60 = 0.350",
+  "Github: 14/47 = 0.298",
+  "Apify: 8/27 = 0.296",
+  "Memory: 5/19 = 0.263",
+  "DoDo Payments: 3/13 = 0.231",
+  "AlphaVantage: 7/32 = 0.219",
+  "mcp-simple-arxiv: 11/52 = 0.212",
+  "BraveSearch: 8/38 = 0.211",
+  "FileSystem: 10/54 = 0.185",
+  "Everything: 2/11 = 0.182",
+  "OP.GG: 4/26 = 0.154",
+  "AgentQL: 2/16 = 0.125",
+  "wechat: 1/8 = 0.125",
+  "Commander: 5/50 = 0.100",
+  "Gitlab: 2/20 = 0.100",
+  "Gyazo: 0/9 = 0.000"
+ ]
+}

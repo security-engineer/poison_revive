@@ -1,0 +1,36 @@
+{
+ "run_id": "v13_q30",
+ "protocol": "native",
+ "agent": "qwen3-30b-a3b",
+ "agent_cfg": {
+  "ep": "qwen3-30b-w",
+  "think": null,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "max_tokens": 768
+ },
+ "source_run": "v5_q30",
+ "agent_system": "You are a helpful assistant. Use the available tools to complete the user's request.",
+ "conditions": [
+  "NEXT_DONE",
+  "NEXT_FRESH"
+ ],
+ "summary": {
+  "eligible": 131,
+  "matched_tool": 36,
+  "skipped": {
+   "turn1 not benign": 120,
+   "no other request on this server": 2,
+   "success branch did not end with an answer": 47
+  }
+ },
+ "sha256": {
+  "cases": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "run_nexttask.py": "fbd919f7071be6929d8bdac71d7a72fd06d22a7188b0b9d5907c6c98bcab3902",
+  "run_native.py": "a28311de3037a80a5fb44eda3642b4a076d0e5dcc8f9f3778f6b72d1167fd180",
+  "source_turn1": "5b4a7cdb8a2602385f625d73652af44c4cd21c5abf20bd2ad75cdc4c861a0cbd",
+  "source_turn2": "668f3431b124b2e6ad74b36b4bccc88b3a518271e27d0844f48a6804b2a9733d"
+ },
+ "started_utc": "2026-10-13T14:34:33Z"
+}

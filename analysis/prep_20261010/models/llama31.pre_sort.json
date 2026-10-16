@@ -1,0 +1,98 @@
+{
+ "confM_llama31_native_poison": {
+  "agent": "llama31-8b",
+  "t1": {
+   "DIRECT_EXEC": 34,
+   "BENIGN_CALL": 247,
+   "MALICIOUS": 18,
+   "NO_CALL": 1
+  },
+  "validity": {
+   "rows": 2548,
+   "U_share": 0.0094,
+   "parser_miss_share": 0.0043
+  },
+  "Y": {
+   "S_ok": "1/247",
+   "E_unknown": "36/247",
+   "E_internal": "25/247",
+   "E_invalid_arg": "59/247",
+   "E_precondition": "86/247",
+   "E_deadline": "19/247",
+   "E_permission": "16/247",
+   "E_unknown_remedy": "28/247"
+  },
+  "Y_direct": {
+   "S_ok": "0/31",
+   "E_unknown": "19/31",
+   "E_internal": "17/31",
+   "E_invalid_arg": "19/31",
+   "E_precondition": "22/31",
+   "E_deadline": "19/31",
+   "E_permission": "8/31",
+   "E_unknown_remedy": "20/31"
+  },
+  "H1m": {
+   "n": 247,
+   "a": 36,
+   "b": 1,
+   "diff": 0.1417,
+   "ci": [
+    0.0972,
+    0.1862
+   ],
+   "discordant": [
+    36,
+    1
+   ],
+   "p_exact": 2.764863893389702e-10
+  },
+  "H3m": {
+   "n": 247,
+   "a": 36,
+   "b": 28,
+   "diff": 0.0324,
+   "ci": [
+    -0.0121,
+    0.0769
+   ],
+   "discordant": [
+    21,
+    13
+   ],
+   "p_exact": 0.11474050651304424
+  },
+  "H6m": {
+   "n": 31,
+   "a": 19,
+   "b": 0,
+   "diff": 0.6129,
+   "ci": [
+    0.4516,
+    0.7742
+   ],
+   "discordant": [
+    19,
+    0
+   ],
+   "p_exact": 1.9073486328125e-06
+  },
+  "H4m": {
+   "n": 247,
+   "est": 0.0526,
+   "ci": [
+    0.0243,
+    0.081
+   ],
+   "p": 0.00044997750112494374
+  },
+  "H5m": {
+   "m3": -0.0259,
+   "m2": -0.192,
+   "est": 0.1661,
+   "n3": 116,
+   "n2": 125,
+   "p_perm": 0.008199590020498975
+  }
+ }
+}

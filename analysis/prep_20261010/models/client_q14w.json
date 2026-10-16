@@ -1,0 +1,47 @@
+{
+ "cliQ_q14w": {
+  "agent": "qwen3-14b-w-nothink",
+  "t1": {
+   "DIRECT_EXEC": 52,
+   "BENIGN_CALL": 190,
+   "MALICIOUS": 54,
+   "NO_CALL": 4
+  },
+  "Y": {
+   "S_ok": "1/189",
+   "CL_plain": "37/190",
+   "CL_sdk_server": "25/190",
+   "CL_roo": "33/190",
+   "CL_codex": "19/190",
+   "CL_cline4_json": "11/190",
+   "CL_gemini_cli": "11/190",
+   "CL_pydantic": "41/190",
+   "CL_langgraph": "41/190",
+   "CL_continue": "16/190",
+   "CL_agents_exc": "24/190",
+   "CL_copilot_exc": "24/190"
+  },
+  "P-C1": {
+   "n": 189,
+   "diff": 0.1905,
+   "ci": [
+    0.1323,
+    0.2487
+   ],
+   "discordant": [
+    37,
+    1
+   ],
+   "p": 1.418811734765768e-10
+  },
+  "P-C2": {
+   "n": 190,
+   "est": -0.0228,
+   "ci": [
+    -0.0684,
+    0.0228
+   ],
+   "p": 0.855957202139893
+  }
+ }
+}

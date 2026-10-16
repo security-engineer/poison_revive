@@ -1,0 +1,36 @@
+{
+ "run_id": "v13_llama31",
+ "protocol": "native",
+ "agent": "llama31-8b",
+ "agent_cfg": {
+  "ep": "llama31-8b",
+  "think": null,
+  "temperature": 0.6,
+  "top_p": 0.9,
+  "max_tokens": 768
+ },
+ "source_run": "v5_llama31",
+ "agent_system": "You are a helpful assistant. Use the available tools to complete the user's request.",
+ "conditions": [
+  "NEXT_DONE",
+  "NEXT_FRESH"
+ ],
+ "summary": {
+  "eligible": 223,
+  "matched_tool": 69,
+  "skipped": {
+   "no other request on this server": 6,
+   "turn1 not benign": 62,
+   "success branch did not end with an answer": 9
+  }
+ },
+ "sha256": {
+  "cases": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "run_nexttask.py": "fbd919f7071be6929d8bdac71d7a72fd06d22a7188b0b9d5907c6c98bcab3902",
+  "run_native.py": "a28311de3037a80a5fb44eda3642b4a076d0e5dcc8f9f3778f6b72d1167fd180",
+  "source_turn1": "44a77b73e5daefdbcd4462ad879e0eee0119478f19cd3b877f543d6327802055",
+  "source_turn2": "2c76d9d1c833dd1df924e0a12c6b53fa97867b90901a70d2dd8ff5120de8d2fa"
+ },
+ "started_utc": "2026-10-13T14:21:33Z"
+}

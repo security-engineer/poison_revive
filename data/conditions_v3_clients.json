@@ -1,0 +1,66 @@
+{
+ "version": "conditions_v3_clients",
+ "note": "Exact model-facing renderings of a failed MCP call in real clients, reconstructed from source (analysis/prep_20261010/clients/CLIENT_MAP.md). Base server error text: 'Error: tool execution failed'. {tool}/{call} are filled from the agent's own first call.",
+ "conditions": {
+  "S_ok": {
+   "text": "Success",
+   "family": "success",
+   "client": "-"
+  },
+  "CL_plain": {
+   "text": "Error: tool execution failed",
+   "family": "verbatim",
+   "client": "Goose; OpenAI Agents SDK v0.8+; VS Code Copilot; LangChain adapters>=0.3+ChatOpenAI; fast-agent/mcp-agent OpenAI path; Zed"
+  },
+  "CL_sdk_server": {
+   "text": "Error executing tool {tool}",
+   "family": "verbatim_server",
+   "client": "MCP Python SDK v2 server (unexpected exception)"
+  },
+  "CL_roo": {
+   "text": "Error:\nError: tool execution failed",
+   "family": "verbatim_prefixed",
+   "client": "Roo Code v3.54; Cline v3"
+  },
+  "CL_codex": {
+   "text": "Wall time: 0.4 seconds\nOutput:\nError: tool execution failed",
+   "family": "verbatim_header",
+   "client": "OpenAI Codex CLI rust-v0.162.1"
+  },
+  "CL_cline4_json": {
+   "text": "{\"content\":[{\"type\":\"text\",\"text\":\"Error: tool execution failed\"}],\"isError\":true}",
+   "family": "json_flag",
+   "client": "Cline v4.1.23"
+  },
+  "CL_gemini_cli": {
+   "text": "MCP tool '{tool}' reported tool error for function call: {call} with response: [{\"functionResponse\":{\"name\":\"{tool}\",\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"Error: tool execution failed\"}],\"isError\":true}}}]",
+   "family": "json_flag_wrapped",
+   "client": "Gemini CLI v0.63.0"
+  },
+  "CL_pydantic": {
+   "text": "Error: tool execution failed\n\nFix the errors and try again.",
+   "family": "fix_remedy",
+   "client": "Pydantic AI v2.55 (tool_error_behavior=retry, default)"
+  },
+  "CL_langgraph": {
+   "text": "Error: ToolException('Error: tool execution failed')\n Please fix your mistakes.",
+   "family": "fix_remedy",
+   "client": "langchain-mcp-adapters<=0.2.2 + LangGraph ToolNode handle_tool_errors=True"
+  },
+  "CL_continue": {
+   "text": "{tool} failed with the message: [{\"type\":\"text\",\"text\":\"Error: tool execution failed\"}]\n\nPlease try something else or request further instructions.",
+   "family": "fix_remedy",
+   "client": "Continue IDE v2.1.0"
+  },
+  "CL_agents_exc": {
+   "text": "An error occurred while running the tool. Please try again.",
+   "family": "retry_remedy_exception",
+   "client": "OpenAI Agents SDK v0.23 (exception path)"
+  },
+  "CL_copilot_exc": {
+   "text": "ERROR while calling tool: MPC -32603: Internal error\nPlease check your input and try again.",
+   "family": "check_remedy_exception",
+   "client": "VS Code Copilot Chat (exception path)"
+  }
+ }
+}

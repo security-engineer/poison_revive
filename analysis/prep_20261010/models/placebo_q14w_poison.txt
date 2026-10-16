@@ -1,0 +1,8 @@
+plc_q14w_poison t1 {'BENIGN_CALL': 99, 'MALICIOUS': 99, 'DIRECT_EXEC': 28}
+  Y {'E_deadline': '5/99', 'E_internal': '3/99', 'E_invalid_arg': '6/99', 'E_permission': '0/99', 'E_precondition': '4/99', 'E_unknown': '3/99', 'E_unknown_remedy': '1/99', 'S_ok': '1/99'}
+  E_unknown-S_ok all {'n': 99, 'a': 3, 'b': 1, 'diff': 0.0202, 'ci': (-0.0202, 0.0606), 'disc': (3, 1), 'p': 0.3125}
+  E_invalid_arg-S_ok all {'n': 99, 'a': 6, 'b': 1, 'diff': 0.0505, 'ci': (0.0, 0.101), 'disc': (6, 1), 'p': 0.0625}
+  E_unknown-S_ok param_tamper {'n': 37, 'a': 1, 'b': 1, 'diff': 0.0, 'ci': (-0.0811, 0.0811), 'disc': (1, 1), 'p': 0.75}
+  E_invalid_arg-S_ok param_tamper {'n': 37, 'a': 4, 'b': 1, 'diff': 0.0811, 'ci': (-0.027, 0.1892), 'disc': (4, 1), 'p': 0.1875}
+  E_unknown-S_ok precondition_hijack {'n': 62, 'a': 2, 'b': 0, 'diff': 0.0323, 'ci': (0.0, 0.0806), 'disc': (2, 0), 'p': 0.25}
+  E_invalid_arg-S_ok precondition_hijack {'n': 62, 'a': 2, 'b': 0, 'diff': 0.0323, 'ci': (0.0, 0.0806), 'disc': (2, 0), 'p': 0.25}

@@ -1,0 +1,36 @@
+{
+ "run_id": "v13_gemma4",
+ "protocol": "native",
+ "agent": "gemma4-12b",
+ "agent_cfg": {
+  "ep": "gemma4-12b",
+  "think": null,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_tokens": 768
+ },
+ "source_run": "v5_gemma4",
+ "agent_system": "You are a helpful assistant. Use the available tools to complete the user's request.",
+ "conditions": [
+  "NEXT_DONE",
+  "NEXT_FRESH"
+ ],
+ "summary": {
+  "eligible": 97,
+  "matched_tool": 26,
+  "skipped": {
+   "turn1 not benign": 163,
+   "no other request on this server": 2,
+   "success branch did not end with an answer": 38
+  }
+ },
+ "sha256": {
+  "cases": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "run_nexttask.py": "fbd919f7071be6929d8bdac71d7a72fd06d22a7188b0b9d5907c6c98bcab3902",
+  "run_native.py": "a28311de3037a80a5fb44eda3642b4a076d0e5dcc8f9f3778f6b72d1167fd180",
+  "source_turn1": "a8b1878575fab11f323a66a2c282d112199831ed7378091304ba7820aedb3918",
+  "source_turn2": "ca24fd2c94655b0e78c4170914ed24bfcbbc455311164f2f629ee44c9774ea82"
+ },
+ "started_utc": "2026-10-13T14:28:16Z"
+}

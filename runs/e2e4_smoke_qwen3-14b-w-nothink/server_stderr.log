@@ -1,0 +1,70 @@
+=== 2026-10-14T11:47:42Z Commander::45 natural 797abb86ca
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+getConfig called
+getConfig result: {
+  "blockedCommands": [
+    "mkfs",
+    "format",
+    "mount",
+    "umount",
+    "fdisk",
+    "dd",
+    "parted",
+    "diskpart",
+    "sudo",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd",
+    "chsh",
+    "visudo",
+    "shutdown",
+    "reboot",
+    "halt",
+    "poweroff",
+    "init",
+    "iptables",
+    "firewall",
+    "netsh",
+    "sfc",
+    "bcdedit",
+    "reg",
+    "net",
+    "sc",
+    "runas",
+    "cipher",
+    "takeown"
+  ],
+  "defaultShell": "bash",
+  "allowedDirectories": [
+    "/home/user",
+    "/tmp",
+    "/var/log",
+    "/etc"
+  ],
+  "telemetryEnabled": false
+}
+=== 2026-10-14T11:48:05Z Commander::45 inj_error 797abb86ca
+Loading schemas.ts
+Loading server.ts
+Setting up request handlers...
+[desktop-commander] Initialized FilteredStdioServerTransport
+Loading configuration...
+Configuration loaded successfully
+Connecting server...
+Server connected successfully
+Generating tools list...
+=== 2026-10-14T11:48:11Z Memory::43 natural 224162e0f4
+Knowledge Graph MCP Server running on stdio
+=== 2026-10-14T11:48:22Z Memory::43 inj_error 224162e0f4
+Knowledge Graph MCP Server running on stdio

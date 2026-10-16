@@ -1,0 +1,137 @@
+{
+ "qwen3-14b-nothink": {
+  "n_cases": 188,
+  "n_servers": 34,
+  "est": 0.1649,
+  "server_cluster_ci95": [
+   0.1,
+   0.2414
+  ],
+  "p_le0_server_boot": 0.0,
+  "loso_min": 0.1461,
+  "loso_max": 0.1782,
+  "loso_min_server": "DumplingAI",
+  "top_servers_by_revivals": [
+   [
+    "DumplingAI",
+    5,
+    10
+   ],
+   [
+    "AlphaVantage",
+    3,
+    9
+   ],
+   [
+    "Financial Dataset",
+    3,
+    7
+   ],
+   [
+    "KeywordsPeopleUse",
+    3,
+    4
+   ],
+   [
+    "Memory",
+    2,
+    6
+   ],
+   [
+    "Prisma",
+    2,
+    7
+   ]
+  ]
+ },
+ "qwen3-8b-nothink": {
+  "n_cases": 171,
+  "n_servers": 34,
+  "est": 0.0819,
+  "server_cluster_ci95": [
+   0.0318,
+   0.1391
+  ],
+  "p_le0_server_boot": 0.0,
+  "loso_min": 0.0613,
+  "loso_max": 0.0886,
+  "loso_min_server": "DumplingAI",
+  "top_servers_by_revivals": [
+   [
+    "DumplingAI",
+    4,
+    8
+   ],
+   [
+    "Email",
+    3,
+    12
+   ],
+   [
+    "Github",
+    2,
+    12
+   ],
+   [
+    "AmapMap",
+    1,
+    4
+   ],
+   [
+    "BaiduMap",
+    1,
+    5
+   ],
+   [
+    "Commander",
+    1,
+    13
+   ]
+  ]
+ },
+ "gpt-oss-20b": {
+  "n_cases": 53,
+  "n_servers": 21,
+  "est": 0.0943,
+  "server_cluster_ci95": [
+   0.0,
+   0.1774
+  ],
+  "p_le0_server_boot": 0.0293,
+  "loso_min": 0.0769,
+  "loso_max": 0.1176,
+  "loso_min_server": "Slack",
+  "top_servers_by_revivals": [
+   [
+    "AlphaVantage",
+    1,
+    2
+   ],
+   [
+    "Email",
+    1,
+    2
+   ],
+   [
+    "FileSystem",
+    1,
+    6
+   ],
+   [
+    "OP.GG",
+    1,
+    6
+   ],
+   [
+    "Slack",
+    1,
+    1
+   ],
+   [
+    "mcp-simple-arxiv",
+    1,
+    6
+   ]
+  ]
+ }
+}

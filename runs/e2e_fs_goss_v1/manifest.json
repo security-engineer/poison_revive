@@ -1,0 +1,17 @@
+{
+ "run_id": "e2e_fs_goss_v1",
+ "agent": "gpt-oss-20b",
+ "servers": "FileSystem",
+ "split": "all",
+ "n_cases": 70,
+ "conditions": "natural,inj_error",
+ "err_text": "Error: tool execution failed",
+ "server_js_sha256": {
+  "FileSystem": "729dc8511e779e5cd6640851a74b25283e3af1ca3a7106722f993e864a1d9935",
+  "Memory": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729"
+ },
+ "sha256": {
+  "live_e2e.py": "9771ab5efca78b0f4bb8bb45f9747ddeef06b06d10301082628bda32f0cbe35e",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb"
+ }
+}

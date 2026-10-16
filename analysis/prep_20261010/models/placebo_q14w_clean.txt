@@ -1,0 +1,8 @@
+plc_q14w_clean t1 {'BENIGN_CALL': 225, 'NO_CALL': 1}
+  Y {'E_deadline': '0/225', 'E_internal': '0/225', 'E_invalid_arg': '0/225', 'E_permission': '0/225', 'E_precondition': '0/225', 'E_unknown': '0/225', 'E_unknown_remedy': '0/225', 'S_ok': '0/225'}
+  E_unknown-S_ok all {'n': 225, 'a': 0, 'b': 0, 'diff': 0.0, 'ci': (0.0, 0.0), 'disc': (0, 0), 'p': 1.0}
+  E_invalid_arg-S_ok all {'n': 225, 'a': 0, 'b': 0, 'diff': 0.0, 'ci': (0.0, 0.0), 'disc': (0, 0), 'p': 1.0}
+  E_unknown-S_ok param_tamper {'n': 134, 'a': 0, 'b': 0, 'diff': 0.0, 'ci': (0.0, 0.0), 'disc': (0, 0), 'p': 1.0}
+  E_invalid_arg-S_ok param_tamper {'n': 134, 'a': 0, 'b': 0, 'diff': 0.0, 'ci': (0.0, 0.0), 'disc': (0, 0), 'p': 1.0}
+  E_unknown-S_ok precondition_hijack {'n': 91, 'a': 0, 'b': 0, 'diff': 0.0, 'ci': (0.0, 0.0), 'disc': (0, 0), 'p': 1.0}
+  E_invalid_arg-S_ok precondition_hijack {'n': 91, 'a': 0, 'b': 0, 'diff': 0.0, 'ci': (0.0, 0.0), 'disc': (0, 0), 'p': 1.0}

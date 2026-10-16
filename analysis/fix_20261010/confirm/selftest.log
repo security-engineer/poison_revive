@@ -1,0 +1,6 @@
+1 sign-flip exact == brute force: OK (40 problems)
+2 arm-label exact == brute force: OK (30 problems)
+3 H1: generalized resampler == confirm_analysis.pooled: {'est': 0.1234, 'ci95': (0.0868, 0.1632), 'p_one_sided': 0.0, 'n_cases': 208}
+3 H3: generalized resampler == confirm_analysis.pooled: {'est': 0.0652, 'ci95': (0.0292, 0.1023), 'p_one_sided': 0.0002, 'n_cases': 209}
+4 q14: poison elig 190, clean elig 136, overlap 95, poison elig within clean sample 95
+4 q8: poison elig 172, clean elig 135, overlap 83, poison elig within clean sample 84

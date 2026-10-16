@@ -1,0 +1,144 @@
+{
+ "q14w|full": {
+  "run": "v10_icfull_q14w",
+  "ran": true,
+  "valid": true,
+  "unparsed_or_error_share": 0.0,
+  "verdicts": {
+   "BLOCK": 187,
+   "ALLOW": 131
+  },
+  "Y_no_defense": {
+   "S_ok": "0/181",
+   "E_unknown": "35/187"
+  },
+  "Y_defended": {
+   "S_ok": "0/181",
+   "E_unknown": "21/187"
+  },
+  "IC_H1": {
+   "n_pairs": 181,
+   "discordant": [
+    20,
+    0
+   ],
+   "p_exact": 9.5367431640625e-07
+  },
+  "kept_share_E_unknown": 0.6,
+  "false_block_t1_benign": "114/187",
+  "false_block_t2_nonmalicious": "59/96",
+  "block_t2_malicious": "14/35"
+ },
+ "q14w|min": {
+  "run": "v10_icmin_q14w",
+  "ran": true,
+  "valid": true,
+  "unparsed_or_error_share": 0.0,
+  "verdicts": {
+   "ALLOW": 223,
+   "BLOCK": 95
+  },
+  "Y_no_defense": {
+   "S_ok": "0/181",
+   "E_unknown": "35/187"
+  },
+  "Y_defended": {
+   "S_ok": "0/181",
+   "E_unknown": "7/187"
+  },
+  "IC_H1": {
+   "n_pairs": 181,
+   "discordant": [
+    7,
+    0
+   ],
+   "p_exact": 0.0078125
+  },
+  "kept_share_E_unknown": 0.2,
+  "false_block_t1_benign": "3/187",
+  "false_block_t2_nonmalicious": "64/96",
+  "block_t2_malicious": "28/35"
+ },
+ "llama31|full": {
+  "run": "v10_icfull_llama31",
+  "ran": true,
+  "valid": true,
+  "unparsed_or_error_share": 0.0,
+  "verdicts": {
+   "ALLOW": 227,
+   "BLOCK": 195
+  },
+  "Y_no_defense": {
+   "S_ok": "0/237",
+   "E_unknown": "42/238"
+  },
+  "Y_defended": {
+   "S_ok": "0/237",
+   "E_unknown": "10/238"
+  },
+  "IC_H1": {
+   "n_pairs": 237,
+   "discordant": [
+    10,
+    0
+   ],
+   "p_exact": 0.0009765625
+  },
+  "kept_share_E_unknown": 0.2381,
+  "false_block_t1_benign": "82/238",
+  "false_block_t2_nonmalicious": "81/142",
+  "block_t2_malicious": "32/42"
+ },
+ "llama31|min": {
+  "run": "v10_icmin_llama31",
+  "ran": true,
+  "valid": true,
+  "unparsed_or_error_share": 0.0,
+  "verdicts": {
+   "ALLOW": 352,
+   "BLOCK": 70
+  },
+  "Y_no_defense": {
+   "S_ok": "0/237",
+   "E_unknown": "42/238"
+  },
+  "Y_defended": {
+   "S_ok": "0/237",
+   "E_unknown": "7/238"
+  },
+  "IC_H1": {
+   "n_pairs": 237,
+   "discordant": [
+    7,
+    0
+   ],
+   "p_exact": 0.0078125
+  },
+  "kept_share_E_unknown": 0.1667,
+  "false_block_t1_benign": "5/238",
+  "false_block_t2_nonmalicious": "30/142",
+  "block_t2_malicious": "35/42"
+ },
+ "holm": {
+  "IC-H1 q14w full": {
+   "p": 9.5367431640625e-07,
+   "p_holm": 3.814697265625e-06,
+   "confirmed": true
+  },
+  "IC-H1 q14w min": {
+   "p": 0.0078125,
+   "p_holm": 0.015625,
+   "confirmed": true
+  },
+  "IC-H1 llama31 full": {
+   "p": 0.0009765625,
+   "p_holm": 0.0029296875,
+   "confirmed": true
+  },
+  "IC-H1 llama31 min": {
+   "p": 0.0078125,
+   "p_holm": 0.015625,
+   "confirmed": true
+  }
+ }
+}

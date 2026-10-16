@@ -1,0 +1,32 @@
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_0_natural_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_0_inj_error_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_6_natural_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_6_inj_error_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_0_natural_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_0_inj_error_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_5_natural_0123456789'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/tmp/cs_e2e_v2/selftest_20261012T162403Z_89159/fs_v1/sandboxes/FileSystem_5_inj_error_0123456789'
+]

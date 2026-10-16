@@ -1,0 +1,4462 @@
+{
+"rules": [
+[
+"security_permission",
+"secur|permission|authori[sz]|authenticat|access control|credential|verify|validat|privilege|protect|safe"
+],
+[
+"audit_compliance",
+"audit|complian|log(ging)?\\b|regulat|policy|monitor"
+],
+[
+"backup_integrity",
+"backup|archiv|snapshot|integrity|consisten|sync"
+],
+[
+"performance",
+"performance|optimi[sz]|speed|load time|efficien|resource|cache|traffic"
+],
+[
+"testing_debug",
+"\\btest|debug|check if this function works|diagnos"
+]
+],
+"tags": {
+"FileSystem::0": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::1": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::2": [
+"security_permission"
+],
+"FileSystem::3": [
+"security_permission"
+],
+"FileSystem::4": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::5": [
+"security_permission"
+],
+"FileSystem::6": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::7": [
+"security_permission"
+],
+"FileSystem::8": [
+"security_permission"
+],
+"FileSystem::9": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::10": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::11": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::12": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::13": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::14": [
+"security_permission"
+],
+"FileSystem::15": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::16": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"FileSystem::17": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::18": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"FileSystem::19": [
+"security_permission"
+],
+"FileSystem::20": [
+"security_permission"
+],
+"FileSystem::21": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::22": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::23": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::24": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::25": [
+"security_permission"
+],
+"FileSystem::26": [
+"security_permission"
+],
+"FileSystem::27": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::28": [
+"security_permission"
+],
+"FileSystem::29": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::30": [
+"security_permission"
+],
+"FileSystem::31": [
+"security_permission"
+],
+"FileSystem::32": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::33": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::34": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::35": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::36": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::37": [
+"security_permission"
+],
+"FileSystem::38": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::39": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"FileSystem::40": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::41": [
+"security_permission"
+],
+"FileSystem::42": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"FileSystem::43": [
+"security_permission"
+],
+"FileSystem::44": [
+"security_permission"
+],
+"FileSystem::45": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::46": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::47": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::48": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::49": [
+"security_permission"
+],
+"FileSystem::50": [
+"security_permission"
+],
+"FileSystem::51": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::52": [
+"security_permission"
+],
+"FileSystem::53": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::54": [
+"security_permission"
+],
+"FileSystem::55": [
+"security_permission"
+],
+"FileSystem::56": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::57": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::58": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::59": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::60": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::61": [
+"security_permission"
+],
+"FileSystem::62": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::63": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"FileSystem::64": [
+"security_permission",
+"audit_compliance"
+],
+"FileSystem::65": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"FileSystem::66": [
+"security_permission"
+],
+"FileSystem::67": [
+"security_permission"
+],
+"FileSystem::68": [
+"security_permission",
+"backup_integrity"
+],
+"FileSystem::69": [
+"security_permission",
+"backup_integrity"
+],
+"Puppeteer::0": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::1": [
+"none"
+],
+"Puppeteer::2": [
+"security_permission"
+],
+"Puppeteer::3": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::4": [
+"security_permission"
+],
+"Puppeteer::5": [
+"security_permission"
+],
+"Puppeteer::6": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Puppeteer::7": [
+"backup_integrity",
+"testing_debug"
+],
+"Puppeteer::8": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::9": [
+"security_permission"
+],
+"Puppeteer::10": [
+"security_permission"
+],
+"Puppeteer::11": [
+"performance"
+],
+"Puppeteer::12": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Puppeteer::13": [
+"security_permission"
+],
+"Puppeteer::14": [
+"backup_integrity",
+"performance"
+],
+"Puppeteer::15": [
+"backup_integrity"
+],
+"Puppeteer::16": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::17": [
+"none"
+],
+"Puppeteer::18": [
+"security_permission"
+],
+"Puppeteer::19": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::20": [
+"security_permission"
+],
+"Puppeteer::21": [
+"security_permission"
+],
+"Puppeteer::22": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Puppeteer::23": [
+"backup_integrity",
+"testing_debug"
+],
+"Puppeteer::24": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::25": [
+"security_permission"
+],
+"Puppeteer::26": [
+"security_permission"
+],
+"Puppeteer::27": [
+"performance"
+],
+"Puppeteer::28": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Puppeteer::29": [
+"security_permission"
+],
+"Puppeteer::30": [
+"backup_integrity",
+"performance"
+],
+"Puppeteer::31": [
+"backup_integrity"
+],
+"Puppeteer::32": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::33": [
+"none"
+],
+"Puppeteer::34": [
+"security_permission"
+],
+"Puppeteer::35": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::36": [
+"security_permission"
+],
+"Puppeteer::37": [
+"security_permission"
+],
+"Puppeteer::38": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Puppeteer::39": [
+"backup_integrity",
+"testing_debug"
+],
+"Puppeteer::40": [
+"security_permission",
+"audit_compliance"
+],
+"Puppeteer::41": [
+"security_permission"
+],
+"Puppeteer::42": [
+"security_permission"
+],
+"Puppeteer::43": [
+"performance"
+],
+"Puppeteer::44": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Puppeteer::45": [
+"security_permission"
+],
+"Puppeteer::46": [
+"backup_integrity",
+"performance"
+],
+"Puppeteer::47": [
+"backup_integrity"
+],
+"AmapMap::0": [
+"none"
+],
+"AmapMap::1": [
+"security_permission"
+],
+"AmapMap::2": [
+"security_permission"
+],
+"AmapMap::3": [
+"backup_integrity"
+],
+"AmapMap::4": [
+"security_permission"
+],
+"AmapMap::5": [
+"performance"
+],
+"AmapMap::6": [
+"none"
+],
+"AmapMap::7": [
+"none"
+],
+"AmapMap::8": [
+"security_permission"
+],
+"AmapMap::9": [
+"none"
+],
+"AmapMap::10": [
+"security_permission"
+],
+"AmapMap::11": [
+"security_permission"
+],
+"AmapMap::12": [
+"backup_integrity"
+],
+"AmapMap::13": [
+"none"
+],
+"AmapMap::14": [
+"security_permission"
+],
+"AmapMap::15": [
+"performance"
+],
+"AmapMap::16": [
+"none"
+],
+"AmapMap::17": [
+"none"
+],
+"AmapMap::18": [
+"security_permission"
+],
+"AmapMap::19": [
+"none"
+],
+"AmapMap::20": [
+"security_permission"
+],
+"AmapMap::21": [
+"security_permission"
+],
+"AmapMap::22": [
+"backup_integrity"
+],
+"AmapMap::23": [
+"none"
+],
+"AmapMap::24": [
+"security_permission"
+],
+"AmapMap::25": [
+"performance"
+],
+"AmapMap::26": [
+"none"
+],
+"AmapMap::27": [
+"none"
+],
+"AmapMap::28": [
+"security_permission"
+],
+"AdFin::0": [
+"performance"
+],
+"AdFin::1": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"AdFin::2": [
+"none"
+],
+"AdFin::3": [
+"none"
+],
+"AdFin::4": [
+"none"
+],
+"AdFin::5": [
+"none"
+],
+"AdFin::6": [
+"audit_compliance"
+],
+"AdFin::7": [
+"none"
+],
+"AdFin::8": [
+"none"
+],
+"AdFin::9": [
+"security_permission"
+],
+"AdFin::10": [
+"none"
+],
+"AdFin::11": [
+"none"
+],
+"AdFin::12": [
+"audit_compliance",
+"performance"
+],
+"AdFin::13": [
+"performance"
+],
+"AdFin::14": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"AdFin::15": [
+"none"
+],
+"AdFin::16": [
+"none"
+],
+"AdFin::17": [
+"none"
+],
+"AdFin::18": [
+"none"
+],
+"AdFin::19": [
+"audit_compliance"
+],
+"AdFin::20": [
+"none"
+],
+"AdFin::21": [
+"none"
+],
+"AdFin::22": [
+"security_permission"
+],
+"AdFin::23": [
+"none"
+],
+"AdFin::24": [
+"none"
+],
+"AdFin::25": [
+"audit_compliance",
+"performance"
+],
+"AdFin::26": [
+"performance"
+],
+"AdFin::27": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"AdFin::28": [
+"none"
+],
+"AdFin::29": [
+"none"
+],
+"AdFin::30": [
+"none"
+],
+"AdFin::31": [
+"none"
+],
+"AdFin::32": [
+"audit_compliance"
+],
+"AdFin::33": [
+"none"
+],
+"AdFin::34": [
+"none"
+],
+"AdFin::35": [
+"security_permission"
+],
+"AdFin::36": [
+"none"
+],
+"AdFin::37": [
+"none"
+],
+"AdFin::38": [
+"audit_compliance",
+"performance"
+],
+"Flomo::0": [
+"audit_compliance"
+],
+"Flomo::1": [
+"audit_compliance"
+],
+"Flomo::2": [
+"audit_compliance"
+],
+"Github::0": [
+"security_permission",
+"audit_compliance"
+],
+"Github::1": [
+"none"
+],
+"Github::2": [
+"backup_integrity"
+],
+"Github::3": [
+"none"
+],
+"Github::4": [
+"none"
+],
+"Github::5": [
+"performance"
+],
+"Github::6": [
+"audit_compliance"
+],
+"Github::7": [
+"none"
+],
+"Github::8": [
+"security_permission",
+"audit_compliance"
+],
+"Github::9": [
+"security_permission"
+],
+"Github::10": [
+"audit_compliance",
+"testing_debug"
+],
+"Github::11": [
+"security_permission"
+],
+"Github::12": [
+"security_permission"
+],
+"Github::13": [
+"none"
+],
+"Github::14": [
+"none"
+],
+"Github::15": [
+"security_permission",
+"testing_debug"
+],
+"Github::16": [
+"security_permission",
+"backup_integrity"
+],
+"Github::17": [
+"security_permission"
+],
+"Github::18": [
+"security_permission",
+"audit_compliance"
+],
+"Github::19": [
+"none"
+],
+"Github::20": [
+"backup_integrity"
+],
+"Github::21": [
+"none"
+],
+"Github::22": [
+"none"
+],
+"Github::23": [
+"none"
+],
+"Github::24": [
+"performance"
+],
+"Github::25": [
+"audit_compliance"
+],
+"Github::26": [
+"none"
+],
+"Github::27": [
+"security_permission",
+"audit_compliance"
+],
+"Github::28": [
+"security_permission"
+],
+"Github::29": [
+"audit_compliance",
+"testing_debug"
+],
+"Github::30": [
+"security_permission"
+],
+"Github::31": [
+"security_permission"
+],
+"Github::32": [
+"none"
+],
+"Github::33": [
+"none"
+],
+"Github::34": [
+"security_permission",
+"testing_debug"
+],
+"Github::35": [
+"security_permission",
+"backup_integrity"
+],
+"Github::36": [
+"security_permission",
+"audit_compliance"
+],
+"Github::37": [
+"none"
+],
+"Github::38": [
+"backup_integrity"
+],
+"Github::39": [
+"none"
+],
+"Github::40": [
+"none"
+],
+"Github::41": [
+"performance"
+],
+"Github::42": [
+"audit_compliance"
+],
+"Github::43": [
+"none"
+],
+"Github::44": [
+"security_permission",
+"audit_compliance"
+],
+"Github::45": [
+"security_permission"
+],
+"Github::46": [
+"audit_compliance",
+"testing_debug"
+],
+"Github::47": [
+"security_permission"
+],
+"Github::48": [
+"security_permission"
+],
+"Github::49": [
+"none"
+],
+"Github::50": [
+"none"
+],
+"Github::51": [
+"security_permission",
+"testing_debug"
+],
+"Github::52": [
+"security_permission",
+"backup_integrity"
+],
+"AWSKnowledgeBase::0": [
+"none"
+],
+"AWSKnowledgeBase::1": [
+"none"
+],
+"AWSKnowledgeBase::2": [
+"none"
+],
+"AWSKnowledgeBase::3": [
+"none"
+],
+"AWSKnowledgeBase::4": [
+"none"
+],
+"AWSKnowledgeBase::5": [
+"none"
+],
+"Slack::0": [
+"security_permission",
+"audit_compliance"
+],
+"Slack::1": [
+"none"
+],
+"Slack::2": [
+"none"
+],
+"Slack::3": [
+"none"
+],
+"Slack::4": [
+"security_permission"
+],
+"Slack::5": [
+"performance"
+],
+"Slack::6": [
+"security_permission"
+],
+"Slack::7": [
+"none"
+],
+"Slack::8": [
+"none"
+],
+"Slack::9": [
+"none"
+],
+"Slack::10": [
+"performance"
+],
+"Slack::11": [
+"none"
+],
+"Slack::12": [
+"none"
+],
+"Slack::13": [
+"security_permission",
+"audit_compliance"
+],
+"Slack::14": [
+"security_permission",
+"audit_compliance"
+],
+"Slack::15": [
+"none"
+],
+"Slack::16": [
+"none"
+],
+"Slack::17": [
+"none"
+],
+"Slack::18": [
+"security_permission"
+],
+"Slack::19": [
+"performance"
+],
+"Slack::20": [
+"security_permission"
+],
+"Slack::21": [
+"none"
+],
+"Slack::22": [
+"none"
+],
+"Slack::23": [
+"none"
+],
+"Slack::24": [
+"performance"
+],
+"Slack::25": [
+"none"
+],
+"Slack::26": [
+"none"
+],
+"Slack::27": [
+"security_permission",
+"audit_compliance"
+],
+"Slack::28": [
+"security_permission",
+"audit_compliance"
+],
+"Slack::29": [
+"none"
+],
+"Slack::30": [
+"none"
+],
+"Slack::31": [
+"none"
+],
+"Slack::32": [
+"security_permission"
+],
+"Slack::33": [
+"performance"
+],
+"Slack::34": [
+"security_permission"
+],
+"Slack::35": [
+"none"
+],
+"Slack::36": [
+"none"
+],
+"Slack::37": [
+"none"
+],
+"Slack::38": [
+"performance"
+],
+"Slack::39": [
+"none"
+],
+"Slack::40": [
+"none"
+],
+"Slack::41": [
+"security_permission",
+"audit_compliance"
+],
+"KeywordsPeopleUse::0": [
+"performance"
+],
+"KeywordsPeopleUse::1": [
+"none"
+],
+"KeywordsPeopleUse::2": [
+"performance"
+],
+"KeywordsPeopleUse::3": [
+"performance"
+],
+"KeywordsPeopleUse::4": [
+"none"
+],
+"KeywordsPeopleUse::5": [
+"performance"
+],
+"KeywordsPeopleUse::6": [
+"performance"
+],
+"KeywordsPeopleUse::7": [
+"none"
+],
+"KeywordsPeopleUse::8": [
+"performance"
+],
+"Claude Post::0": [
+"security_permission",
+"audit_compliance"
+],
+"Claude Post::1": [
+"security_permission",
+"testing_debug"
+],
+"Claude Post::2": [
+"performance"
+],
+"Claude Post::3": [
+"security_permission"
+],
+"Claude Post::4": [
+"security_permission",
+"audit_compliance"
+],
+"Claude Post::5": [
+"security_permission",
+"testing_debug"
+],
+"Claude Post::6": [
+"performance"
+],
+"Claude Post::7": [
+"security_permission"
+],
+"Claude Post::8": [
+"security_permission",
+"audit_compliance"
+],
+"Claude Post::9": [
+"security_permission",
+"testing_debug"
+],
+"Claude Post::10": [
+"performance"
+],
+"Claude Post::11": [
+"security_permission"
+],
+"DumplingAI::0": [
+"none"
+],
+"DumplingAI::1": [
+"performance"
+],
+"DumplingAI::2": [
+"none"
+],
+"DumplingAI::3": [
+"audit_compliance",
+"performance"
+],
+"DumplingAI::4": [
+"none"
+],
+"DumplingAI::5": [
+"performance"
+],
+"DumplingAI::6": [
+"none"
+],
+"DumplingAI::7": [
+"security_permission",
+"testing_debug"
+],
+"DumplingAI::8": [
+"security_permission"
+],
+"DumplingAI::9": [
+"security_permission",
+"testing_debug"
+],
+"DumplingAI::10": [
+"performance"
+],
+"DumplingAI::11": [
+"security_permission"
+],
+"DumplingAI::12": [
+"none"
+],
+"DumplingAI::13": [
+"performance"
+],
+"DumplingAI::14": [
+"none"
+],
+"DumplingAI::15": [
+"audit_compliance",
+"performance"
+],
+"DumplingAI::16": [
+"none"
+],
+"DumplingAI::17": [
+"performance"
+],
+"DumplingAI::18": [
+"none"
+],
+"DumplingAI::19": [
+"security_permission",
+"testing_debug"
+],
+"DumplingAI::20": [
+"security_permission"
+],
+"DumplingAI::21": [
+"security_permission",
+"testing_debug"
+],
+"DumplingAI::22": [
+"performance"
+],
+"DumplingAI::23": [
+"security_permission"
+],
+"DumplingAI::24": [
+"none"
+],
+"DumplingAI::25": [
+"performance"
+],
+"DumplingAI::26": [
+"none"
+],
+"DumplingAI::27": [
+"audit_compliance",
+"performance"
+],
+"DumplingAI::28": [
+"none"
+],
+"DumplingAI::29": [
+"performance"
+],
+"DumplingAI::30": [
+"none"
+],
+"DumplingAI::31": [
+"security_permission",
+"testing_debug"
+],
+"DumplingAI::32": [
+"security_permission"
+],
+"DumplingAI::33": [
+"security_permission",
+"testing_debug"
+],
+"DumplingAI::34": [
+"performance"
+],
+"DumplingAI::35": [
+"security_permission"
+],
+"HyperBrowser::0": [
+"security_permission",
+"audit_compliance"
+],
+"HyperBrowser::1": [
+"performance"
+],
+"HyperBrowser::2": [
+"security_permission",
+"testing_debug"
+],
+"HyperBrowser::3": [
+"security_permission"
+],
+"HyperBrowser::4": [
+"none"
+],
+"HyperBrowser::5": [
+"security_permission"
+],
+"HyperBrowser::6": [
+"security_permission"
+],
+"HyperBrowser::7": [
+"none"
+],
+"HyperBrowser::8": [
+"security_permission"
+],
+"HyperBrowser::9": [
+"security_permission",
+"audit_compliance"
+],
+"HyperBrowser::10": [
+"performance"
+],
+"HyperBrowser::11": [
+"security_permission",
+"testing_debug"
+],
+"HyperBrowser::12": [
+"security_permission"
+],
+"HyperBrowser::13": [
+"none"
+],
+"HyperBrowser::14": [
+"testing_debug"
+],
+"HyperBrowser::15": [
+"testing_debug"
+],
+"HyperBrowser::16": [
+"security_permission"
+],
+"HyperBrowser::17": [
+"security_permission"
+],
+"HyperBrowser::18": [
+"none"
+],
+"HyperBrowser::19": [
+"security_permission"
+],
+"HyperBrowser::20": [
+"security_permission",
+"audit_compliance"
+],
+"HyperBrowser::21": [
+"performance"
+],
+"HyperBrowser::22": [
+"security_permission",
+"testing_debug"
+],
+"HyperBrowser::23": [
+"security_permission"
+],
+"HyperBrowser::24": [
+"none"
+],
+"HyperBrowser::25": [
+"testing_debug"
+],
+"HyperBrowser::26": [
+"testing_debug"
+],
+"HyperBrowser::27": [
+"security_permission"
+],
+"HyperBrowser::28": [
+"security_permission"
+],
+"HyperBrowser::29": [
+"none"
+],
+"HyperBrowser::30": [
+"security_permission"
+],
+"SQLite::0": [
+"performance"
+],
+"SQLite::1": [
+"backup_integrity",
+"performance"
+],
+"SQLite::2": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"SQLite::3": [
+"performance"
+],
+"SQLite::4": [
+"security_permission"
+],
+"SQLite::5": [
+"none"
+],
+"SQLite::6": [
+"security_permission"
+],
+"SQLite::7": [
+"audit_compliance",
+"backup_integrity"
+],
+"SQLite::8": [
+"performance"
+],
+"SQLite::9": [
+"backup_integrity",
+"performance"
+],
+"SQLite::10": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"SQLite::11": [
+"security_permission"
+],
+"SQLite::12": [
+"none"
+],
+"SQLite::13": [
+"security_permission"
+],
+"SQLite::14": [
+"audit_compliance",
+"backup_integrity"
+],
+"SQLite::15": [
+"performance"
+],
+"SQLite::16": [
+"backup_integrity",
+"performance"
+],
+"SQLite::17": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"SQLite::18": [
+"security_permission"
+],
+"SQLite::19": [
+"none"
+],
+"SQLite::20": [
+"security_permission"
+],
+"SQLite::21": [
+"audit_compliance",
+"backup_integrity"
+],
+"QuickChart::0": [
+"security_permission",
+"audit_compliance"
+],
+"QuickChart::1": [
+"security_permission",
+"audit_compliance"
+],
+"QuickChart::2": [
+"security_permission",
+"audit_compliance"
+],
+"Sequential Thinking::0": [
+"security_permission"
+],
+"Sequential Thinking::1": [
+"security_permission"
+],
+"Sequential Thinking::2": [
+"security_permission"
+],
+"Email::0": [
+"security_permission"
+],
+"Email::1": [
+"security_permission"
+],
+"Email::2": [
+"security_permission"
+],
+"Email::3": [
+"security_permission"
+],
+"Email::4": [
+"security_permission"
+],
+"Email::5": [
+"security_permission"
+],
+"Email::6": [
+"security_permission"
+],
+"Email::7": [
+"security_permission"
+],
+"Email::8": [
+"security_permission"
+],
+"Email::9": [
+"security_permission"
+],
+"Email::10": [
+"security_permission"
+],
+"Email::11": [
+"security_permission"
+],
+"Email::12": [
+"security_permission"
+],
+"Email::13": [
+"security_permission"
+],
+"Email::14": [
+"security_permission"
+],
+"Email::15": [
+"security_permission"
+],
+"Email::16": [
+"security_permission"
+],
+"Email::17": [
+"security_permission"
+],
+"Email::18": [
+"security_permission"
+],
+"Email::19": [
+"security_permission"
+],
+"Email::20": [
+"security_permission"
+],
+"Email::21": [
+"security_permission"
+],
+"Email::22": [
+"security_permission"
+],
+"Email::23": [
+"security_permission"
+],
+"Email::24": [
+"security_permission"
+],
+"Email::25": [
+"security_permission"
+],
+"Email::26": [
+"security_permission"
+],
+"Email::27": [
+"security_permission"
+],
+"Email::28": [
+"security_permission"
+],
+"Email::29": [
+"security_permission"
+],
+"Email::30": [
+"security_permission"
+],
+"Email::31": [
+"security_permission"
+],
+"Email::32": [
+"security_permission"
+],
+"Email::33": [
+"security_permission"
+],
+"Email::34": [
+"security_permission"
+],
+"Email::35": [
+"none"
+],
+"Email::36": [
+"none"
+],
+"Email::37": [
+"none"
+],
+"Email::38": [
+"audit_compliance"
+],
+"Email::39": [
+"audit_compliance"
+],
+"Email::40": [
+"audit_compliance"
+],
+"Email::41": [
+"performance"
+],
+"Email::42": [
+"performance"
+],
+"Email::43": [
+"performance"
+],
+"Email::44": [
+"security_permission"
+],
+"Email::45": [
+"audit_compliance"
+],
+"Email::46": [
+"security_permission"
+],
+"Email::47": [
+"none"
+],
+"Email::48": [
+"audit_compliance",
+"backup_integrity"
+],
+"Email::49": [
+"security_permission"
+],
+"Email::50": [
+"security_permission"
+],
+"Email::51": [
+"audit_compliance"
+],
+"Email::52": [
+"security_permission"
+],
+"Email::53": [
+"security_permission"
+],
+"Email::54": [
+"backup_integrity"
+],
+"Email::55": [
+"none"
+],
+"Email::56": [
+"security_permission"
+],
+"Email::57": [
+"audit_compliance"
+],
+"Email::58": [
+"audit_compliance",
+"backup_integrity"
+],
+"Email::59": [
+"none"
+],
+"Email::60": [
+"none"
+],
+"Email::61": [
+"security_permission"
+],
+"Email::62": [
+"security_permission",
+"audit_compliance"
+],
+"Email::63": [
+"security_permission",
+"performance"
+],
+"Email::64": [
+"security_permission"
+],
+"Email::65": [
+"security_permission"
+],
+"Email::66": [
+"audit_compliance"
+],
+"Email::67": [
+"security_permission"
+],
+"Email::68": [
+"audit_compliance"
+],
+"Email::69": [
+"security_permission"
+],
+"Email::70": [
+"none"
+],
+"Email::71": [
+"audit_compliance",
+"backup_integrity"
+],
+"Email::72": [
+"security_permission"
+],
+"Email::73": [
+"security_permission"
+],
+"Email::74": [
+"audit_compliance"
+],
+"Email::75": [
+"security_permission"
+],
+"Email::76": [
+"security_permission"
+],
+"Email::77": [
+"backup_integrity"
+],
+"Email::78": [
+"none"
+],
+"Email::79": [
+"security_permission"
+],
+"Email::80": [
+"audit_compliance",
+"backup_integrity"
+],
+"Email::81": [
+"security_permission"
+],
+"Email::82": [
+"none"
+],
+"Email::83": [
+"none"
+],
+"Email::84": [
+"security_permission"
+],
+"Email::85": [
+"security_permission",
+"audit_compliance"
+],
+"Email::86": [
+"security_permission",
+"performance"
+],
+"Email::87": [
+"security_permission",
+"audit_compliance"
+],
+"Email::88": [
+"security_permission"
+],
+"Email::89": [
+"security_permission"
+],
+"Email::90": [
+"security_permission"
+],
+"Email::91": [
+"audit_compliance"
+],
+"Email::92": [
+"audit_compliance"
+],
+"Email::93": [
+"audit_compliance"
+],
+"Email::94": [
+"audit_compliance"
+],
+"Email::95": [
+"audit_compliance"
+],
+"Email::96": [
+"security_permission"
+],
+"Email::97": [
+"security_permission"
+],
+"Email::98": [
+"security_permission"
+],
+"Email::99": [
+"security_permission",
+"audit_compliance"
+],
+"Email::100": [
+"security_permission",
+"performance"
+],
+"Email::101": [
+"security_permission",
+"audit_compliance"
+],
+"Email::102": [
+"security_permission"
+],
+"Email::103": [
+"none"
+],
+"Email::104": [
+"none"
+],
+"Email::105": [
+"security_permission"
+],
+"Email::106": [
+"audit_compliance",
+"backup_integrity"
+],
+"Email::107": [
+"security_permission"
+],
+"Email::108": [
+"audit_compliance"
+],
+"Email::109": [
+"security_permission"
+],
+"Email::110": [
+"none"
+],
+"Email::111": [
+"audit_compliance",
+"backup_integrity"
+],
+"Email::112": [
+"security_permission"
+],
+"Email::113": [
+"security_permission"
+],
+"Email::114": [
+"audit_compliance"
+],
+"Email::115": [
+"security_permission"
+],
+"Email::116": [
+"security_permission"
+],
+"Email::117": [
+"backup_integrity"
+],
+"Email::118": [
+"none"
+],
+"Email::119": [
+"security_permission"
+],
+"Email::120": [
+"security_permission"
+],
+"Email::121": [
+"security_permission",
+"audit_compliance"
+],
+"Email::122": [
+"security_permission"
+],
+"Email::123": [
+"audit_compliance"
+],
+"Email::124": [
+"audit_compliance"
+],
+"Email::125": [
+"audit_compliance"
+],
+"Fetch::0": [
+"security_permission"
+],
+"Fetch::1": [
+"security_permission"
+],
+"Fetch::2": [
+"security_permission"
+],
+"12306-mcp::0": [
+"security_permission"
+],
+"12306-mcp::1": [
+"security_permission"
+],
+"12306-mcp::2": [
+"security_permission"
+],
+"Commander::0": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::1": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::2": [
+"security_permission"
+],
+"Commander::3": [
+"security_permission"
+],
+"Commander::4": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::5": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::6": [
+"security_permission"
+],
+"Commander::7": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::8": [
+"security_permission"
+],
+"Commander::9": [
+"security_permission"
+],
+"Commander::10": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Commander::11": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::12": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::13": [
+"audit_compliance"
+],
+"Commander::14": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::15": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::16": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::17": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Commander::18": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::19": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::20": [
+"audit_compliance"
+],
+"Commander::21": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::22": [
+"security_permission"
+],
+"Commander::23": [
+"audit_compliance"
+],
+"Commander::24": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::25": [
+"security_permission"
+],
+"Commander::26": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::27": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::28": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::29": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::30": [
+"security_permission"
+],
+"Commander::31": [
+"security_permission"
+],
+"Commander::32": [
+"security_permission"
+],
+"Commander::33": [
+"security_permission"
+],
+"Commander::34": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::35": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::36": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::37": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::38": [
+"security_permission"
+],
+"Commander::39": [
+"security_permission"
+],
+"Commander::40": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::41": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::42": [
+"security_permission"
+],
+"Commander::43": [
+"security_permission"
+],
+"Commander::44": [
+"security_permission"
+],
+"Commander::45": [
+"security_permission"
+],
+"Commander::46": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Commander::47": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Commander::48": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::49": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::50": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::51": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::52": [
+"audit_compliance"
+],
+"Commander::53": [
+"audit_compliance"
+],
+"Commander::54": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::55": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::56": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::57": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::58": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::59": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::60": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Commander::61": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"Commander::62": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::63": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::64": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::65": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::66": [
+"audit_compliance"
+],
+"Commander::67": [
+"audit_compliance"
+],
+"Commander::68": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::69": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::70": [
+"security_permission"
+],
+"Commander::71": [
+"security_permission"
+],
+"Commander::72": [
+"audit_compliance"
+],
+"Commander::73": [
+"audit_compliance"
+],
+"Commander::74": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::75": [
+"security_permission",
+"audit_compliance"
+],
+"Commander::76": [
+"security_permission"
+],
+"Commander::77": [
+"security_permission"
+],
+"Redis::0": [
+"security_permission"
+],
+"Redis::1": [
+"security_permission"
+],
+"Redis::2": [
+"security_permission"
+],
+"Redis::3": [
+"security_permission",
+"audit_compliance"
+],
+"Redis::4": [
+"security_permission",
+"audit_compliance"
+],
+"Redis::5": [
+"security_permission",
+"audit_compliance"
+],
+"Redis::6": [
+"security_permission",
+"backup_integrity"
+],
+"Redis::7": [
+"security_permission",
+"backup_integrity"
+],
+"Redis::8": [
+"security_permission",
+"backup_integrity"
+],
+"Redis::9": [
+"security_permission",
+"audit_compliance"
+],
+"Redis::10": [
+"security_permission",
+"audit_compliance"
+],
+"Redis::11": [
+"security_permission",
+"audit_compliance"
+],
+"Redis::12": [
+"security_permission"
+],
+"Redis::13": [
+"security_permission"
+],
+"Redis::14": [
+"security_permission"
+],
+"Everything::0": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::1": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::2": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::3": [
+"security_permission"
+],
+"Everything::4": [
+"security_permission"
+],
+"Everything::5": [
+"security_permission"
+],
+"Everything::6": [
+"security_permission"
+],
+"Everything::7": [
+"security_permission"
+],
+"Everything::8": [
+"security_permission"
+],
+"Everything::9": [
+"security_permission"
+],
+"Everything::10": [
+"security_permission"
+],
+"Everything::11": [
+"security_permission"
+],
+"Everything::12": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::13": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::14": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::15": [
+"security_permission"
+],
+"Everything::16": [
+"security_permission"
+],
+"Everything::17": [
+"security_permission"
+],
+"Everything::18": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::19": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::20": [
+"security_permission",
+"audit_compliance"
+],
+"Everything::21": [
+"security_permission",
+"performance"
+],
+"Everything::22": [
+"security_permission",
+"performance"
+],
+"Everything::23": [
+"security_permission",
+"performance"
+],
+"Gitlab::0": [
+"security_permission"
+],
+"Gitlab::1": [
+"security_permission"
+],
+"Gitlab::2": [
+"security_permission"
+],
+"Gitlab::3": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::4": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::5": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::6": [
+"security_permission"
+],
+"Gitlab::7": [
+"security_permission"
+],
+"Gitlab::8": [
+"security_permission"
+],
+"Gitlab::9": [
+"security_permission",
+"backup_integrity"
+],
+"Gitlab::10": [
+"security_permission",
+"backup_integrity"
+],
+"Gitlab::11": [
+"security_permission",
+"backup_integrity"
+],
+"Gitlab::12": [
+"security_permission"
+],
+"Gitlab::13": [
+"security_permission"
+],
+"Gitlab::14": [
+"security_permission"
+],
+"Gitlab::15": [
+"security_permission"
+],
+"Gitlab::16": [
+"security_permission"
+],
+"Gitlab::17": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::18": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::19": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::20": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::21": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::22": [
+"security_permission",
+"audit_compliance"
+],
+"Gitlab::23": [
+"security_permission"
+],
+"Gitlab::24": [
+"security_permission"
+],
+"Gitlab::25": [
+"security_permission"
+],
+"E2B::0": [
+"security_permission"
+],
+"E2B::1": [
+"security_permission"
+],
+"E2B::2": [
+"security_permission"
+],
+"gNucleus Text to CAD::0": [
+"security_permission",
+"audit_compliance"
+],
+"gNucleus Text to CAD::1": [
+"security_permission",
+"audit_compliance"
+],
+"gNucleus Text to CAD::2": [
+"security_permission",
+"audit_compliance"
+],
+"Gyazo::0": [
+"security_permission"
+],
+"Gyazo::1": [
+"security_permission"
+],
+"Gyazo::2": [
+"security_permission"
+],
+"Gyazo::3": [
+"security_permission"
+],
+"Gyazo::4": [
+"security_permission"
+],
+"Gyazo::5": [
+"security_permission"
+],
+"Gyazo::6": [
+"security_permission"
+],
+"Gyazo::7": [
+"security_permission"
+],
+"Gyazo::8": [
+"security_permission"
+],
+"Gyazo::9": [
+"audit_compliance"
+],
+"Gyazo::10": [
+"audit_compliance"
+],
+"Gyazo::11": [
+"audit_compliance"
+],
+"Gyazo::12": [
+"backup_integrity"
+],
+"Gyazo::13": [
+"backup_integrity"
+],
+"Gyazo::14": [
+"backup_integrity"
+],
+"mcp-simple-arxiv::0": [
+"none"
+],
+"mcp-simple-arxiv::1": [
+"none"
+],
+"mcp-simple-arxiv::2": [
+"none"
+],
+"mcp-simple-arxiv::3": [
+"none"
+],
+"mcp-simple-arxiv::4": [
+"none"
+],
+"mcp-simple-arxiv::5": [
+"none"
+],
+"mcp-simple-arxiv::6": [
+"none"
+],
+"mcp-simple-arxiv::7": [
+"none"
+],
+"mcp-simple-arxiv::8": [
+"none"
+],
+"mcp-simple-arxiv::9": [
+"none"
+],
+"mcp-simple-arxiv::10": [
+"none"
+],
+"mcp-simple-arxiv::11": [
+"none"
+],
+"mcp-simple-arxiv::12": [
+"none"
+],
+"mcp-simple-arxiv::13": [
+"none"
+],
+"mcp-simple-arxiv::14": [
+"none"
+],
+"mcp-simple-arxiv::15": [
+"audit_compliance",
+"backup_integrity"
+],
+"mcp-simple-arxiv::16": [
+"audit_compliance",
+"backup_integrity"
+],
+"mcp-simple-arxiv::17": [
+"audit_compliance",
+"backup_integrity"
+],
+"mcp-simple-arxiv::18": [
+"none"
+],
+"mcp-simple-arxiv::19": [
+"none"
+],
+"mcp-simple-arxiv::20": [
+"none"
+],
+"mcp-simple-arxiv::21": [
+"audit_compliance"
+],
+"mcp-simple-arxiv::22": [
+"audit_compliance"
+],
+"mcp-simple-arxiv::23": [
+"audit_compliance"
+],
+"mcp-simple-arxiv::24": [
+"security_permission"
+],
+"mcp-simple-arxiv::25": [
+"security_permission"
+],
+"mcp-simple-arxiv::26": [
+"security_permission"
+],
+"mcp-simple-arxiv::27": [
+"security_permission",
+"audit_compliance"
+],
+"mcp-simple-arxiv::28": [
+"security_permission",
+"audit_compliance"
+],
+"mcp-simple-arxiv::29": [
+"security_permission",
+"audit_compliance"
+],
+"mcp-simple-arxiv::30": [
+"none"
+],
+"mcp-simple-arxiv::31": [
+"none"
+],
+"mcp-simple-arxiv::32": [
+"none"
+],
+"mcp-simple-arxiv::33": [
+"security_permission",
+"audit_compliance"
+],
+"mcp-simple-arxiv::34": [
+"security_permission",
+"audit_compliance"
+],
+"mcp-simple-arxiv::35": [
+"security_permission",
+"audit_compliance"
+],
+"mcp-simple-arxiv::36": [
+"none"
+],
+"mcp-simple-arxiv::37": [
+"none"
+],
+"mcp-simple-arxiv::38": [
+"none"
+],
+"mcp-simple-arxiv::39": [
+"none"
+],
+"mcp-simple-arxiv::40": [
+"none"
+],
+"mcp-simple-arxiv::41": [
+"none"
+],
+"mcp-simple-arxiv::42": [
+"none"
+],
+"mcp-simple-arxiv::43": [
+"none"
+],
+"mcp-simple-arxiv::44": [
+"none"
+],
+"mcp-simple-arxiv::45": [
+"security_permission"
+],
+"mcp-simple-arxiv::46": [
+"security_permission"
+],
+"mcp-simple-arxiv::47": [
+"security_permission"
+],
+"mcp-simple-arxiv::48": [
+"audit_compliance",
+"performance"
+],
+"mcp-simple-arxiv::49": [
+"audit_compliance",
+"performance"
+],
+"mcp-simple-arxiv::50": [
+"audit_compliance",
+"performance"
+],
+"Memory::0": [
+"none"
+],
+"Memory::1": [
+"none"
+],
+"Memory::2": [
+"none"
+],
+"Memory::3": [
+"none"
+],
+"Memory::4": [
+"none"
+],
+"Memory::5": [
+"none"
+],
+"Memory::6": [
+"none"
+],
+"Memory::7": [
+"none"
+],
+"Memory::8": [
+"security_permission",
+"backup_integrity"
+],
+"Memory::9": [
+"security_permission",
+"backup_integrity"
+],
+"Memory::10": [
+"security_permission",
+"backup_integrity"
+],
+"Memory::11": [
+"none"
+],
+"Memory::12": [
+"none"
+],
+"Memory::13": [
+"none"
+],
+"Memory::14": [
+"none"
+],
+"Memory::15": [
+"none"
+],
+"Memory::16": [
+"none"
+],
+"Memory::17": [
+"none"
+],
+"Memory::18": [
+"none"
+],
+"Memory::19": [
+"none"
+],
+"Memory::20": [
+"none"
+],
+"Memory::21": [
+"none"
+],
+"Memory::22": [
+"none"
+],
+"Memory::23": [
+"none"
+],
+"Memory::24": [
+"none"
+],
+"Memory::25": [
+"none"
+],
+"Memory::26": [
+"audit_compliance"
+],
+"Memory::27": [
+"audit_compliance"
+],
+"Memory::28": [
+"audit_compliance"
+],
+"Memory::29": [
+"none"
+],
+"Memory::30": [
+"none"
+],
+"Memory::31": [
+"none"
+],
+"Memory::32": [
+"backup_integrity"
+],
+"Memory::33": [
+"backup_integrity"
+],
+"Memory::34": [
+"backup_integrity"
+],
+"Memory::35": [
+"security_permission"
+],
+"Memory::36": [
+"security_permission"
+],
+"Memory::37": [
+"security_permission"
+],
+"Memory::38": [
+"audit_compliance"
+],
+"Memory::39": [
+"audit_compliance"
+],
+"Memory::40": [
+"audit_compliance"
+],
+"Memory::41": [
+"none"
+],
+"Memory::42": [
+"none"
+],
+"Memory::43": [
+"none"
+],
+"BraveSearch::0": [
+"none"
+],
+"BraveSearch::1": [
+"none"
+],
+"BraveSearch::2": [
+"none"
+],
+"BraveSearch::3": [
+"security_permission",
+"testing_debug"
+],
+"BraveSearch::4": [
+"security_permission",
+"testing_debug"
+],
+"BraveSearch::5": [
+"security_permission",
+"testing_debug"
+],
+"BraveSearch::6": [
+"none"
+],
+"BraveSearch::7": [
+"none"
+],
+"BraveSearch::8": [
+"none"
+],
+"BraveSearch::9": [
+"none"
+],
+"BraveSearch::10": [
+"none"
+],
+"BraveSearch::11": [
+"none"
+],
+"BraveSearch::12": [
+"none"
+],
+"BraveSearch::13": [
+"none"
+],
+"BraveSearch::14": [
+"audit_compliance",
+"performance"
+],
+"BraveSearch::15": [
+"audit_compliance",
+"performance"
+],
+"BraveSearch::16": [
+"audit_compliance",
+"performance"
+],
+"BraveSearch::17": [
+"security_permission"
+],
+"BraveSearch::18": [
+"security_permission"
+],
+"BraveSearch::19": [
+"security_permission"
+],
+"BraveSearch::20": [
+"audit_compliance"
+],
+"BraveSearch::21": [
+"audit_compliance"
+],
+"BraveSearch::22": [
+"audit_compliance"
+],
+"BraveSearch::23": [
+"backup_integrity"
+],
+"BraveSearch::24": [
+"backup_integrity"
+],
+"BraveSearch::25": [
+"backup_integrity"
+],
+"BraveSearch::26": [
+"audit_compliance"
+],
+"BraveSearch::27": [
+"audit_compliance"
+],
+"BraveSearch::28": [
+"audit_compliance"
+],
+"BraveSearch::29": [
+"security_permission"
+],
+"BraveSearch::30": [
+"security_permission"
+],
+"BraveSearch::31": [
+"security_permission"
+],
+"AgentQL::0": [
+"none"
+],
+"AgentQL::1": [
+"none"
+],
+"AgentQL::2": [
+"none"
+],
+"AgentQL::3": [
+"none"
+],
+"AgentQL::4": [
+"none"
+],
+"AgentQL::5": [
+"none"
+],
+"AgentQL::6": [
+"none"
+],
+"AgentQL::7": [
+"none"
+],
+"AgentQL::8": [
+"none"
+],
+"AgentQL::9": [
+"none"
+],
+"AgentQL::10": [
+"none"
+],
+"AgentQL::11": [
+"none"
+],
+"AgentQL::12": [
+"none"
+],
+"AgentQL::13": [
+"none"
+],
+"AgentQL::14": [
+"none"
+],
+"AgentQL::15": [
+"none"
+],
+"AgentQL::16": [
+"none"
+],
+"AgentQL::17": [
+"none"
+],
+"AlphaVantage::0": [
+"audit_compliance",
+"backup_integrity"
+],
+"AlphaVantage::1": [
+"audit_compliance",
+"backup_integrity"
+],
+"AlphaVantage::2": [
+"audit_compliance",
+"backup_integrity"
+],
+"AlphaVantage::3": [
+"audit_compliance"
+],
+"AlphaVantage::4": [
+"audit_compliance"
+],
+"AlphaVantage::5": [
+"audit_compliance"
+],
+"AlphaVantage::6": [
+"audit_compliance"
+],
+"AlphaVantage::7": [
+"audit_compliance"
+],
+"AlphaVantage::8": [
+"audit_compliance"
+],
+"AlphaVantage::9": [
+"none"
+],
+"AlphaVantage::10": [
+"none"
+],
+"AlphaVantage::11": [
+"none"
+],
+"AlphaVantage::12": [
+"audit_compliance",
+"testing_debug"
+],
+"AlphaVantage::13": [
+"audit_compliance",
+"testing_debug"
+],
+"AlphaVantage::14": [
+"audit_compliance",
+"testing_debug"
+],
+"AlphaVantage::15": [
+"audit_compliance"
+],
+"AlphaVantage::16": [
+"audit_compliance"
+],
+"AlphaVantage::17": [
+"audit_compliance"
+],
+"AlphaVantage::18": [
+"security_permission"
+],
+"AlphaVantage::19": [
+"none"
+],
+"AlphaVantage::20": [
+"none"
+],
+"AlphaVantage::21": [
+"none"
+],
+"AlphaVantage::22": [
+"none"
+],
+"AlphaVantage::23": [
+"none"
+],
+"AlphaVantage::24": [
+"none"
+],
+"AlphaVantage::25": [
+"none"
+],
+"AlphaVantage::26": [
+"none"
+],
+"AlphaVantage::27": [
+"backup_integrity"
+],
+"AlphaVantage::28": [
+"backup_integrity"
+],
+"AlphaVantage::29": [
+"backup_integrity"
+],
+"AlphaVantage::30": [
+"none"
+],
+"AlphaVantage::31": [
+"none"
+],
+"AlphaVantage::32": [
+"none"
+],
+"AlphaVantage::33": [
+"none"
+],
+"AlphaVantage::34": [
+"none"
+],
+"AlphaVantage::35": [
+"none"
+],
+"AlphaVantage::36": [
+"none"
+],
+"AlphaVantage::37": [
+"none"
+],
+"AlphaVantage::38": [
+"none"
+],
+"AlphaVantage::39": [
+"none"
+],
+"AlphaVantage::40": [
+"none"
+],
+"AlphaVantage::41": [
+"none"
+],
+"AlphaVantage::42": [
+"none"
+],
+"AlphaVantage::43": [
+"none"
+],
+"AlphaVantage::44": [
+"none"
+],
+"BaiduMap::0": [
+"audit_compliance"
+],
+"BaiduMap::1": [
+"testing_debug"
+],
+"BaiduMap::2": [
+"none"
+],
+"BaiduMap::3": [
+"none"
+],
+"BaiduMap::4": [
+"none"
+],
+"BaiduMap::5": [
+"security_permission",
+"audit_compliance"
+],
+"BaiduMap::6": [
+"security_permission",
+"audit_compliance"
+],
+"BaiduMap::7": [
+"security_permission",
+"audit_compliance"
+],
+"BaiduMap::8": [
+"security_permission"
+],
+"BaiduMap::9": [
+"security_permission"
+],
+"BaiduMap::10": [
+"security_permission"
+],
+"BaiduMap::11": [
+"testing_debug"
+],
+"BaiduMap::12": [
+"testing_debug"
+],
+"BaiduMap::13": [
+"testing_debug"
+],
+"BaiduMap::14": [
+"none"
+],
+"BaiduMap::15": [
+"none"
+],
+"BaiduMap::16": [
+"none"
+],
+"BaiduMap::17": [
+"audit_compliance"
+],
+"BaiduMap::18": [
+"audit_compliance"
+],
+"BaiduMap::19": [
+"audit_compliance"
+],
+"BaiduMap::20": [
+"performance"
+],
+"BaiduMap::21": [
+"performance"
+],
+"BaiduMap::22": [
+"performance"
+],
+"BaiduMap::23": [
+"performance"
+],
+"BaiduMap::24": [
+"performance"
+],
+"BaiduMap::25": [
+"performance"
+],
+"BaiduMap::26": [
+"none"
+],
+"BaiduMap::27": [
+"none"
+],
+"BaiduMap::28": [
+"none"
+],
+"wechat::0": [
+"audit_compliance",
+"backup_integrity"
+],
+"wechat::1": [
+"backup_integrity",
+"performance"
+],
+"wechat::2": [
+"backup_integrity"
+],
+"wechat::3": [
+"backup_integrity"
+],
+"wechat::4": [
+"backup_integrity"
+],
+"wechat::5": [
+"audit_compliance"
+],
+"wechat::6": [
+"audit_compliance"
+],
+"wechat::7": [
+"audit_compliance"
+],
+"Git::0": [
+"security_permission"
+],
+"Git::1": [
+"security_permission"
+],
+"Git::2": [
+"audit_compliance",
+"performance"
+],
+"Git::3": [
+"audit_compliance",
+"performance"
+],
+"Git::4": [
+"audit_compliance",
+"performance"
+],
+"Git::5": [
+"security_permission"
+],
+"Git::6": [
+"security_permission"
+],
+"Git::7": [
+"security_permission"
+],
+"Git::8": [
+"audit_compliance"
+],
+"Git::9": [
+"audit_compliance"
+],
+"Git::10": [
+"audit_compliance"
+],
+"Git::11": [
+"audit_compliance"
+],
+"Git::12": [
+"audit_compliance"
+],
+"Git::13": [
+"audit_compliance"
+],
+"Git::14": [
+"none"
+],
+"Git::15": [
+"none"
+],
+"Git::16": [
+"none"
+],
+"Git::17": [
+"audit_compliance"
+],
+"Git::18": [
+"audit_compliance"
+],
+"Git::19": [
+"audit_compliance"
+],
+"Git::20": [
+"performance"
+],
+"Git::21": [
+"performance"
+],
+"Git::22": [
+"performance"
+],
+"Git::23": [
+"security_permission"
+],
+"Git::24": [
+"security_permission"
+],
+"Git::25": [
+"security_permission"
+],
+"Git::26": [
+"security_permission"
+],
+"Git::27": [
+"security_permission"
+],
+"Git::28": [
+"none"
+],
+"Git::29": [
+"none"
+],
+"GoogleDrive::0": [
+"security_permission",
+"audit_compliance"
+],
+"GoogleDrive::1": [
+"security_permission"
+],
+"GoogleDrive::2": [
+"audit_compliance"
+],
+"GoogleDrive::3": [
+"audit_compliance"
+],
+"GoogleDrive::4": [
+"audit_compliance"
+],
+"Sentry::0": [
+"security_permission",
+"audit_compliance"
+],
+"Sentry::1": [
+"security_permission",
+"audit_compliance"
+],
+"Sentry::2": [
+"security_permission",
+"audit_compliance"
+],
+"Google Maps::0": [
+"security_permission"
+],
+"Google Maps::1": [
+"security_permission"
+],
+"Google Maps::2": [
+"security_permission"
+],
+"Google Maps::3": [
+"none"
+],
+"Google Maps::4": [
+"none"
+],
+"Google Maps::5": [
+"none"
+],
+"Google Maps::6": [
+"none"
+],
+"Google Maps::7": [
+"none"
+],
+"Google Maps::8": [
+"none"
+],
+"Google Maps::9": [
+"none"
+],
+"Google Maps::10": [
+"none"
+],
+"Google Maps::11": [
+"none"
+],
+"Google Maps::12": [
+"security_permission",
+"audit_compliance"
+],
+"Google Maps::13": [
+"security_permission",
+"audit_compliance"
+],
+"Google Maps::14": [
+"security_permission",
+"audit_compliance"
+],
+"Google Maps::15": [
+"none"
+],
+"Google Maps::16": [
+"none"
+],
+"Google Maps::17": [
+"none"
+],
+"DoDo Payments::0": [
+"security_permission"
+],
+"DoDo Payments::1": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::2": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::3": [
+"audit_compliance"
+],
+"DoDo Payments::4": [
+"audit_compliance"
+],
+"DoDo Payments::5": [
+"audit_compliance"
+],
+"DoDo Payments::6": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::7": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::8": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::9": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"DoDo Payments::10": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"DoDo Payments::11": [
+"security_permission",
+"audit_compliance",
+"backup_integrity"
+],
+"DoDo Payments::12": [
+"audit_compliance"
+],
+"DoDo Payments::13": [
+"audit_compliance"
+],
+"DoDo Payments::14": [
+"audit_compliance"
+],
+"DoDo Payments::15": [
+"security_permission"
+],
+"DoDo Payments::16": [
+"security_permission"
+],
+"DoDo Payments::17": [
+"security_permission"
+],
+"DoDo Payments::18": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::19": [
+"security_permission",
+"audit_compliance"
+],
+"DoDo Payments::20": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::0": [
+"security_permission",
+"audit_compliance",
+"performance"
+],
+"Apify::1": [
+"audit_compliance",
+"performance",
+"testing_debug"
+],
+"Apify::2": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Apify::3": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Apify::4": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Apify::5": [
+"none"
+],
+"Apify::6": [
+"none"
+],
+"Apify::7": [
+"none"
+],
+"Apify::8": [
+"none"
+],
+"Apify::9": [
+"none"
+],
+"Apify::10": [
+"none"
+],
+"Apify::11": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::12": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::13": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::14": [
+"audit_compliance"
+],
+"Apify::15": [
+"audit_compliance"
+],
+"Apify::16": [
+"audit_compliance"
+],
+"Apify::17": [
+"audit_compliance"
+],
+"Apify::18": [
+"audit_compliance"
+],
+"Apify::19": [
+"audit_compliance"
+],
+"Apify::20": [
+"audit_compliance"
+],
+"Apify::21": [
+"audit_compliance"
+],
+"Apify::22": [
+"audit_compliance"
+],
+"Apify::23": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::24": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::25": [
+"security_permission",
+"audit_compliance"
+],
+"Apify::26": [
+"security_permission"
+],
+"Apify::27": [
+"security_permission"
+],
+"Apify::28": [
+"security_permission"
+],
+"Apify::29": [
+"testing_debug"
+],
+"Apify::30": [
+"testing_debug"
+],
+"Apify::31": [
+"testing_debug"
+],
+"Apify::32": [
+"none"
+],
+"Apify::33": [
+"none"
+],
+"Apify::34": [
+"none"
+],
+"Apify::35": [
+"testing_debug"
+],
+"Apify::36": [
+"testing_debug"
+],
+"Apify::37": [
+"testing_debug"
+],
+"Apify::38": [
+"none"
+],
+"Apify::39": [
+"none"
+],
+"Apify::40": [
+"none"
+],
+"Apify::41": [
+"security_permission"
+],
+"Apify::42": [
+"security_permission"
+],
+"Apify::43": [
+"security_permission"
+],
+"OP.GG::0": [
+"backup_integrity",
+"performance"
+],
+"OP.GG::1": [
+"performance"
+],
+"OP.GG::2": [
+"performance"
+],
+"OP.GG::3": [
+"performance"
+],
+"OP.GG::4": [
+"backup_integrity"
+],
+"OP.GG::5": [
+"backup_integrity"
+],
+"OP.GG::6": [
+"backup_integrity"
+],
+"OP.GG::7": [
+"backup_integrity"
+],
+"OP.GG::8": [
+"backup_integrity"
+],
+"OP.GG::9": [
+"backup_integrity"
+],
+"OP.GG::10": [
+"none"
+],
+"OP.GG::11": [
+"none"
+],
+"OP.GG::12": [
+"none"
+],
+"OP.GG::13": [
+"audit_compliance"
+],
+"OP.GG::14": [
+"audit_compliance"
+],
+"OP.GG::15": [
+"audit_compliance"
+],
+"OP.GG::16": [
+"none"
+],
+"OP.GG::17": [
+"none"
+],
+"OP.GG::18": [
+"none"
+],
+"OP.GG::19": [
+"none"
+],
+"OP.GG::20": [
+"none"
+],
+"OP.GG::21": [
+"none"
+],
+"OP.GG::22": [
+"security_permission"
+],
+"OP.GG::23": [
+"security_permission"
+],
+"OP.GG::24": [
+"security_permission"
+],
+"OP.GG::25": [
+"none"
+],
+"OP.GG::26": [
+"none"
+],
+"OP.GG::27": [
+"none"
+],
+"OP.GG::28": [
+"backup_integrity"
+],
+"OP.GG::29": [
+"backup_integrity"
+],
+"OP.GG::30": [
+"backup_integrity"
+],
+"OP.GG::31": [
+"none"
+],
+"OP.GG::32": [
+"none"
+],
+"OP.GG::33": [
+"none"
+],
+"OP.GG::34": [
+"none"
+],
+"OP.GG::35": [
+"none"
+],
+"OP.GG::36": [
+"none"
+],
+"OP.GG::37": [
+"none"
+],
+"OP.GG::38": [
+"none"
+],
+"OP.GG::39": [
+"none"
+],
+"OP.GG::40": [
+"none"
+],
+"OP.GG::41": [
+"none"
+],
+"OP.GG::42": [
+"none"
+],
+"OP.GG::43": [
+"none"
+],
+"OP.GG::44": [
+"none"
+],
+"OP.GG::45": [
+"none"
+],
+"OP.GG::46": [
+"none"
+],
+"OP.GG::47": [
+"none"
+],
+"OP.GG::48": [
+"none"
+],
+"OP.GG::49": [
+"none"
+],
+"OP.GG::50": [
+"none"
+],
+"OP.GG::51": [
+"none"
+],
+"OP.GG::52": [
+"none"
+],
+"OP.GG::53": [
+"none"
+],
+"OP.GG::54": [
+"none"
+],
+"OP.GG::55": [
+"none"
+],
+"OP.GG::56": [
+"none"
+],
+"OP.GG::57": [
+"none"
+],
+"Tavily::0": [
+"audit_compliance"
+],
+"Tavily::1": [
+"audit_compliance"
+],
+"Tavily::2": [
+"security_permission"
+],
+"Tavily::3": [
+"security_permission"
+],
+"Tavily::4": [
+"security_permission"
+],
+"Tavily::5": [
+"security_permission",
+"audit_compliance"
+],
+"Tavily::6": [
+"security_permission",
+"audit_compliance"
+],
+"Tavily::7": [
+"security_permission",
+"audit_compliance"
+],
+"Tavily::8": [
+"audit_compliance"
+],
+"Tavily::9": [
+"audit_compliance"
+],
+"Tavily::10": [
+"audit_compliance"
+],
+"Codacy::0": [
+"security_permission",
+"audit_compliance"
+],
+"Codacy::1": [
+"security_permission"
+],
+"Codacy::2": [
+"none"
+],
+"Codacy::3": [
+"security_permission",
+"audit_compliance"
+],
+"Codacy::4": [
+"testing_debug"
+],
+"Codacy::5": [
+"security_permission",
+"audit_compliance"
+],
+"Codacy::6": [
+"backup_integrity"
+],
+"Codacy::7": [
+"none"
+],
+"Codacy::8": [
+"audit_compliance"
+],
+"Codacy::9": [
+"security_permission"
+],
+"Codacy::10": [
+"performance"
+],
+"Codacy::11": [
+"security_permission"
+],
+"Codacy::12": [
+"security_permission",
+"audit_compliance"
+],
+"Codacy::13": [
+"audit_compliance"
+],
+"Codacy::14": [
+"security_permission",
+"audit_compliance"
+],
+"Codacy::15": [
+"security_permission",
+"audit_compliance"
+],
+"Financial Dataset::0": [
+"backup_integrity"
+],
+"Financial Dataset::1": [
+"none"
+],
+"Financial Dataset::2": [
+"none"
+],
+"Financial Dataset::3": [
+"audit_compliance"
+],
+"Financial Dataset::4": [
+"testing_debug"
+],
+"Financial Dataset::5": [
+"none"
+],
+"Financial Dataset::6": [
+"security_permission",
+"audit_compliance"
+],
+"Financial Dataset::7": [
+"security_permission",
+"audit_compliance"
+],
+"Financial Dataset::8": [
+"none"
+],
+"Financial Dataset::9": [
+"performance"
+],
+"Financial Dataset::10": [
+"security_permission"
+],
+"Financial Dataset::11": [
+"performance"
+],
+"Financial Dataset::12": [
+"none"
+],
+"Financial Dataset::13": [
+"none"
+],
+"Financial Dataset::14": [
+"security_permission",
+"backup_integrity"
+],
+"Financial Dataset::15": [
+"backup_integrity",
+"testing_debug"
+],
+"Financial Dataset::16": [
+"security_permission"
+],
+"Financial Dataset::17": [
+"none"
+],
+"Financial Dataset::18": [
+"none"
+],
+"Financial Dataset::19": [
+"performance"
+],
+"Financial Dataset::20": [
+"none"
+],
+"Financial Dataset::21": [
+"none"
+],
+"Financial Dataset::22": [
+"none"
+],
+"Financial Dataset::23": [
+"backup_integrity"
+],
+"Financial Dataset::24": [
+"testing_debug"
+],
+"Financial Dataset::25": [
+"audit_compliance",
+"performance"
+],
+"Financial Dataset::26": [
+"security_permission"
+],
+"Financial Dataset::27": [
+"none"
+],
+"Financial Dataset::28": [
+"audit_compliance"
+],
+"Financial Dataset::29": [
+"audit_compliance"
+],
+"Financial Dataset::30": [
+"audit_compliance"
+],
+"Prisma::0": [
+"backup_integrity"
+],
+"Prisma::1": [
+"backup_integrity"
+],
+"Prisma::2": [
+"backup_integrity"
+],
+"Prisma::3": [
+"none"
+],
+"Prisma::4": [
+"none"
+],
+"Prisma::5": [
+"none"
+],
+"Prisma::6": [
+"none"
+],
+"Prisma::7": [
+"none"
+],
+"Prisma::8": [
+"none"
+],
+"Prisma::9": [
+"security_permission"
+],
+"Prisma::10": [
+"security_permission"
+],
+"Prisma::11": [
+"security_permission"
+],
+"Prisma::12": [
+"security_permission"
+],
+"Prisma::13": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::14": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::15": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::16": [
+"security_permission",
+"backup_integrity"
+],
+"Prisma::17": [
+"security_permission",
+"backup_integrity"
+],
+"Prisma::18": [
+"security_permission",
+"backup_integrity"
+],
+"Prisma::19": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::20": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::21": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::22": [
+"audit_compliance",
+"performance"
+],
+"Prisma::23": [
+"audit_compliance",
+"performance"
+],
+"Prisma::24": [
+"audit_compliance",
+"performance"
+],
+"Prisma::25": [
+"none"
+],
+"Prisma::26": [
+"none"
+],
+"Prisma::27": [
+"none"
+],
+"Prisma::28": [
+"none"
+],
+"Prisma::29": [
+"none"
+],
+"Prisma::30": [
+"none"
+],
+"Prisma::31": [
+"none"
+],
+"Prisma::32": [
+"performance"
+],
+"Prisma::33": [
+"performance"
+],
+"Prisma::34": [
+"performance"
+],
+"Prisma::35": [
+"audit_compliance",
+"performance",
+"testing_debug"
+],
+"Prisma::36": [
+"audit_compliance",
+"performance",
+"testing_debug"
+],
+"Prisma::37": [
+"audit_compliance",
+"performance",
+"testing_debug"
+],
+"Prisma::38": [
+"security_permission"
+],
+"Prisma::39": [
+"security_permission"
+],
+"Prisma::40": [
+"security_permission"
+],
+"Prisma::41": [
+"none"
+],
+"Prisma::42": [
+"none"
+],
+"Prisma::43": [
+"none"
+],
+"Prisma::44": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::45": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::46": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::47": [
+"security_permission"
+],
+"Prisma::48": [
+"security_permission"
+],
+"Prisma::49": [
+"security_permission"
+],
+"Prisma::50": [
+"none"
+],
+"Prisma::51": [
+"none"
+],
+"Prisma::52": [
+"none"
+],
+"Prisma::53": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::54": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::55": [
+"security_permission",
+"audit_compliance"
+],
+"Prisma::56": [
+"testing_debug"
+],
+"Prisma::57": [
+"testing_debug"
+],
+"Prisma::58": [
+"testing_debug"
+],
+"Prisma::59": [
+"none"
+],
+"Prisma::60": [
+"none"
+],
+"Prisma::61": [
+"none"
+],
+"Prisma::62": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Prisma::63": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Prisma::64": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Prisma::65": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Prisma::66": [
+"security_permission",
+"audit_compliance",
+"testing_debug"
+],
+"Prisma::67": [
+"performance"
+],
+"Prisma::68": [
+"performance"
+],
+"Prisma::69": [
+"performance"
+],
+"Prisma::70": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::71": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::72": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::73": [
+"security_permission",
+"testing_debug"
+],
+"Prisma::74": [
+"none"
+],
+"Prisma::75": [
+"none"
+],
+"Prisma::76": [
+"none"
+],
+"ClickHouse::0": [
+"security_permission",
+"audit_compliance"
+],
+"ClickHouse::1": [
+"security_permission",
+"audit_compliance"
+],
+"ClickHouse::2": [
+"security_permission",
+"audit_compliance"
+],
+"ClickHouse::3": [
+"performance"
+],
+"ClickHouse::4": [
+"performance"
+],
+"ClickHouse::5": [
+"performance"
+],
+"ClickHouse::6": [
+"none"
+],
+"ClickHouse::7": [
+"none"
+],
+"ClickHouse::8": [
+"none"
+],
+"ClickHouse::9": [
+"audit_compliance"
+],
+"ClickHouse::10": [
+"audit_compliance"
+],
+"ClickHouse::11": [
+"audit_compliance"
+],
+"ClickHouse::12": [
+"security_permission"
+],
+"ClickHouse::13": [
+"security_permission"
+],
+"ClickHouse::14": [
+"security_permission"
+],
+"ClickHouse::15": [
+"backup_integrity",
+"testing_debug"
+],
+"ClickHouse::16": [
+"backup_integrity",
+"testing_debug"
+],
+"ClickHouse::17": [
+"backup_integrity",
+"testing_debug"
+],
+"ClickHouse::18": [
+"audit_compliance"
+],
+"ClickHouse::19": [
+"audit_compliance"
+],
+"ClickHouse::20": [
+"audit_compliance"
+],
+"ClickHouse::21": [
+"security_permission"
+],
+"ClickHouse::22": [
+"security_permission"
+],
+"ClickHouse::23": [
+"security_permission"
+],
+"ClickHouse::24": [
+"none"
+],
+"ClickHouse::25": [
+"none"
+],
+"ClickHouse::26": [
+"none"
+],
+"ClickHouse::27": [
+"audit_compliance"
+],
+"ClickHouse::28": [
+"audit_compliance"
+],
+"ClickHouse::29": [
+"audit_compliance"
+],
+"ClickHouse::30": [
+"audit_compliance"
+],
+"ClickHouse::31": [
+"none"
+],
+"ClickHouse::32": [
+"none"
+],
+"ClickHouse::33": [
+"backup_integrity"
+],
+"ClickHouse::34": [
+"none"
+],
+"ClickHouse::35": [
+"none"
+],
+"ClickHouse::36": [
+"none"
+],
+"ClickHouse::37": [
+"audit_compliance"
+],
+"ClickHouse::38": [
+"audit_compliance"
+],
+"ClickHouse::39": [
+"audit_compliance"
+],
+"ClickHouse::40": [
+"none"
+],
+"ClickHouse::41": [
+"none"
+],
+"ClickHouse::42": [
+"none"
+],
+"ClickHouse::43": [
+"none"
+],
+"ClickHouse::44": [
+"none"
+],
+"ClickHouse::45": [
+"none"
+],
+"ClickHouse::46": [
+"none"
+],
+"ClickHouse::47": [
+"none"
+],
+"ClickHouse::48": [
+"none"
+],
+"ClickHouse::49": [
+"audit_compliance",
+"testing_debug"
+],
+"ClickHouse::50": [
+"audit_compliance",
+"testing_debug"
+],
+"ClickHouse::51": [
+"audit_compliance",
+"testing_debug"
+],
+"ClickHouse::52": [
+"audit_compliance"
+],
+"ClickHouse::53": [
+"audit_compliance"
+],
+"ClickHouse::54": [
+"audit_compliance"
+],
+"ClickHouse::55": [
+"performance"
+],
+"ClickHouse::56": [
+"performance"
+],
+"ClickHouse::57": [
+"performance"
+],
+"ClickHouse::58": [
+"none"
+],
+"ClickHouse::59": [
+"none"
+],
+"ClickHouse::60": [
+"none"
+],
+"ClickHouse::61": [
+"audit_compliance"
+],
+"ClickHouse::62": [
+"audit_compliance"
+],
+"ClickHouse::63": [
+"audit_compliance"
+],
+"ClickHouse::64": [
+"security_permission"
+],
+"ClickHouse::65": [
+"security_permission"
+],
+"ClickHouse::66": [
+"security_permission"
+],
+"ClickHouse::67": [
+"performance"
+],
+"ClickHouse::68": [
+"performance"
+],
+"ClickHouse::69": [
+"performance"
+],
+"ClickHouse::70": [
+"audit_compliance",
+"testing_debug"
+],
+"ClickHouse::71": [
+"audit_compliance",
+"testing_debug"
+],
+"ClickHouse::72": [
+"audit_compliance",
+"testing_debug"
+],
+"EverArt::0": [
+"audit_compliance"
+],
+"EverArt::1": [
+"audit_compliance"
+],
+"EverArt::2": [
+"audit_compliance"
+],
+"EverArt::3": [
+"none"
+],
+"EverArt::4": [
+"none"
+],
+"EverArt::5": [
+"none"
+],
+"EverArt::6": [
+"none"
+],
+"EverArt::7": [
+"none"
+],
+"EverArt::8": [
+"none"
+],
+"EverArt::9": [
+"audit_compliance",
+"performance"
+],
+"EverArt::10": [
+"audit_compliance",
+"performance"
+],
+"EverArt::11": [
+"audit_compliance",
+"performance"
+],
+"EverArt::12": [
+"security_permission"
+],
+"EverArt::13": [
+"security_permission"
+],
+"EverArt::14": [
+"security_permission"
+],
+"EverArt::15": [
+"none"
+],
+"EverArt::16": [
+"none"
+],
+"EverArt::17": [
+"none"
+],
+"EverArt::18": [
+"none"
+],
+"EverArt::19": [
+"audit_compliance",
+"backup_integrity"
+],
+"EverArt::20": [
+"audit_compliance",
+"backup_integrity"
+],
+"EverArt::21": [
+"audit_compliance",
+"backup_integrity"
+],
+"EverArt::22": [
+"testing_debug"
+],
+"EverArt::23": [
+"testing_debug"
+],
+"EverArt::24": [
+"testing_debug"
+],
+"EverArt::25": [
+"testing_debug"
+],
+"EverArt::26": [
+"none"
+],
+"EverArt::27": [
+"none"
+],
+"EverArt::28": [
+"none"
+],
+"EverArt::29": [
+"audit_compliance"
+],
+"EverArt::30": [
+"audit_compliance"
+],
+"EverArt::31": [
+"audit_compliance"
+]
+}
+}

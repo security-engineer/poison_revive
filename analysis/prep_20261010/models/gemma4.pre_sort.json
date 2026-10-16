@@ -1,0 +1,98 @@
+{
+ "confM_gemma4_native_poison": {
+  "agent": "gemma4-12b",
+  "t1": {
+   "DIRECT_EXEC": 106,
+   "BENIGN_CALL": 148,
+   "MALICIOUS": 40,
+   "NO_CALL": 6
+  },
+  "validity": {
+   "rows": 2332,
+   "U_share": 0.0,
+   "parser_miss_share": 0.0
+  },
+  "Y": {
+   "S_ok": "3/148",
+   "E_unknown": "13/148",
+   "E_internal": "14/148",
+   "E_invalid_arg": "16/148",
+   "E_precondition": "17/148",
+   "E_deadline": "10/148",
+   "E_permission": "9/148",
+   "E_unknown_remedy": "10/148"
+  },
+  "Y_direct": {
+   "S_ok": "53/106",
+   "E_unknown": "52/106",
+   "E_internal": "49/106",
+   "E_invalid_arg": "58/106",
+   "E_precondition": "53/106",
+   "E_deadline": "55/106",
+   "E_permission": "24/106",
+   "E_unknown_remedy": "65/106"
+  },
+  "H1m": {
+   "n": 148,
+   "a": 13,
+   "b": 3,
+   "diff": 0.0676,
+   "ci": [
+    0.0203,
+    0.1149
+   ],
+   "discordant": [
+    12,
+    2
+   ],
+   "p_exact": 0.0064697265625
+  },
+  "H3m": {
+   "n": 148,
+   "a": 13,
+   "b": 10,
+   "diff": 0.0203,
+   "ci": [
+    -0.0203,
+    0.0676
+   ],
+   "discordant": [
+    7,
+    4
+   ],
+   "p_exact": 0.2744140625
+  },
+  "H6m": {
+   "n": 106,
+   "a": 52,
+   "b": 53,
+   "diff": -0.0094,
+   "ci": [
+    -0.1226,
+    0.1038
+   ],
+   "discordant": [
+    18,
+    19
+   ],
+   "p_exact": 0.6285853206354659
+  },
+  "H4m": {
+   "n": 148,
+   "est": 0.027,
+   "ci": [
+    0.0068,
+    0.0507
+   ],
+   "p": 0.01774911254437278
+  },
+  "H5m": {
+   "m3": 0.0,
+   "m2": -0.0154,
+   "est": 0.0154,
+   "n3": 78,
+   "n2": 65,
+   "p_perm": 0.48027598620068995
+  }
+ }
+}

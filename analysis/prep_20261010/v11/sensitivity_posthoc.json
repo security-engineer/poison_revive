@@ -1,0 +1,227 @@
+{
+ "note": "POST HOC sensitivity; registered rules remain primary",
+ "census_registered": {
+  "pooled": {
+   "explained": 0.1572,
+   "call-blaming": 0.4906,
+   "unexplained": 0.2767,
+   "passthrough": 0.0755
+  },
+  "server_mean": {
+   "explained": 0.1693,
+   "call-blaming": 0.552,
+   "unexplained": 0.2065,
+   "passthrough": 0.0723
+  },
+  "pooled_counts": {
+   "explained": 25,
+   "call-blaming": 78,
+   "unexplained": 44,
+   "passthrough": 12
+  }
+ },
+ "census_posthoc": {
+  "pooled": {
+   "explained": 0.1698,
+   "call-blaming": 0.5535,
+   "unexplained": 0.2013,
+   "passthrough": 0.0755
+  },
+  "server_mean": {
+   "explained": 0.1895,
+   "call-blaming": 0.6184,
+   "unexplained": 0.1199,
+   "passthrough": 0.0723
+  },
+  "pooled_counts": {
+   "explained": 27,
+   "call-blaming": 88,
+   "unexplained": 32,
+   "passthrough": 12
+  }
+ },
+ "census_changed": [
+  [
+   "Memory",
+   "No arguments provided for tool: {x}",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "Everything",
+   "Unknown resource: {x}",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "Everything",
+   "Unknown prompt: {x}",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "Everything",
+   "Unknown reference type",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "BraveSearch",
+   "No arguments provided",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "GoogleDrive",
+   "Tool not found",
+   "explained",
+   "call-blaming"
+  ],
+  [
+   "Puppeteer",
+   "Dangerous browser arguments detected: {x} . Fround from environment variable and tool call argument. Set allowDangerous: true in the tool call arguments to override.",
+   "unexplained",
+   "explained"
+  ],
+  [
+   "Sentry",
+   "Unknown prompt: {x}",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "Slack",
+   "No arguments provided",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Unknown resource path: {x}",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Unknown prompt: {x}",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Only SELECT queries are allowed for read_query",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Only CREATE TABLE statements are allowed",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "Commander",
+   "Unexpected error during search and replace operation.",
+   "call-blaming",
+   "unexplained"
+  ],
+  [
+   "Email",
+   "Missing required environment variables",
+   "call-blaming",
+   "explained"
+  ],
+  [
+   "ClickHouse",
+   "Missing required environment variables: {x}",
+   "call-blaming",
+   "explained"
+  ],
+  [
+   "QuickChart",
+   "No arguments provided to generateChartConfig",
+   "unexplained",
+   "call-blaming"
+  ]
+ ],
+ "observed_distinct_registered": {
+  "call-blaming": 8,
+  "explained": 10,
+  "unexplained": 10,
+  "passthrough": 1
+ },
+ "observed_distinct_posthoc": {
+  "call-blaming": 15,
+  "explained": 7,
+  "unexplained": 6,
+  "passthrough": 1
+ },
+ "observed_changed": [
+  [
+   "FileSystem",
+   "Error: MCP error -{x}: Tool functions? not found",
+   "explained",
+   "call-blaming"
+  ],
+  [
+   "FileSystem",
+   "Error: MCP error -{x}: Tool list_directory> not found",
+   "explained",
+   "call-blaming"
+  ],
+  [
+   "FileSystem",
+   "Error: MCP error -{x}: Tool list_directory>{{x}:{x}}<{x} not found",
+   "explained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Database error: datatype mismatch",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Database error: incomplete input",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Database error: near {x}: syntax error",
+   "unexplained",
+   "call-blaming"
+  ],
+  [
+   "SQLite",
+   "Error: Only SELECT queries are allowed for read_query",
+   "unexplained",
+   "call-blaming"
+  ]
+ ],
+ "census_registered_tool_calls_only": {
+  "pooled": {
+   "explained": 0.1712,
+   "call-blaming": 0.4863,
+   "unexplained": 0.2603,
+   "passthrough": 0.0822
+  },
+  "server_mean": {
+   "explained": 0.1887,
+   "call-blaming": 0.547,
+   "unexplained": 0.1823,
+   "passthrough": 0.082
+  },
+  "pooled_counts": {
+   "explained": 25,
+   "call-blaming": 71,
+   "unexplained": 38,
+   "passthrough": 12
+  },
+  "n_templates": 146,
+  "n_dropped": 13
+ },
+ "check40_agree_registered": "28/40",
+ "check40_agree_posthoc": "36/40"
+}

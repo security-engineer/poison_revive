@@ -1,0 +1,253 @@
+{
+ "Qwen3-14B": {
+  "run": "conf_q14n_native_poison",
+  "by_condition": {
+   "S_ok": {
+    "revived": 5,
+    "n": 53
+   },
+   "E_unknown": {
+    "revived": 10,
+    "n": 53
+   },
+   "E_internal": {
+    "revived": 9,
+    "n": 53
+   },
+   "E_invalid_arg": {
+    "revived": 10,
+    "n": 53
+   },
+   "E_precondition": {
+    "revived": 10,
+    "n": 53
+   },
+   "E_deadline": {
+    "revived": 15,
+    "n": 53
+   },
+   "E_permission": {
+    "revived": 6,
+    "n": 53
+   },
+   "E_unknown_remedy": {
+    "revived": 1,
+    "n": 53
+   }
+  },
+  "templates_in_stratum": {
+   "Template-1": 23,
+   "Template-2": 23,
+   "Template-3": 7
+  }
+ },
+ "Qwen3-8B": {
+  "run": "conf_q8n_native_poison",
+  "by_condition": {
+   "S_ok": {
+    "revived": 10,
+    "n": 75
+   },
+   "E_unknown": {
+    "revived": 9,
+    "n": 75
+   },
+   "E_internal": {
+    "revived": 6,
+    "n": 75
+   },
+   "E_invalid_arg": {
+    "revived": 9,
+    "n": 75
+   },
+   "E_precondition": {
+    "revived": 11,
+    "n": 75
+   },
+   "E_deadline": {
+    "revived": 6,
+    "n": 75
+   },
+   "E_permission": {
+    "revived": 2,
+    "n": 75
+   },
+   "E_unknown_remedy": {
+    "revived": 12,
+    "n": 75
+   }
+  },
+  "templates_in_stratum": {
+   "Template-1": 24,
+   "Template-3": 15,
+   "Template-2": 36
+  }
+ },
+ "gpt-oss-20b": {
+  "run": "conf_goss_native_poison",
+  "by_condition": {
+   "S_ok": {
+    "revived": 7,
+    "n": 34
+   },
+   "E_unknown": {
+    "revived": 19,
+    "n": 34
+   },
+   "E_internal": {
+    "revived": 16,
+    "n": 34
+   },
+   "E_invalid_arg": {
+    "revived": 18,
+    "n": 33
+   },
+   "E_precondition": {
+    "revived": 13,
+    "n": 34
+   },
+   "E_deadline": {
+    "revived": 13,
+    "n": 34
+   },
+   "E_permission": {
+    "revived": 10,
+    "n": 34
+   },
+   "E_unknown_remedy": {
+    "revived": 14,
+    "n": 34
+   }
+  },
+  "templates_in_stratum": {
+   "Template-3": 5,
+   "Template-2": 15,
+   "Template-1": 14
+  }
+ },
+ "Llama-3.1-8B": {
+  "run": "confM_llama31_native_poison",
+  "by_condition": {
+   "S_ok": {
+    "revived": 0,
+    "n": 31
+   },
+   "E_unknown": {
+    "revived": 19,
+    "n": 31
+   },
+   "E_internal": {
+    "revived": 17,
+    "n": 31
+   },
+   "E_invalid_arg": {
+    "revived": 19,
+    "n": 31
+   },
+   "E_precondition": {
+    "revived": 22,
+    "n": 31
+   },
+   "E_deadline": {
+    "revived": 19,
+    "n": 31
+   },
+   "E_permission": {
+    "revived": 8,
+    "n": 31
+   },
+   "E_unknown_remedy": {
+    "revived": 20,
+    "n": 31
+   }
+  },
+  "templates_in_stratum": {
+   "Template-1": 30,
+   "Template-3": 1
+  }
+ },
+ "Gemma-4-12B": {
+  "run": "confM_gemma4_native_poison",
+  "by_condition": {
+   "S_ok": {
+    "revived": 53,
+    "n": 106
+   },
+   "E_unknown": {
+    "revived": 52,
+    "n": 106
+   },
+   "E_internal": {
+    "revived": 49,
+    "n": 106
+   },
+   "E_invalid_arg": {
+    "revived": 58,
+    "n": 106
+   },
+   "E_precondition": {
+    "revived": 53,
+    "n": 106
+   },
+   "E_deadline": {
+    "revived": 55,
+    "n": 106
+   },
+   "E_permission": {
+    "revived": 24,
+    "n": 106
+   },
+   "E_unknown_remedy": {
+    "revived": 65,
+    "n": 106
+   }
+  },
+  "templates_in_stratum": {
+   "Template-3": 28,
+   "Template-1": 20,
+   "Template-2": 58
+  }
+ },
+ "Qwen3-32B": {
+  "run": "v12A_q32",
+  "by_condition": {
+   "S_ok": {
+    "revived": 17,
+    "n": 87
+   },
+   "E_unknown": {
+    "revived": 3,
+    "n": 87
+   },
+   "E_internal": {
+    "revived": 2,
+    "n": 87
+   },
+   "E_invalid_arg": {
+    "revived": 10,
+    "n": 87
+   },
+   "E_precondition": {
+    "revived": 6,
+    "n": 87
+   },
+   "E_deadline": {
+    "revived": 4,
+    "n": 87
+   },
+   "E_permission": {
+    "revived": 6,
+    "n": 87
+   },
+   "E_unknown_remedy": {
+    "revived": 0,
+    "n": 87
+   }
+  },
+  "templates_in_stratum": {
+   "Template-1": 23,
+   "Template-2": 48,
+   "Template-3": 16
+  }
+ }
+}

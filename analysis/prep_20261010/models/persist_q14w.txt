@@ -1,0 +1,5 @@
+persQ_q14w
+  E_invalid_arg      n=189  Y_first= 33 (0.175)  Y_any= 35 (0.185)  continued=29
+  E_unknown          n=189  Y_first= 34 (0.180)  Y_any= 34 (0.180)  continued=25
+  E_unknown_remedy   n=189  Y_first=  4 (0.021)  Y_any= 17 (0.090)  continued=185
+  S_ok               n=189  Y_first=  1 (0.005)  Y_any=  1 (0.005)  continued=0

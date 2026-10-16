@@ -1,0 +1,159 @@
+{"server": "FileSystem", "template": "Access denied - path outside allowed directories: {x} not in {x}", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:68", "n_sites": 1}
+{"server": "FileSystem", "template": "Access denied - symlink target outside allowed directories", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:77", "n_sites": 1}
+{"server": "FileSystem", "template": "Access denied - parent directory outside allowed directories", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:88", "n_sites": 1}
+{"server": "FileSystem", "template": "Parent directory does not exist: {x}", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:92", "n_sites": 1}
+{"server": "FileSystem", "template": "Could not find exact match for edit:\\n{x}", "class": "unexplained", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:312", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for read_file: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:451", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for read_multiple_files: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:463", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for write_file: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:485", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for edit_file: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:497", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for create_directory: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:509", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for list_directory: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:521", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for directory_tree: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:536", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for move_file: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:579", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for search_files: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:592", "n_sites": 1}
+{"server": "FileSystem", "template": "Invalid arguments for get_file_info: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:604", "n_sites": 1}
+{"server": "FileSystem", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/filesystem/index.ts:625", "n_sites": 1}
+{"server": "FileSystem", "template": "Error: {x}", "class": "passthrough", "kind": "isError", "where": "ctx-filesystem/source/src/filesystem/index.ts:631", "n_sites": 1}
+{"server": "Memory", "template": "Entity with name {x} not found", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/memory/index.ts:94", "n_sites": 1}
+{"server": "Memory", "template": "No arguments provided for tool: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-filesystem/source/src/memory/index.ts:380", "n_sites": 1}
+{"server": "Memory", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/memory/index.ts:406", "n_sites": 1}
+{"server": "Fetch", "template": "Failed to fetch robots.txt {x} due to a connection issue", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:83", "n_sites": 1}
+{"server": "Fetch", "template": "When fetching robots.txt ({x} ), received status {x} so assuming that autonomous fetching is not allowed, the user can try manually fetching by using the fetch prompt", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:88", "n_sites": 1}
+{"server": "Fetch", "template": "The sites robots.txt ({x} ), specifies that autonomous fetching of this page is not allowed,", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:100", "n_sites": 1}
+{"server": "Fetch", "template": "Failed to fetch {x} : {x}", "class": "unexplained", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:128", "n_sites": 1}
+{"server": "Fetch", "template": "Failed to fetch {x} - status code {x}", "class": "explained", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:130", "n_sites": 1}
+{"server": "Fetch", "template": "{x}", "class": "passthrough", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:225", "n_sites": 1}
+{"server": "Fetch", "template": "URL is required", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/fetch/src/mcp_server_fetch/server.py:229", "n_sites": 2}
+{"server": "Sequential Thinking", "template": "Invalid thought: must be a string", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/sequentialthinking/index.ts:33", "n_sites": 1}
+{"server": "Sequential Thinking", "template": "Invalid thoughtNumber: must be a number", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/sequentialthinking/index.ts:36", "n_sites": 1}
+{"server": "Sequential Thinking", "template": "Invalid totalThoughts: must be a number", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/sequentialthinking/index.ts:39", "n_sites": 1}
+{"server": "Sequential Thinking", "template": "Invalid nextThoughtNeeded: must be a boolean", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/sequentialthinking/index.ts:42", "n_sites": 1}
+{"server": "Sequential Thinking", "template": "{x} failed{x}", "class": "passthrough", "kind": "isError", "where": "ctx-filesystem/source/src/sequentialthinking/index.ts:127", "n_sites": 1}
+{"server": "Sequential Thinking", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-filesystem/source/src/sequentialthinking/index.ts:265", "n_sites": 1}
+{"server": "Everything", "template": "Unknown resource: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-filesystem/source/src/everything/everything.ts:243", "n_sites": 1}
+{"server": "Everything", "template": "Unknown prompt: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-filesystem/source/src/everything/everything.ts:333", "n_sites": 1}
+{"server": "Everything", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-filesystem/source/src/everything/everything.ts:532", "n_sites": 1}
+{"server": "Everything", "template": "Unknown reference type", "class": "unexplained", "kind": "throw", "where": "ctx-filesystem/source/src/everything/everything.ts:560", "n_sites": 1}
+{"server": "AWSKnowledgeBase", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-archived/source/src/aws-kb-retrieval-server/index.ts:151", "n_sites": 1}
+{"server": "BraveSearch", "template": "Rate limit exceeded", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/brave-search/index.ts:107", "n_sites": 1}
+{"server": "BraveSearch", "template": "Brave API error: {x} \\n{x}", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/brave-search/index.ts:196", "n_sites": 4}
+{"server": "BraveSearch", "template": "No arguments provided", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/brave-search/index.ts:320", "n_sites": 1}
+{"server": "BraveSearch", "template": "Invalid arguments for brave_web_search", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/brave-search/index.ts:326", "n_sites": 1}
+{"server": "BraveSearch", "template": "Invalid arguments for brave_local_search", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/brave-search/index.ts:338", "n_sites": 1}
+{"server": "BraveSearch", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-archived/source/src/brave-search/index.ts:351", "n_sites": 1}
+{"server": "BraveSearch", "template": "Error: {x}", "class": "passthrough", "kind": "isError", "where": "ctx-archived/source/src/brave-search/index.ts:362", "n_sites": 1}
+{"server": "EverArt", "template": "Resource not found", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/everart/index.ts:97", "n_sites": 1}
+{"server": "EverArt", "template": "No image URL", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/everart/index.ts:127", "n_sites": 1}
+{"server": "EverArt", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/everart/index.ts:151", "n_sites": 1}
+{"server": "EverArt", "template": "Error: {x}", "class": "passthrough", "kind": "isError", "where": "ctx-archived/source/src/everart/index.ts:147", "n_sites": 1}
+{"server": "GoogleDrive", "template": "Tool not found", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/gdrive/index.ts:176", "n_sites": 1}
+{"server": "Github", "template": "Branch name cannot be empty", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:64", "n_sites": 1}
+{"server": "Github", "template": "Branch name cannot contain '..'", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:67", "n_sites": 1}
+{"server": "Github", "template": "Branch name contains invalid characters", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:70", "n_sites": 1}
+{"server": "Github", "template": "Branch name cannot start or end with '/'", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:73", "n_sites": 1}
+{"server": "Github", "template": "Branch name cannot end with '.lock'", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:76", "n_sites": 1}
+{"server": "Github", "template": "Repository name cannot be empty", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:84", "n_sites": 1}
+{"server": "Github", "template": "Repository name can only contain lowercase letters, numbers, hyphens, periods, and underscores", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:87", "n_sites": 1}
+{"server": "Github", "template": "Repository name cannot start or end with a period", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:92", "n_sites": 1}
+{"server": "Github", "template": "Owner name cannot be empty", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:100", "n_sites": 1}
+{"server": "Github", "template": "Owner name must start with a letter or number and can contain up to 39 characters", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/common/utils.ts:103", "n_sites": 1}
+{"server": "Github", "template": "Arguments are required", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/index.ts:211", "n_sites": 1}
+{"server": "Github", "template": "Repository '{x} /{x} ' not found. Please verify:\\n1. The repository exists\\n2. You have correct access permissions\\n3. The owner and repository names are spelled correctly", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/github/index.ts:320", "n_sites": 1}
+{"server": "Github", "template": "Failed to create issue: {x} ${ error.stack ? {x} : '' }", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/index.ts:329", "n_sites": 1}
+{"server": "Github", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/index.ts:495", "n_sites": 1}
+{"server": "Github", "template": "Invalid input: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/github/index.ts:499", "n_sites": 1}
+{"server": "Github", "template": "{x}", "class": "passthrough", "kind": "throw", "where": "ctx-archived/source/src/github/index.ts:502", "n_sites": 1}
+{"server": "Github", "template": "Could not find default branch (tried 'main' and 'master')", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/github/operations/branches.ts:34", "n_sites": 1}
+{"server": "Gitlab", "template": "GitLab API error: {x}", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/gitlab/index.ts:82", "n_sites": 10}
+{"server": "Gitlab", "template": "Arguments are required", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/gitlab/index.ts:417", "n_sites": 1}
+{"server": "Gitlab", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/gitlab/index.ts:499", "n_sites": 1}
+{"server": "Gitlab", "template": "Invalid arguments: ${error.errors.map(e => {x} .{x} ).join(', ')}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/gitlab/index.ts:503", "n_sites": 1}
+{"server": "Google Maps", "template": "Geocoding failed: {x}", "class": "unexplained", "kind": "isError", "where": "ctx-archived/source/src/google-maps/index.ts:322", "n_sites": 1}
+{"server": "Google Maps", "template": "{x}", "class": "passthrough", "kind": "isError", "where": "ctx-archived/source/src/google-maps/index.ts:353", "n_sites": 6}
+{"server": "Google Maps", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-archived/source/src/google-maps/index.ts:655", "n_sites": 1}
+{"server": "Google Maps", "template": "Error: {x}", "class": "passthrough", "kind": "isError", "where": "ctx-archived/source/src/google-maps/index.ts:664", "n_sites": 1}
+{"server": "Puppeteer", "template": "Dangerous browser arguments detected: {x} . Fround from environment variable and tool call argument. Set allowDangerous: true in the tool call arguments to override.", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/puppeteer/index.ts:141", "n_sites": 1}
+{"server": "Puppeteer", "template": "Resource not found: {x}", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/puppeteer/index.ts:468", "n_sites": 1}
+{"server": "Puppeteer", "template": "{x} Element not found: {x} Screenshot failed", "class": "explained", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:245", "n_sites": 1}
+{"server": "Puppeteer", "template": "Failed to click {x} : {x}", "class": "unexplained", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:289", "n_sites": 1}
+{"server": "Puppeteer", "template": "Failed to fill {x} : {x}", "class": "unexplained", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:310", "n_sites": 1}
+{"server": "Puppeteer", "template": "Failed to select {x} : {x}", "class": "unexplained", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:331", "n_sites": 1}
+{"server": "Puppeteer", "template": "Failed to hover {x} : {x}", "class": "unexplained", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:352", "n_sites": 1}
+{"server": "Puppeteer", "template": "Script execution failed: {x}", "class": "unexplained", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:396", "n_sites": 1}
+{"server": "Puppeteer", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-archived/source/src/puppeteer/index.ts:406", "n_sites": 1}
+{"server": "Redis", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/redis/src/index.ts:227", "n_sites": 1}
+{"server": "Redis", "template": "Invalid arguments: ${error.errors .map((e) => {x} .{x} ) .join(\", \")}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/redis/src/index.ts:231", "n_sites": 1}
+{"server": "Sentry", "template": "Missing issue_id_or_url argument", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:70", "n_sites": 2}
+{"server": "Sentry", "template": "Invalid Sentry URL. Must be a URL ending with .sentry.io", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:75", "n_sites": 1}
+{"server": "Sentry", "template": "Invalid Sentry issue URL. Path must contain '/issues/{issue_id}'", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:79", "n_sites": 1}
+{"server": "Sentry", "template": "Invalid Sentry issue ID. Must be a numeric value.", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:88", "n_sites": 1}
+{"server": "Sentry", "template": "Unknown prompt: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:216", "n_sites": 1}
+{"server": "Sentry", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:251", "n_sites": 1}
+{"server": "Sentry", "template": "Error: Unauthorized. Please check your MCP_SENTRY_AUTH_TOKEN token.", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:152", "n_sites": 1}
+{"server": "Sentry", "template": "No Sentry events found for this issue", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:167", "n_sites": 1}
+{"server": "Sentry", "template": "{x}", "class": "passthrough", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:184", "n_sites": 1}
+{"server": "Sentry", "template": "Error fetching Sentry issue: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:186", "n_sites": 1}
+{"server": "Sentry", "template": "An error occurred: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sentry/src/mcp_server_sentry/server.py:188", "n_sites": 1}
+{"server": "Slack", "template": "No arguments provided", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:415", "n_sites": 1}
+{"server": "Slack", "template": "Missing required arguments: channel_id and text", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:434", "n_sites": 1}
+{"server": "Slack", "template": "Missing required arguments: channel_id, thread_ts, and text", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:451", "n_sites": 1}
+{"server": "Slack", "template": "Missing required arguments: channel_id, timestamp, and reaction", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:468", "n_sites": 1}
+{"server": "Slack", "template": "Missing required argument: channel_id", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:486", "n_sites": 1}
+{"server": "Slack", "template": "Missing required arguments: channel_id and thread_ts", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:501", "n_sites": 1}
+{"server": "Slack", "template": "Missing required argument: user_id", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:529", "n_sites": 1}
+{"server": "Slack", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/slack/index.ts:538", "n_sites": 1}
+{"server": "SQLite", "template": "Unsupported URI scheme: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:190", "n_sites": 1}
+{"server": "SQLite", "template": "Unknown resource path: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:195", "n_sites": 1}
+{"server": "SQLite", "template": "Unknown prompt: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:221", "n_sites": 1}
+{"server": "SQLite", "template": "Missing required argument: topic", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:225", "n_sites": 1}
+{"server": "SQLite", "template": "Missing table_name argument", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:324", "n_sites": 1}
+{"server": "SQLite", "template": "Missing insight argument", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:332", "n_sites": 1}
+{"server": "SQLite", "template": "Missing arguments", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:343", "n_sites": 1}
+{"server": "SQLite", "template": "Only SELECT queries are allowed for read_query", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:347", "n_sites": 1}
+{"server": "SQLite", "template": "SELECT queries are not allowed for write_query", "class": "explained", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:353", "n_sites": 1}
+{"server": "SQLite", "template": "Only CREATE TABLE statements are allowed", "class": "unexplained", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:359", "n_sites": 1}
+{"server": "SQLite", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:364", "n_sites": 1}
+{"server": "SQLite", "template": "Error: {x}", "class": "passthrough", "kind": "TextContent", "where": "ctx-archived/source/src/sqlite/src/mcp_server_sqlite/server.py:369", "n_sites": 1}
+{"server": "Git", "template": "server.request_context.session must be a ServerSession", "class": "call-blaming", "kind": "throw", "where": "ctx-git/source/src/mcp_server_git/server.py:215", "n_sites": 1}
+{"server": "Git", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-git/source/src/mcp_server_git/server.py:329", "n_sites": 1}
+{"server": "Commander", "template": "Error: {x}", "class": "passthrough", "kind": "isError", "where": "ctx-commander/source/src/error-handlers.ts:15", "n_sites": 2}
+{"server": "Commander", "template": "Failed to read the file", "class": "unexplained", "kind": "throw", "where": "ctx-commander/source/src/handlers/filesystem-handlers.ts:85", "n_sites": 2}
+{"server": "Commander", "template": "Error: Failed to get configuration", "class": "unexplained", "kind": "isError", "where": "ctx-commander/source/src/server.ts:243", "n_sites": 1}
+{"server": "Commander", "template": "Error: Failed to set configuration value", "class": "unexplained", "kind": "isError", "where": "ctx-commander/source/src/server.ts:253", "n_sites": 1}
+{"server": "Commander", "template": "Error: Unknown tool: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-commander/source/src/server.ts:312", "n_sites": 1}
+{"server": "Commander", "template": "Invalid arguments: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-commander/source/src/tools/config.ts:45", "n_sites": 1}
+{"server": "Commander", "template": "Value changed in memory but couldn't be saved to disk: {x}", "class": "unexplained", "kind": "isError", "where": "ctx-commander/source/src/tools/config.ts:107", "n_sites": 1}
+{"server": "Commander", "template": "Error setting value: {x}", "class": "unexplained", "kind": "isError", "where": "ctx-commander/source/src/tools/config.ts:118", "n_sites": 1}
+{"server": "Commander", "template": "Wrong content for file {x}", "class": "unexplained", "kind": "throw", "where": "ctx-commander/source/src/tools/edit.ts:115", "n_sites": 1}
+{"server": "Commander", "template": "Unexpected error during search and replace operation.", "class": "call-blaming", "kind": "throw", "where": "ctx-commander/source/src/tools/edit.ts:239", "n_sites": 1}
+{"server": "Commander", "template": "Error: Invalid arguments for execute_command: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-commander/source/src/tools/execute.ts:13", "n_sites": 1}
+{"server": "Commander", "template": "Error: Command not allowed: {x}", "class": "explained", "kind": "isError", "where": "ctx-commander/source/src/tools/execute.ts:36", "n_sites": 1}
+{"server": "Commander", "template": "{x}", "class": "passthrough", "kind": "isError", "where": "ctx-commander/source/src/tools/execute.ts:50", "n_sites": 2}
+{"server": "Commander", "template": "Error: Invalid arguments for read_output: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-commander/source/src/tools/execute.ts:69", "n_sites": 1}
+{"server": "Commander", "template": "Error: Invalid arguments for force_terminate: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-commander/source/src/tools/execute.ts:89", "n_sites": 1}
+{"server": "Commander", "template": "Path not allowed: {x} . Must be within one of these directories: {x}", "class": "explained", "kind": "throw", "where": "ctx-commander/source/src/tools/filesystem.ts:147", "n_sites": 1}
+{"server": "Commander", "template": "Path validation failed for path: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-commander/source/src/tools/filesystem.ts:181", "n_sites": 1}
+{"server": "Commander", "template": "HTTP error! Status: {x}", "class": "explained", "kind": "throw", "where": "ctx-commander/source/src/tools/filesystem.ts:218", "n_sites": 1}
+{"server": "Commander", "template": "Error: Failed to list processes: {x}", "class": "unexplained", "kind": "isError", "where": "ctx-commander/source/src/tools/process.ts:37", "n_sites": 1}
+{"server": "Commander", "template": "Error: Invalid arguments for kill_process: {x}", "class": "call-blaming", "kind": "isError", "where": "ctx-commander/source/src/tools/process.ts:47", "n_sites": 1}
+{"server": "Commander", "template": "Error: Failed to kill process: {x}", "class": "unexplained", "kind": "isError", "where": "ctx-commander/source/src/tools/process.ts:59", "n_sites": 1}
+{"server": "Email", "template": "Missing required environment variables", "class": "call-blaming", "kind": "throw", "where": "ctx-email/source/src/tools/mail.ts:99", "n_sites": 1}
+{"server": "Email", "template": "Invalid SMTP_PORT. Must be a number between 1 and 65535", "class": "call-blaming", "kind": "throw", "where": "ctx-email/source/src/tools/mail.ts:107", "n_sites": 1}
+{"server": "Email", "template": "Invalid IMAP_PORT. Must be a number between 1 and 65535", "class": "call-blaming", "kind": "throw", "where": "ctx-email/source/src/tools/mail.ts:111", "n_sites": 1}
+{"server": "ClickHouse", "template": "Missing required environment variables: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-clickhouse/source/mcp_clickhouse/mcp_env.py:136", "n_sites": 1}
+{"server": "QuickChart", "template": "Invalid chart type. Must be one of: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:73", "n_sites": 1}
+{"server": "QuickChart", "template": "No arguments provided to generateChartConfig", "class": "unexplained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:83", "n_sites": 1}
+{"server": "QuickChart", "template": "Chart type is required", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:90", "n_sites": 1}
+{"server": "QuickChart", "template": "Datasets must be a non-empty array", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:97", "n_sites": 1}
+{"server": "QuickChart", "template": "Each dataset must have a data property", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:113", "n_sites": 1}
+{"server": "QuickChart", "template": "{x} requires a single numeric value", "class": "unexplained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:143", "n_sites": 1}
+{"server": "QuickChart", "template": "{x} requires data points in [x, y{x} ] format", "class": "unexplained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:163", "n_sites": 1}
+{"server": "QuickChart", "template": "Failed to generate chart: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:267", "n_sites": 1}
+{"server": "QuickChart", "template": "Config must be a valid chart configuration object", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:283", "n_sites": 1}
+{"server": "QuickChart", "template": "Config must include type and datasets properties (either at root level or inside data object)", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:312", "n_sites": 1}
+{"server": "QuickChart", "template": "Output directory does not exist or is not writable: {x}", "class": "explained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:356", "n_sites": 1}
+{"server": "QuickChart", "template": "Cannot write to {x} : Permission denied", "class": "explained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:370", "n_sites": 1}
+{"server": "QuickChart", "template": "Cannot write to {x} : Directory does not exist", "class": "explained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:376", "n_sites": 1}
+{"server": "QuickChart", "template": "Failed to download chart: {x}", "class": "unexplained", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:396", "n_sites": 1}
+{"server": "QuickChart", "template": "Unknown tool: {x}", "class": "call-blaming", "kind": "throw", "where": "ctx-quickchart/source/src/index.ts:404", "n_sites": 1}

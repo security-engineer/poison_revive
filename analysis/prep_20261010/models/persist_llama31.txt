@@ -1,0 +1,5 @@
+persM_llama31
+  E_invalid_arg      n=247  Y_first= 60 (0.243)  Y_any= 79 (0.320)  continued=135
+  E_unknown          n=247  Y_first= 35 (0.142)  Y_any= 48 (0.194)  continued=104
+  E_unknown_remedy   n=247  Y_first= 28 (0.113)  Y_any= 38 (0.154)  continued=117
+  S_ok               n=247  Y_first=  1 (0.004)  Y_any=  1 (0.004)  continued=0

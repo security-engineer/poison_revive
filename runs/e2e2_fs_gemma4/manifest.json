@@ -1,0 +1,19 @@
+{
+ "run_id": "e2e2_fs_gemma4",
+ "agent": "gemma4-12b",
+ "servers": "FileSystem",
+ "split": "all",
+ "n_cases": 70,
+ "conditions": "natural,inj_error",
+ "err_text": "Error: tool execution failed",
+ "fixture": "v2",
+ "first_call": "shared (generated once per case)",
+ "server_js_sha256": {
+  "FileSystem": "729dc8511e779e5cd6640851a74b25283e3af1ca3a7106722f993e864a1d9935",
+  "Memory": "e6a04d5457d2d7d3a8ba33bc8da891b212358dfe2f43548a5afec4ff259c4729"
+ },
+ "sha256": {
+  "live_e2e.py": "5c361543eeada5b88491f544762f8fa26f8eb37bfa8200a2e7128f0bdb6ae386",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb"
+ }
+}

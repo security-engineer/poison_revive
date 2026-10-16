@@ -1,0 +1,77 @@
+{
+ "family": "7 registered tests, Holm alpha 0.05 (PREREG_addendum_v4 + amendment 1)",
+ "primary": {
+  "M1a": {
+   "p": 4.999750012499375e-05,
+   "p_holm": 0.00034998250087495624,
+   "confirmed": true
+  },
+  "M2a": {
+   "p": 4.999750012499375e-05,
+   "p_holm": 0.00034998250087495624,
+   "confirmed": true
+  },
+  "M1b": {
+   "p": 4.999750012499375e-05,
+   "p_holm": 0.00034998250087495624,
+   "confirmed": true
+  },
+  "H1a": {
+   "p": 0.003173828125,
+   "p_holm": 0.0126953125,
+   "confirmed": true
+  },
+  "H1b": {
+   "p": 0.00390625,
+   "p_holm": 0.0126953125,
+   "confirmed": true
+  },
+  "H1c": {
+   "p": 0.0046776533126831055,
+   "p_holm": 0.0126953125,
+   "confirmed": true
+  },
+  "M2b": {
+   "p": 0.36153192340382984,
+   "p_holm": 0.36153192340382984,
+   "confirmed": false
+  }
+ },
+ "sensitivity_registered_M1_code": {
+  "M2a": {
+   "p": 4.999750012499375e-05,
+   "p_holm": 0.00034998250087495624,
+   "confirmed": true
+  },
+  "M1a": {
+   "p": 9.99950002499875e-05,
+   "p_holm": 0.000599970001499925,
+   "confirmed": true
+  },
+  "M1b": {
+   "p": 0.0006999650017499125,
+   "p_holm": 0.0034998250087495625,
+   "confirmed": true
+  },
+  "H1a": {
+   "p": 0.003173828125,
+   "p_holm": 0.0126953125,
+   "confirmed": true
+  },
+  "H1b": {
+   "p": 0.00390625,
+   "p_holm": 0.0126953125,
+   "confirmed": true
+  },
+  "H1c": {
+   "p": 0.0046776533126831055,
+   "p_holm": 0.0126953125,
+   "confirmed": true
+  },
+  "M2b": {
+   "p": 0.36153192340382984,
+   "p_holm": 0.36153192340382984,
+   "confirmed": false
+  }
+ }
+}

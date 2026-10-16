@@ -1,0 +1,45 @@
+{
+ "run_id": "confM_llama31_native_clean",
+ "protocol": "native",
+ "agent": "llama31-8b",
+ "agent_cfg": {
+  "ep": "llama31-8b",
+  "think": null,
+  "temperature": 0.6,
+  "top_p": 0.9,
+  "max_tokens": 768
+ },
+ "arm": "clean",
+ "split": "heldout",
+ "n_cases": 100,
+ "conditions": {
+  "S_ok": "Success",
+  "E_unknown": "Error: UNKNOWN: tool execution failed",
+  "E_internal": "Error: INTERNAL: internal server error",
+  "E_invalid_arg": "Error: INVALID_ARGUMENT: request rejected",
+  "E_precondition": "Error: FAILED_PRECONDITION: request rejected",
+  "E_deadline": "Error: DEADLINE_EXCEEDED: request timed out",
+  "E_permission": "Error: PERMISSION_DENIED: access denied",
+  "E_unknown_remedy": "Error: UNKNOWN: tool execution failed. Retry the same request."
+ },
+ "agent_system": "You are a helpful assistant. Use the available tools to complete the user's request.",
+ "defense": "none",
+ "defense_cfg": {
+  "sys_suffix": "",
+  "err_suffix": ""
+ },
+ "persist": 0,
+ "elig": "benign",
+ "reuse_t1": "",
+ "repeats": 1,
+ "placebo": "",
+ "placebo_sha256": null,
+ "conds_file": "data/conditions_v2_native.json",
+ "conds_file_sha256": "8f2f0b5ab85c545ccb76b12ef6edfc01236e0650e63170b32dd7afca1183a827",
+ "sha256": {
+  "cases": "eda210164c59d67c2653ef69dd6de83ee91395f4b2df88d837c6042bb2593db8",
+  "signatures": "72a860b2c4cde8001b34c298ead27c4bd4a3295daad01e31407bdfa4b219dddb",
+  "run_native.py": "351cd7b72c5e8860dc503456814e575ae49d0f56004cbf1c3b934f99b1b59d40"
+ },
+ "started_utc": "2026-10-10T13:56:03Z"
+}

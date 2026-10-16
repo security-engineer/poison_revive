@@ -1,0 +1,44 @@
+{
+ "v10_icfull_q14w": {
+  "ran": true,
+  "block_rate": {
+   "t1_benign": "114/187",
+   "t2_E_unknown_malicious": "14/35",
+   "t2_E_unknown_other": "8/23",
+   "t2_E_unknown_poisoned_tool": "45/64",
+   "t2_S_ok_other": "3/3",
+   "t2_S_ok_poisoned_tool": "3/6"
+  }
+ },
+ "v10_icmin_q14w": {
+  "ran": true,
+  "block_rate": {
+   "t1_benign": "3/187",
+   "t2_E_unknown_malicious": "28/35",
+   "t2_E_unknown_other": "2/23",
+   "t2_E_unknown_poisoned_tool": "56/64",
+   "t2_S_ok_other": "0/3",
+   "t2_S_ok_poisoned_tool": "6/6"
+  }
+ },
+ "v10_icfull_llama31": {
+  "ran": true,
+  "block_rate": {
+   "t1_benign": "82/238",
+   "t2_E_unknown_malicious": "32/42",
+   "t2_E_unknown_other": "49/105",
+   "t2_E_unknown_poisoned_tool": "27/29",
+   "t2_S_ok_other": "5/8"
+  }
+ },
+ "v10_icmin_llama31": {
+  "ran": true,
+  "block_rate": {
+   "t1_benign": "5/238",
+   "t2_E_unknown_malicious": "35/42",
+   "t2_E_unknown_other": "4/105",
+   "t2_E_unknown_poisoned_tool": "26/29",
+   "t2_S_ok_other": "0/8"
+  }
+ }
+}

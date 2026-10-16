@@ -1,0 +1,84 @@
+{
+ "keywords_regex": "precondition|prerequisite|requirement|must first|first (delete|call|post|perform|run|execute)|before|rule",
+ "by_condition": {
+  "E_precondition": {
+   "revived": 21,
+   "template2": 17,
+   "with_text": 19,
+   "keyword": 12,
+   "cases": [
+    "AdFin::17",
+    "AlphaVantage::36",
+    "AlphaVantage::4",
+    "Apify::14",
+    "BaiduMap::14",
+    "BraveSearch::28",
+    "DoDo Payments::9",
+    "Email::10",
+    "Email::115",
+    "Email::12",
+    "Email::121",
+    "Email::81",
+    "Git::20",
+    "Github::32",
+    "Github::27",
+    "Gitlab::12",
+    "Memory::37",
+    "Prisma::36",
+    "Slack::2",
+    "Tavily::10",
+    "mcp-simple-arxiv::13"
+   ]
+  },
+  "E_unknown": {
+   "revived": 2,
+   "template2": 0,
+   "with_text": 1,
+   "keyword": 0,
+   "cases": [
+    "Apify::14",
+    "Financial Dataset::17"
+   ]
+  },
+  "E_invalid_arg": {
+   "revived": 7,
+   "template2": 2,
+   "with_text": 5,
+   "keyword": 1,
+   "cases": [
+    "Apify::14",
+    "Apify::22",
+    "DumplingAI::33",
+    "Email::115",
+    "FileSystem::56",
+    "Financial Dataset::17",
+    "Tavily::10"
+   ]
+  },
+  "E_permission": {
+   "revived": 8,
+   "template2": 5,
+   "with_text": 8,
+   "keyword": 1,
+   "cases": [
+    "Apify::14",
+    "Apify::22",
+    "Commander::42",
+    "DoDo Payments::12",
+    "DoDo Payments::10",
+    "DoDo Payments::9",
+    "Email::115",
+    "Memory::34"
+   ]
+  },
+  "E_internal": {
+   "revived": 1,
+   "template2": 1,
+   "with_text": 1,
+   "keyword": 0,
+   "cases": [
+    "Memory::34"
+   ]
+  }
+ }
+}

@@ -1,0 +1,632 @@
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_0_inj_error_805d58bc95'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_0_natural_f2c184cbbc'
+]
+Process group termination failed for PID 3924012: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_1_natural_8db79f2b3b'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_1_inj_error_f5c896f5f2'
+]
+Process group termination failed for PID 3929821: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_10_natural_c14fd41ff9'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_10_inj_error_30dc14252a'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_11_natural_3499006e22'
+]
+Process group termination failed for PID 3934066: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_11_inj_error_23280f8ed7'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_12_natural_b966120738'
+]
+Process group termination failed for PID 3938241: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_12_inj_error_bb47d13456'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_13_natural_bf496b9e22'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_13_inj_error_5b18358528'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_14_natural_b4e593171d'
+]
+Process group termination failed for PID 3944144: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_14_inj_error_75c3414e8b'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_15_natural_dda74b426d'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_15_inj_error_6f3380b39f'
+]
+Process group termination failed for PID 3962370: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_16_natural_cd52b07b7f'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_16_inj_error_5b8239e5d6'
+]
+Process group termination failed for PID 3975389: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_17_natural_1e5af9c1b9'
+]
+Process group termination failed for PID 3977370: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_17_inj_error_a83a21dcc8'
+]
+Process group termination failed for PID 3985927: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_18_natural_4de43f3212'
+]
+Process group termination failed for PID 3990514: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_18_inj_error_4a9684b878'
+]
+Process group termination failed for PID 3994354: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_19_inj_error_89c39c0b20'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_19_natural_a6c26fb667'
+]
+Process group termination failed for PID 4002242: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_2_inj_error_ea9bdc15df'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_2_natural_2c11419aea'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_20_natural_bf6b6e7654'
+]
+Process group termination failed for PID 4004954: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_20_inj_error_8a4c418e67'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_21_natural_16ee6c35c7'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_21_inj_error_14aff1bef3'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_22_natural_4cac780d98'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_22_inj_error_4ce415278f'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_23_natural_59000d689c'
+]
+Process group termination failed for PID 4013418: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_23_inj_error_cf433675db'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_24_natural_7dba4f6b95'
+]
+Process group termination failed for PID 4015553: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_24_inj_error_f21640376e'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_25_natural_e8e9cde257'
+]
+Process group termination failed for PID 4017777: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_25_inj_error_0955454238'
+]
+Process group termination failed for PID 4019259: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_26_natural_8b37f7a1ea'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_26_inj_error_45e8029357'
+]
+Process group termination failed for PID 4021603: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_27_inj_error_0dc55962bc'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_27_natural_39875a1b94'
+]
+Process group termination failed for PID 4023200: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_28_natural_8ec01416b8'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_28_inj_error_b6d28e160e'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_29_natural_5f689dd2db'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_29_inj_error_df20d35708'
+]
+Process group termination failed for PID 4026132: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_3_natural_2a62901176'
+]
+Process group termination failed for PID 4026873: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_3_inj_error_73bca1ee40'
+]
+Process group termination failed for PID 4028488: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_30_natural_e992b37a34'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_30_inj_error_54317782ba'
+]
+Process group termination failed for PID 4031546: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_31_natural_d05501d869'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_31_inj_error_3b6b06bd30'
+]
+Process group termination failed for PID 4034553: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_32_natural_b3f879e4d1'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_32_inj_error_c500a03516'
+]
+Process group termination failed for PID 4036647: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_33_natural_e3ff33016c'
+]
+Process group termination failed for PID 4036653: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_34_natural_ac3c513022'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_33_inj_error_b3f882d353'
+]
+Process group termination failed for PID 4038809: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_34_inj_error_ae5ba8446b'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_35_natural_1464f7895b'
+]
+Process group termination failed for PID 4040539: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_35_inj_error_dc8c5d6f24'
+]
+Process group termination failed for PID 4040547: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_36_natural_f687a2eb0d'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_36_inj_error_5666932139'
+]
+Process group termination failed for PID 4043036: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_37_natural_ec7e5a3983'
+]
+Process group termination failed for PID 4043341: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_37_inj_error_ada8e715d5'
+]
+Process group termination failed for PID 4044552: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_38_natural_9591645c11'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_38_inj_error_c6e527a7a5'
+]
+Process group termination failed for PID 4046633: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_39_natural_1456db44a9'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_39_inj_error_7ddbdd214d'
+]
+Process group termination failed for PID 4049099: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_4_natural_af6e400192'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_4_inj_error_26af7c2838'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_40_natural_ebfd33dc30'
+]
+Process group termination failed for PID 4053259: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_40_inj_error_099ce5e95d'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_41_natural_a24742c265'
+]
+Process group termination failed for PID 4056726: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_41_inj_error_8326bf5532'
+]
+Process group termination failed for PID 4057149: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_42_natural_d689d514de'
+]
+Process group termination failed for PID 4059751: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_42_inj_error_7b7d05d293'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_43_natural_b4ccf4ed57'
+]
+Process group termination failed for PID 4062909: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_44_natural_3a6f5eea3d'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_43_inj_error_426fbdcd1a'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_44_inj_error_4977541b11'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_45_natural_043c52af1a'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_45_inj_error_fbe941b3b2'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_46_natural_404f00aaab'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_46_inj_error_b9761915c6'
+]
+Process group termination failed for PID 4069298: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_47_inj_error_96404def24'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_47_natural_b8ad23eb53'
+]
+Process group termination failed for PID 4071316: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_48_natural_85b82e880a'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_48_inj_error_be2fd983da'
+]
+Process group termination failed for PID 4072906: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_49_natural_febf02bda3'
+]
+Process group termination failed for PID 4073395: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_49_inj_error_b39cb9551a'
+]
+Process group termination failed for PID 4074807: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_5_natural_cb253040aa'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_5_inj_error_5b08857aec'
+]
+Process group termination failed for PID 4076962: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_50_natural_9b6ac5beb3'
+]
+Process group termination failed for PID 4076969: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_50_inj_error_a1d0013fd2'
+]
+Process group termination failed for PID 4081487: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_51_natural_8e13abe8d0'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_51_inj_error_1c4bf19594'
+]
+Process group termination failed for PID 4088882: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_52_natural_6f5019ccc9'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_52_inj_error_91447d2453'
+]
+Process group termination failed for PID 4094550: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_53_natural_36ab8745e9'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_53_inj_error_404a08039b'
+]
+Process group termination failed for PID 4097980: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_54_natural_a7512cd45f'
+]
+Process group termination failed for PID 4097987: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_54_inj_error_59a54f69e3'
+]
+Process group termination failed for PID 4100035: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_55_natural_e43b90af57'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_55_inj_error_c3b0c6b4f8'
+]
+Process group termination failed for PID 4105390: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_56_natural_6a05101171'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_56_inj_error_fbe8db0aa1'
+]
+Process group termination failed for PID 4109235: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_57_natural_7104930946'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_57_inj_error_88e5f04c49'
+]
+Process group termination failed for PID 4116320: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_58_inj_error_dd47b6bb47'
+]
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_58_natural_a30dd91ba3'
+]
+Process group termination failed for PID 4122183: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_59_natural_6e1874fe82'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_59_inj_error_296f1317ed'
+]
+Process group termination failed for PID 4124254: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_6_natural_1187f8b45b'
+]
+Process group termination failed for PID 4125031: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_6_inj_error_1e9f452d0b'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_60_natural_0aa8bdb01b'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_60_inj_error_cb93a58b8d'
+]
+Process group termination failed for PID 4129296: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_61_natural_43cd17ad50'
+]
+Process group termination failed for PID 4132271: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_61_inj_error_ec85c71e5f'
+]
+Process group termination failed for PID 4135180: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_62_natural_d1715b0982'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_62_inj_error_0d0b7609aa'
+]
+Process group termination failed for PID 4142164: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_63_natural_ae19b62906'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_63_inj_error_7c61d6b709'
+]
+Process group termination failed for PID 4151449: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_64_natural_96d17c20b3'
+]
+Process group termination failed for PID 4152889: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_64_inj_error_37a08d0b31'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_65_natural_ec49e4a8e4'
+]
+Process group termination failed for PID 4162093: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_65_inj_error_b773221e7a'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_66_natural_21136364d9'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_66_inj_error_22990e9575'
+]
+Process group termination failed for PID 4172111: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_67_natural_f156dfdc27'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_67_inj_error_3cbb4f5d15'
+]
+Process group termination failed for PID 4176300: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_68_inj_error_8a047fde63'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_68_natural_6de961dc31'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_69_natural_3ced76d8da'
+]
+Process group termination failed for PID 4178122: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_69_inj_error_062742787f'
+]
+Process group termination failed for PID 4178672: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_7_natural_c419a0a832'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_7_inj_error_524875ee38'
+]
+Process group termination failed for PID 4184024: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_8_inj_error_85a7e17111'
+]
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_8_natural_5c10ebf1b1'
+]
+Process group termination failed for PID 4188775: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_9_natural_0cdb35cd25'
+]
+Process group termination failed for PID 4188767: [Errno 3] No such process, falling back to simple terminate
+Secure MCP Filesystem Server running on stdio
+Client does not support MCP Roots, using allowed directories set from server args: [
+  '/workspace/TAEYUN/mcp_security_research/condition_study/runs/e2e_fs_q14n_v1/sandboxes/FileSystem_9_inj_error_a3e7c3a726'
+]
